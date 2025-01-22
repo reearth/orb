@@ -3,9 +3,9 @@ package simplify_test
 import (
 	"fmt"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/planar"
-	"github.com/paulmach/orb/simplify"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/planar"
+	"github.com/reearth/orb/simplify"
 )
 
 func ExampleDouglasPeuckerSimplifier() {
@@ -27,8 +27,8 @@ func ExampleDouglasPeuckerSimplifier() {
 	fmt.Println(reduced)
 
 	// Output:
-	// [[0 0] [2 0] [0 2]]
-	// [[0 0] [0 2]]
+	// [[0 0 0] [2 0 0] [0 2 0]]
+	// [[0 0 0] [0 2 0]]
 }
 
 func ExampleRadialSimplifier() {

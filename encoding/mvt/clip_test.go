@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/geojson"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/geojson"
 )
 
 func TestLayersClip(t *testing.T) {

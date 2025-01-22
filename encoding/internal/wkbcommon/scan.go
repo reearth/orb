@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 var (

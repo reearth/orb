@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/encoding/mvt/vectortile"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/encoding/mvt/vectortile"
 )
 
 const (

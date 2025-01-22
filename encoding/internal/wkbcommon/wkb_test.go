@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 func TestMarshal(t *testing.T) {

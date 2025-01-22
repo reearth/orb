@@ -1,0 +1,3611 @@
+=== RUN   TestBoundExtend
+--- PASS: TestBoundExtend (0.00s)
+=== RUN   TestBoundUnion
+--- PASS: TestBoundUnion (0.00s)
+=== RUN   TestBoundContains
+=== RUN   TestBoundContains/middle
+=== RUN   TestBoundContains/left_border
+=== RUN   TestBoundContains/ne_corner
+=== RUN   TestBoundContains/above
+=== RUN   TestBoundContains/below
+=== RUN   TestBoundContains/left
+=== RUN   TestBoundContains/right
+--- PASS: TestBoundContains (0.00s)
+    --- PASS: TestBoundContains/middle (0.00s)
+    --- PASS: TestBoundContains/left_border (0.00s)
+    --- PASS: TestBoundContains/ne_corner (0.00s)
+    --- PASS: TestBoundContains/above (0.00s)
+    --- PASS: TestBoundContains/below (0.00s)
+    --- PASS: TestBoundContains/left (0.00s)
+    --- PASS: TestBoundContains/right (0.00s)
+=== RUN   TestBoundIntersects
+=== RUN   TestBoundIntersects/outside,_top_right
+=== RUN   TestBoundIntersects/outside,_top_left
+=== RUN   TestBoundIntersects/outside,_above
+=== RUN   TestBoundIntersects/over_the_middle
+=== RUN   TestBoundIntersects/over_the_left
+=== RUN   TestBoundIntersects/completely_inside
+--- PASS: TestBoundIntersects (0.00s)
+    --- PASS: TestBoundIntersects/outside,_top_right (0.00s)
+    --- PASS: TestBoundIntersects/outside,_top_left (0.00s)
+    --- PASS: TestBoundIntersects/outside,_above (0.00s)
+    --- PASS: TestBoundIntersects/over_the_middle (0.00s)
+    --- PASS: TestBoundIntersects/over_the_left (0.00s)
+    --- PASS: TestBoundIntersects/completely_inside (0.00s)
+=== RUN   TestBoundIsEmpty
+=== RUN   TestBoundIsEmpty/regular_bound
+=== RUN   TestBoundIsEmpty/single_point
+=== RUN   TestBoundIsEmpty/horizontal_bar
+=== RUN   TestBoundIsEmpty/vertical_bar
+=== RUN   TestBoundIsEmpty/vertical_bar#01
+--- PASS: TestBoundIsEmpty (0.00s)
+    --- PASS: TestBoundIsEmpty/regular_bound (0.00s)
+    --- PASS: TestBoundIsEmpty/single_point (0.00s)
+    --- PASS: TestBoundIsEmpty/horizontal_bar (0.00s)
+    --- PASS: TestBoundIsEmpty/vertical_bar (0.00s)
+    --- PASS: TestBoundIsEmpty/vertical_bar#01 (0.00s)
+=== RUN   TestBoundPad
+--- PASS: TestBoundPad (0.00s)
+=== RUN   TestBoundCenter
+--- PASS: TestBoundCenter (0.00s)
+=== RUN   TestBoundIsZero
+--- PASS: TestBoundIsZero (0.00s)
+=== RUN   TestBoundToRing
+--- PASS: TestBoundToRing (0.00s)
+=== RUN   TestBoundToPolygon
+--- PASS: TestBoundToPolygon (0.00s)
+=== RUN   TestClone
+=== RUN   TestClone/<nil>
+=== RUN   TestClone/orb.Point
+=== RUN   TestClone/orb.MultiPoint
+=== RUN   TestClone/orb.LineString
+=== RUN   TestClone/orb.MultiLineString
+=== RUN   TestClone/orb.Ring
+=== RUN   TestClone/orb.Polygon
+=== RUN   TestClone/orb.MultiPolygon
+=== RUN   TestClone/orb.Bound
+=== RUN   TestClone/orb.Collection
+=== RUN   TestClone/orb.MultiPoint#01
+=== RUN   TestClone/orb.LineString#01
+=== RUN   TestClone/orb.MultiLineString#01
+=== RUN   TestClone/orb.Ring#01
+=== RUN   TestClone/orb.Polygon#01
+=== RUN   TestClone/orb.MultiPolygon#01
+=== RUN   TestClone/orb.Collection#01
+=== RUN   TestClone/orb.Collection#02
+--- PASS: TestClone (0.00s)
+    --- PASS: TestClone/<nil> (0.00s)
+    --- PASS: TestClone/orb.Point (0.00s)
+    --- PASS: TestClone/orb.MultiPoint (0.00s)
+    --- PASS: TestClone/orb.LineString (0.00s)
+    --- PASS: TestClone/orb.MultiLineString (0.00s)
+    --- PASS: TestClone/orb.Ring (0.00s)
+    --- PASS: TestClone/orb.Polygon (0.00s)
+    --- PASS: TestClone/orb.MultiPolygon (0.00s)
+    --- PASS: TestClone/orb.Bound (0.00s)
+    --- PASS: TestClone/orb.Collection (0.00s)
+    --- PASS: TestClone/orb.MultiPoint#01 (0.00s)
+    --- PASS: TestClone/orb.LineString#01 (0.00s)
+    --- PASS: TestClone/orb.MultiLineString#01 (0.00s)
+    --- PASS: TestClone/orb.Ring#01 (0.00s)
+    --- PASS: TestClone/orb.Polygon#01 (0.00s)
+    --- PASS: TestClone/orb.MultiPolygon#01 (0.00s)
+    --- PASS: TestClone/orb.Collection#01 (0.00s)
+    --- PASS: TestClone/orb.Collection#02 (0.00s)
+=== RUN   TestEqual
+=== RUN   TestEqual/<nil>
+=== RUN   TestEqual/orb.Point
+=== RUN   TestEqual/orb.MultiPoint
+=== RUN   TestEqual/orb.LineString
+=== RUN   TestEqual/orb.MultiLineString
+=== RUN   TestEqual/orb.Ring
+=== RUN   TestEqual/orb.Polygon
+=== RUN   TestEqual/orb.MultiPolygon
+=== RUN   TestEqual/orb.Bound
+=== RUN   TestEqual/orb.Collection
+=== RUN   TestEqual/orb.MultiPoint#01
+=== RUN   TestEqual/orb.LineString#01
+=== RUN   TestEqual/orb.MultiLineString#01
+=== RUN   TestEqual/orb.Ring#01
+=== RUN   TestEqual/orb.Polygon#01
+=== RUN   TestEqual/orb.MultiPolygon#01
+=== RUN   TestEqual/orb.Collection#01
+=== RUN   TestEqual/orb.Collection#02
+--- PASS: TestEqual (0.00s)
+    --- PASS: TestEqual/<nil> (0.00s)
+    --- PASS: TestEqual/orb.Point (0.00s)
+    --- PASS: TestEqual/orb.MultiPoint (0.00s)
+    --- PASS: TestEqual/orb.LineString (0.00s)
+    --- PASS: TestEqual/orb.MultiLineString (0.00s)
+    --- PASS: TestEqual/orb.Ring (0.00s)
+    --- PASS: TestEqual/orb.Polygon (0.00s)
+    --- PASS: TestEqual/orb.MultiPolygon (0.00s)
+    --- PASS: TestEqual/orb.Bound (0.00s)
+    --- PASS: TestEqual/orb.Collection (0.00s)
+    --- PASS: TestEqual/orb.MultiPoint#01 (0.00s)
+    --- PASS: TestEqual/orb.LineString#01 (0.00s)
+    --- PASS: TestEqual/orb.MultiLineString#01 (0.00s)
+    --- PASS: TestEqual/orb.Ring#01 (0.00s)
+    --- PASS: TestEqual/orb.Polygon#01 (0.00s)
+    --- PASS: TestEqual/orb.MultiPolygon#01 (0.00s)
+    --- PASS: TestEqual/orb.Collection#01 (0.00s)
+    --- PASS: TestEqual/orb.Collection#02 (0.00s)
+=== RUN   TestEqualRing
+--- PASS: TestEqualRing (0.00s)
+=== RUN   TestGeometryDimensions
+=== RUN   TestGeometryDimensions/type:_orb.Point
+=== RUN   TestGeometryDimensions/type:_orb.MultiPoint
+=== RUN   TestGeometryDimensions/type:_orb.LineString
+=== RUN   TestGeometryDimensions/type:_orb.MultiLineString
+=== RUN   TestGeometryDimensions/type:_orb.Ring
+=== RUN   TestGeometryDimensions/type:_orb.Polygon
+=== RUN   TestGeometryDimensions/type:_orb.MultiPolygon
+=== RUN   TestGeometryDimensions/type:_orb.Bound
+=== RUN   TestGeometryDimensions/type:_orb.Collection
+--- PASS: TestGeometryDimensions (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.Point (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.MultiPoint (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.LineString (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.MultiLineString (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.Ring (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.Polygon (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.MultiPolygon (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.Bound (0.00s)
+    --- PASS: TestGeometryDimensions/type:_orb.Collection (0.00s)
+=== RUN   TestCollectionBound
+--- PASS: TestCollectionBound (0.00s)
+=== RUN   TestPointJSON
+--- PASS: TestPointJSON (0.00s)
+=== RUN   TestLineStringJSON
+--- PASS: TestLineStringJSON (0.00s)
+=== RUN   TestLineStringReverse
+=== RUN   TestLineStringReverse/1_point_line
+=== RUN   TestLineStringReverse/2_point_line
+=== RUN   TestLineStringReverse/3_point_line
+--- PASS: TestLineStringReverse (0.00s)
+    --- PASS: TestLineStringReverse/1_point_line (0.00s)
+    --- PASS: TestLineStringReverse/2_point_line (0.00s)
+    --- PASS: TestLineStringReverse/3_point_line (0.00s)
+=== RUN   TestMultiLineString_Bound
+--- PASS: TestMultiLineString_Bound (0.00s)
+=== RUN   TestMultiLineString_Equal
+=== RUN   TestMultiLineString_Equal/same_multi_line_string
+=== RUN   TestMultiLineString_Equal/different_number_or_line_strings
+=== RUN   TestMultiLineString_Equal/second_line_is_different
+--- PASS: TestMultiLineString_Equal (0.00s)
+    --- PASS: TestMultiLineString_Equal/same_multi_line_string (0.00s)
+    --- PASS: TestMultiLineString_Equal/different_number_or_line_strings (0.00s)
+    --- PASS: TestMultiLineString_Equal/second_line_is_different (0.00s)
+=== RUN   TestMultiLineString_Clone
+=== RUN   TestMultiLineString_Clone/normal_multi_line_string
+=== RUN   TestMultiLineString_Clone/nil_should_return_nil
+--- PASS: TestMultiLineString_Clone (0.00s)
+    --- PASS: TestMultiLineString_Clone/normal_multi_line_string (0.00s)
+    --- PASS: TestMultiLineString_Clone/nil_should_return_nil (0.00s)
+=== RUN   TestMultiPointBound
+--- PASS: TestMultiPointBound (0.00s)
+=== RUN   TestMultiPointEquals
+--- PASS: TestMultiPointEquals (0.00s)
+=== RUN   TestMultiPointClone
+--- PASS: TestMultiPointClone (0.00s)
+=== RUN   TestMultiPolygon_Bound
+--- PASS: TestMultiPolygon_Bound (0.00s)
+=== RUN   TestMultiPolygon_Equal
+=== RUN   TestMultiPolygon_Equal/same_multipolygon
+=== RUN   TestMultiPolygon_Equal/different_number_or_rings
+=== RUN   TestMultiPolygon_Equal/inner_rings_are_different
+--- PASS: TestMultiPolygon_Equal (0.00s)
+    --- PASS: TestMultiPolygon_Equal/same_multipolygon (0.00s)
+    --- PASS: TestMultiPolygon_Equal/different_number_or_rings (0.00s)
+    --- PASS: TestMultiPolygon_Equal/inner_rings_are_different (0.00s)
+=== RUN   TestMultiPolygon_Clone
+=== RUN   TestMultiPolygon_Clone/normal_multipolygon
+=== RUN   TestMultiPolygon_Clone/nil_should_return_nil
+--- PASS: TestMultiPolygon_Clone (0.00s)
+    --- PASS: TestMultiPolygon_Clone/normal_multipolygon (0.00s)
+    --- PASS: TestMultiPolygon_Clone/nil_should_return_nil (0.00s)
+=== RUN   TestPoint
+--- PASS: TestPoint (0.00s)
+=== RUN   TestPointEqual
+--- PASS: TestPointEqual (0.00s)
+=== RUN   TestRing_Closed
+=== RUN   TestRing_Closed/first_must_equal_last
+=== RUN   TestRing_Closed/not_closed_if_last_point_does_not_match
+=== RUN   TestRing_Closed/empty_ring
+=== RUN   TestRing_Closed/one_vertex_ring
+=== RUN   TestRing_Closed/two_vertex_ring
+=== RUN   TestRing_Closed/three_vertex_ring
+--- PASS: TestRing_Closed (0.00s)
+    --- PASS: TestRing_Closed/first_must_equal_last (0.00s)
+    --- PASS: TestRing_Closed/not_closed_if_last_point_does_not_match (0.00s)
+    --- PASS: TestRing_Closed/empty_ring (0.00s)
+    --- PASS: TestRing_Closed/one_vertex_ring (0.00s)
+    --- PASS: TestRing_Closed/two_vertex_ring (0.00s)
+    --- PASS: TestRing_Closed/three_vertex_ring (0.00s)
+=== RUN   TestRing_Orientation
+=== RUN   TestRing_Orientation/simple_box,_ccw
+=== RUN   TestRing_Orientation/simple_box,_cw
+--- PASS: TestRing_Orientation (0.00s)
+    --- PASS: TestRing_Orientation/simple_box,_ccw (0.00s)
+    --- PASS: TestRing_Orientation/simple_box,_cw (0.00s)
+=== RUN   TestRound
+=== RUN   TestRound/<nil>
+=== RUN   TestRound/orb.Point
+=== RUN   TestRound/orb.MultiPoint
+=== RUN   TestRound/orb.LineString
+=== RUN   TestRound/orb.MultiLineString
+=== RUN   TestRound/orb.Ring
+=== RUN   TestRound/orb.Polygon
+=== RUN   TestRound/orb.MultiPolygon
+=== RUN   TestRound/orb.Bound
+=== RUN   TestRound/orb.Collection
+=== RUN   TestRound/orb.MultiPoint#01
+=== RUN   TestRound/orb.LineString#01
+=== RUN   TestRound/orb.MultiLineString#01
+=== RUN   TestRound/orb.Ring#01
+=== RUN   TestRound/orb.Polygon#01
+=== RUN   TestRound/orb.MultiPolygon#01
+=== RUN   TestRound/orb.Collection#01
+=== RUN   TestRound/orb.Collection#02
+=== RUN   TestRound/round_out_-_point
+=== RUN   TestRound/round_out_-_list
+=== RUN   TestRound/round_out_-_bound
+=== RUN   TestRound/round_in_-_point
+=== RUN   TestRound/round_in_-_list
+=== RUN   TestRound/round_in_-_bound
+=== RUN   TestRound/round_out_on_tie_-_point
+=== RUN   TestRound/round_out_on_tie_-_list
+=== RUN   TestRound/round_out_on_tie_-_bound
+=== RUN   TestRound/default_to_6_decimal_places
+--- PASS: TestRound (0.00s)
+    --- PASS: TestRound/<nil> (0.00s)
+    --- PASS: TestRound/orb.Point (0.00s)
+    --- PASS: TestRound/orb.MultiPoint (0.00s)
+    --- PASS: TestRound/orb.LineString (0.00s)
+    --- PASS: TestRound/orb.MultiLineString (0.00s)
+    --- PASS: TestRound/orb.Ring (0.00s)
+    --- PASS: TestRound/orb.Polygon (0.00s)
+    --- PASS: TestRound/orb.MultiPolygon (0.00s)
+    --- PASS: TestRound/orb.Bound (0.00s)
+    --- PASS: TestRound/orb.Collection (0.00s)
+    --- PASS: TestRound/orb.MultiPoint#01 (0.00s)
+    --- PASS: TestRound/orb.LineString#01 (0.00s)
+    --- PASS: TestRound/orb.MultiLineString#01 (0.00s)
+    --- PASS: TestRound/orb.Ring#01 (0.00s)
+    --- PASS: TestRound/orb.Polygon#01 (0.00s)
+    --- PASS: TestRound/orb.MultiPolygon#01 (0.00s)
+    --- PASS: TestRound/orb.Collection#01 (0.00s)
+    --- PASS: TestRound/orb.Collection#02 (0.00s)
+    --- PASS: TestRound/round_out_-_point (0.00s)
+    --- PASS: TestRound/round_out_-_list (0.00s)
+    --- PASS: TestRound/round_out_-_bound (0.00s)
+    --- PASS: TestRound/round_in_-_point (0.00s)
+    --- PASS: TestRound/round_in_-_list (0.00s)
+    --- PASS: TestRound/round_in_-_bound (0.00s)
+    --- PASS: TestRound/round_out_on_tie_-_point (0.00s)
+    --- PASS: TestRound/round_out_on_tie_-_list (0.00s)
+    --- PASS: TestRound/round_out_on_tie_-_bound (0.00s)
+    --- PASS: TestRound/default_to_6_decimal_places (0.00s)
+PASS
+ok  	github.com/reearth/orb	0.015s
+=== RUN   TestInternalLine
+=== RUN   TestInternalLine/clip_line
+=== RUN   TestInternalLine/clips_line_crossign_many_times
+=== RUN   TestInternalLine/no_changes_if_all_inside
+=== RUN   TestInternalLine/empty_if_nothing_in_bound
+=== RUN   TestInternalLine/floating_point_example
+--- PASS: TestInternalLine (0.00s)
+    --- PASS: TestInternalLine/clip_line (0.00s)
+    --- PASS: TestInternalLine/clips_line_crossign_many_times (0.00s)
+    --- PASS: TestInternalLine/no_changes_if_all_inside (0.00s)
+    --- PASS: TestInternalLine/empty_if_nothing_in_bound (0.00s)
+    --- PASS: TestInternalLine/floating_point_example (0.00s)
+=== RUN   TestInternalRing
+=== RUN   TestInternalRing/clips_polygon
+=== RUN   TestInternalRing/completely_inside_bound
+=== RUN   TestInternalRing/completely_around_bound
+=== RUN   TestInternalRing/completely_around_touching_corners
+=== RUN   TestInternalRing/around_but_cut_corners
+=== RUN   TestInternalRing/unclosed_ring
+--- PASS: TestInternalRing (0.00s)
+    --- PASS: TestInternalRing/clips_polygon (0.00s)
+    --- PASS: TestInternalRing/completely_inside_bound (0.00s)
+    --- PASS: TestInternalRing/completely_around_bound (0.00s)
+    --- PASS: TestInternalRing/completely_around_touching_corners (0.00s)
+    --- PASS: TestInternalRing/around_but_cut_corners (0.00s)
+    --- PASS: TestInternalRing/unclosed_ring (0.00s)
+=== RUN   TestLineString
+=== RUN   TestLineString/clips_line_crossign_many_times
+=== RUN   TestLineString/touches_the_sides_a_bunch_of_times
+=== RUN   TestLineString/floating_point_example
+--- PASS: TestLineString (0.00s)
+    --- PASS: TestLineString/clips_line_crossign_many_times (0.00s)
+    --- PASS: TestLineString/touches_the_sides_a_bunch_of_times (0.00s)
+    --- PASS: TestLineString/floating_point_example (0.00s)
+=== RUN   TestLineString_OpenBound
+=== RUN   TestLineString_OpenBound/clips_line_crossign_many_times
+=== RUN   TestLineString_OpenBound/touches_the_sides_a_bunch_of_times
+=== RUN   TestLineString_OpenBound/floating_point_example
+--- PASS: TestLineString_OpenBound (0.00s)
+    --- PASS: TestLineString_OpenBound/clips_line_crossign_many_times (0.00s)
+    --- PASS: TestLineString_OpenBound/touches_the_sides_a_bunch_of_times (0.00s)
+    --- PASS: TestLineString_OpenBound/floating_point_example (0.00s)
+=== RUN   TestRing_CompletelyOutside
+=== RUN   TestRing_CompletelyOutside/bound_in_lower_left
+=== RUN   TestRing_CompletelyOutside/bound_in_lower_right
+=== RUN   TestRing_CompletelyOutside/bound_in_upper_right
+=== RUN   TestRing_CompletelyOutside/bound_in_upper_left
+=== RUN   TestRing_CompletelyOutside/bound_to_the_left
+=== RUN   TestRing_CompletelyOutside/bound_to_the_right
+=== RUN   TestRing_CompletelyOutside/bound_to_the_top
+=== RUN   TestRing_CompletelyOutside/bound_to_the_bottom
+--- PASS: TestRing_CompletelyOutside (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_in_lower_left (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_in_lower_right (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_in_upper_right (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_in_upper_left (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_to_the_left (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_to_the_right (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_to_the_top (0.00s)
+    --- PASS: TestRing_CompletelyOutside/bound_to_the_bottom (0.00s)
+=== RUN   TestGeometry
+=== RUN   TestGeometry/only_one_multipoint_in_bound
+=== RUN   TestGeometry/only_one_multilinestring_in_bound
+=== RUN   TestGeometry/only_one_multipolygon_in_bound
+--- PASS: TestGeometry (0.00s)
+    --- PASS: TestGeometry/only_one_multipoint_in_bound (0.00s)
+    --- PASS: TestGeometry/only_one_multilinestring_in_bound (0.00s)
+    --- PASS: TestGeometry/only_one_multipolygon_in_bound (0.00s)
+=== RUN   TestRing
+=== RUN   TestRing/regular_clip
+=== RUN   TestRing/bound_to_the_top
+=== RUN   TestRing/bound_in_lower_left
+--- PASS: TestRing (0.00s)
+    --- PASS: TestRing/regular_clip (0.00s)
+    --- PASS: TestRing/bound_to_the_top (0.00s)
+    --- PASS: TestRing/bound_in_lower_left (0.00s)
+=== RUN   TestMultiLineString
+=== RUN   TestMultiLineString/regular_closed_bound_clip
+=== RUN   TestMultiLineString/open_bound_clip
+--- PASS: TestMultiLineString (0.00s)
+    --- PASS: TestMultiLineString/regular_closed_bound_clip (0.00s)
+    --- PASS: TestMultiLineString/open_bound_clip (0.00s)
+=== RUN   TestBound
+=== RUN   TestBound/normal_intersection
+=== RUN   TestBound/1_contains_2
+=== RUN   TestBound/no_overlap
+=== RUN   TestBound/same_bound
+=== RUN   TestBound/1_is_empty
+=== RUN   TestBound/both_are_empty
+--- PASS: TestBound (0.00s)
+    --- PASS: TestBound/normal_intersection (0.00s)
+    --- PASS: TestBound/1_contains_2 (0.00s)
+    --- PASS: TestBound/no_overlap (0.00s)
+    --- PASS: TestBound/same_bound (0.00s)
+    --- PASS: TestBound/1_is_empty (0.00s)
+    --- PASS: TestBound/both_are_empty (0.00s)
+=== RUN   ExampleGeometry
+--- PASS: ExampleGeometry (0.00s)
+PASS
+ok  	github.com/reearth/orb/clip	0.012s
+=== RUN   TestNexts
+--- PASS: TestNexts (0.00s)
+=== RUN   TestAroundBound
+=== RUN   TestAroundBound/simple_ccw
+=== RUN   TestAroundBound/simple_cw
+=== RUN   TestAroundBound/wrap_edge_around_whole_box_ccw
+=== RUN   TestAroundBound/wrap_around_whole_box_ccw
+=== RUN   TestAroundBound/wrap_around_whole_box_cw
+=== RUN   TestAroundBound/already_cw_with_endpoints_in_same_section
+=== RUN   TestAroundBound/cw_but_want_ccw_with_endpoints_in_same_section
+=== RUN   TestAroundBound/one_point_on_edge_ccw
+=== RUN   TestAroundBound/one_point_on_edge_cw
+--- PASS: TestAroundBound (0.00s)
+    --- PASS: TestAroundBound/simple_ccw (0.00s)
+    --- PASS: TestAroundBound/simple_cw (0.00s)
+    --- PASS: TestAroundBound/wrap_edge_around_whole_box_ccw (0.00s)
+    --- PASS: TestAroundBound/wrap_around_whole_box_ccw (0.00s)
+    --- PASS: TestAroundBound/wrap_around_whole_box_cw (0.00s)
+    --- PASS: TestAroundBound/already_cw_with_endpoints_in_same_section (0.00s)
+    --- PASS: TestAroundBound/cw_but_want_ccw_with_endpoints_in_same_section (0.00s)
+    --- PASS: TestAroundBound/one_point_on_edge_ccw (0.00s)
+    --- PASS: TestAroundBound/one_point_on_edge_cw (0.00s)
+=== RUN   TestSmartClip
+--- PASS: TestSmartClip (0.00s)
+=== RUN   TestRing
+=== RUN   TestRing/outside_the_bound_-_reg
+=== RUN   TestRing/outside_the_bound_-_flip_over_y
+=== RUN   TestRing/outside_the_bound_-_flip_over_x
+=== RUN   TestRing/outside_the_bound_-_flip_over_xy
+=== RUN   TestRing/inside_the_bound_-_reg
+=== RUN   TestRing/inside_the_bound_-_flip_over_y
+=== RUN   TestRing/inside_the_bound_-_flip_over_x
+=== RUN   TestRing/inside_the_bound_-_flip_over_xy
+=== RUN   TestRing/not_closed_with_endpoints_inside_bound_-_reg
+=== RUN   TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_y
+=== RUN   TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_x
+=== RUN   TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_xy
+=== RUN   TestRing/not_closed_with_first_endpoint_inside_bound_-_reg
+=== RUN   TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_y
+=== RUN   TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_x
+=== RUN   TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_xy
+=== RUN   TestRing/not_closed_with_last_endpoint_inside_bound_-_reg
+=== RUN   TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_y
+=== RUN   TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_x
+=== RUN   TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_xy
+=== RUN   TestRing/intersects_one_side_-_reg
+=== RUN   TestRing/intersects_one_side_-_flip_over_y
+=== RUN   TestRing/intersects_one_side_-_flip_over_x
+=== RUN   TestRing/intersects_one_side_-_flip_over_xy
+=== RUN   TestRing/intersects_one_side_long_connect_-_reg
+=== RUN   TestRing/intersects_one_side_long_connect_-_flip_over_y
+=== RUN   TestRing/intersects_one_side_long_connect_-_flip_over_x
+=== RUN   TestRing/intersects_one_side_long_connect_-_flip_over_xy
+=== RUN   TestRing/intersects_one_side_with_endpoints_inside_-_reg
+=== RUN   TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_y
+=== RUN   TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_x
+=== RUN   TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_xy
+=== RUN   TestRing/in_one_side_out_the_other_-_reg
+=== RUN   TestRing/in_one_side_out_the_other_-_flip_over_y
+=== RUN   TestRing/in_one_side_out_the_other_-_flip_over_x
+=== RUN   TestRing/in_one_side_out_the_other_-_flip_over_xy
+=== RUN   TestRing/intersects_two_sides_-_reg
+=== RUN   TestRing/intersects_two_sides_-_flip_over_y
+=== RUN   TestRing/intersects_two_sides_-_flip_over_x
+=== RUN   TestRing/intersects_two_sides_-_flip_over_xy
+=== RUN   TestRing/touches_a_side_-_reg
+=== RUN   TestRing/touches_a_side_-_flip_over_y
+=== RUN   TestRing/touches_a_side_-_flip_over_x
+=== RUN   TestRing/touches_a_side_-_flip_over_xy
+=== RUN   TestRing/touches_the_sides_a_bunch_of_times_-_reg
+=== RUN   TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_y
+=== RUN   TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_x
+=== RUN   TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_xy
+--- PASS: TestRing (0.00s)
+    --- PASS: TestRing/outside_the_bound_-_reg (0.00s)
+    --- PASS: TestRing/outside_the_bound_-_flip_over_y (0.00s)
+    --- PASS: TestRing/outside_the_bound_-_flip_over_x (0.00s)
+    --- PASS: TestRing/outside_the_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/inside_the_bound_-_reg (0.00s)
+    --- PASS: TestRing/inside_the_bound_-_flip_over_y (0.00s)
+    --- PASS: TestRing/inside_the_bound_-_flip_over_x (0.00s)
+    --- PASS: TestRing/inside_the_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/not_closed_with_endpoints_inside_bound_-_reg (0.00s)
+    --- PASS: TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_y (0.00s)
+    --- PASS: TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_x (0.00s)
+    --- PASS: TestRing/not_closed_with_endpoints_inside_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/not_closed_with_first_endpoint_inside_bound_-_reg (0.00s)
+    --- PASS: TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_y (0.00s)
+    --- PASS: TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_x (0.00s)
+    --- PASS: TestRing/not_closed_with_first_endpoint_inside_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/not_closed_with_last_endpoint_inside_bound_-_reg (0.00s)
+    --- PASS: TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_y (0.00s)
+    --- PASS: TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_x (0.00s)
+    --- PASS: TestRing/not_closed_with_last_endpoint_inside_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/intersects_one_side_-_reg (0.00s)
+    --- PASS: TestRing/intersects_one_side_-_flip_over_y (0.00s)
+    --- PASS: TestRing/intersects_one_side_-_flip_over_x (0.00s)
+    --- PASS: TestRing/intersects_one_side_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/intersects_one_side_long_connect_-_reg (0.00s)
+    --- PASS: TestRing/intersects_one_side_long_connect_-_flip_over_y (0.00s)
+    --- PASS: TestRing/intersects_one_side_long_connect_-_flip_over_x (0.00s)
+    --- PASS: TestRing/intersects_one_side_long_connect_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/intersects_one_side_with_endpoints_inside_-_reg (0.00s)
+    --- PASS: TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_y (0.00s)
+    --- PASS: TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_x (0.00s)
+    --- PASS: TestRing/intersects_one_side_with_endpoints_inside_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/in_one_side_out_the_other_-_reg (0.00s)
+    --- PASS: TestRing/in_one_side_out_the_other_-_flip_over_y (0.00s)
+    --- PASS: TestRing/in_one_side_out_the_other_-_flip_over_x (0.00s)
+    --- PASS: TestRing/in_one_side_out_the_other_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/intersects_two_sides_-_reg (0.00s)
+    --- PASS: TestRing/intersects_two_sides_-_flip_over_y (0.00s)
+    --- PASS: TestRing/intersects_two_sides_-_flip_over_x (0.00s)
+    --- PASS: TestRing/intersects_two_sides_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/touches_a_side_-_reg (0.00s)
+    --- PASS: TestRing/touches_a_side_-_flip_over_y (0.00s)
+    --- PASS: TestRing/touches_a_side_-_flip_over_x (0.00s)
+    --- PASS: TestRing/touches_a_side_-_flip_over_xy (0.00s)
+    --- PASS: TestRing/touches_the_sides_a_bunch_of_times_-_reg (0.00s)
+    --- PASS: TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_y (0.00s)
+    --- PASS: TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_x (0.00s)
+    --- PASS: TestRing/touches_the_sides_a_bunch_of_times_-_flip_over_xy (0.00s)
+=== RUN   TestPolygon
+=== RUN   TestPolygon/with_innner_ring_-_reg
+=== RUN   TestPolygon/with_innner_ring_-_flip_over_y
+=== RUN   TestPolygon/with_innner_ring_-_flip_over_x
+=== RUN   TestPolygon/with_innner_ring_-_flip_over_xy
+=== RUN   TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_reg
+=== RUN   TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_y
+=== RUN   TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_x
+=== RUN   TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_xy
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_-_reg
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_y
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_x
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_xy
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_reg
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_y
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_x
+=== RUN   TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_xy
+=== RUN   TestPolygon/with_inner_interior_point_touching_edge_-_reg
+=== RUN   TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_y
+=== RUN   TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_x
+=== RUN   TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_xy
+=== RUN   TestPolygon/with_edge_of_inner_along_side_-_reg
+=== RUN   TestPolygon/with_edge_of_inner_along_side_-_flip_over_y
+=== RUN   TestPolygon/with_edge_of_inner_along_side_-_flip_over_x
+=== RUN   TestPolygon/with_edge_of_inner_along_side_-_flip_over_xy
+=== RUN   TestPolygon/with_first_edge_of_inner_along_side_-_reg
+=== RUN   TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_y
+=== RUN   TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_x
+=== RUN   TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_xy
+=== RUN   TestPolygon/with_last_edge_of_inner_along_side_-_reg
+=== RUN   TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_y
+=== RUN   TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_x
+=== RUN   TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_xy
+=== RUN   TestPolygon/with_multiple_edges_of_inner_along_side_-_reg
+=== RUN   TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_y
+=== RUN   TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_x
+=== RUN   TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_xy
+=== RUN   TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_reg
+=== RUN   TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_y
+=== RUN   TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_x
+=== RUN   TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_xy
+=== RUN   TestPolygon/two_inner_points_end_up_touching_outer_-_reg
+=== RUN   TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_y
+=== RUN   TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_x
+=== RUN   TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_xy
+=== RUN   TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_reg
+=== RUN   TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_y
+=== RUN   TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_x
+=== RUN   TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_xy
+--- PASS: TestPolygon (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_-_reg (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_reg (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_innner_ring_that_will_share_a_side_with_the_outer_ring_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_-_reg (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_reg (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_inner_endpoints_touching_edge_and_closed_inner_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_inner_interior_point_touching_edge_-_reg (0.00s)
+    --- PASS: TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_inner_interior_point_touching_edge_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_edge_of_inner_along_side_-_reg (0.00s)
+    --- PASS: TestPolygon/with_edge_of_inner_along_side_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_edge_of_inner_along_side_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_edge_of_inner_along_side_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_first_edge_of_inner_along_side_-_reg (0.00s)
+    --- PASS: TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_first_edge_of_inner_along_side_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_last_edge_of_inner_along_side_-_reg (0.00s)
+    --- PASS: TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_last_edge_of_inner_along_side_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/with_multiple_edges_of_inner_along_side_-_reg (0.00s)
+    --- PASS: TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/with_multiple_edges_of_inner_along_side_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_reg (0.00s)
+    --- PASS: TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/two_non-continuous_inner_points_on_the_boundary_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/two_inner_points_end_up_touching_outer_-_reg (0.00s)
+    --- PASS: TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/two_inner_points_end_up_touching_outer_-_flip_over_xy (0.00s)
+    --- PASS: TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_reg (0.00s)
+    --- PASS: TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_y (0.00s)
+    --- PASS: TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_x (0.00s)
+    --- PASS: TestPolygon/both_inner_and_outer_go_outside_and_are_open_-_flip_over_xy (0.00s)
+=== RUN   TestClipMultiPolygon
+=== RUN   TestClipMultiPolygon/two_open_rings_-_reg
+=== RUN   TestClipMultiPolygon/two_open_rings_-_flip_over_y
+=== RUN   TestClipMultiPolygon/two_open_rings_-_flip_over_x
+=== RUN   TestClipMultiPolygon/two_open_rings_-_flip_over_xy
+=== RUN   TestClipMultiPolygon/two_closed_rings_within_the_bound_-_reg
+=== RUN   TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_y
+=== RUN   TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_x
+=== RUN   TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_xy
+=== RUN   TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_reg
+=== RUN   TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_y
+=== RUN   TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_x
+=== RUN   TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_xy
+=== RUN   TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_reg
+=== RUN   TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_y
+=== RUN   TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_x
+=== RUN   TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_xy
+--- PASS: TestClipMultiPolygon (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_rings_-_reg (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_rings_-_flip_over_y (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_rings_-_flip_over_x (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_rings_-_flip_over_xy (0.00s)
+    --- PASS: TestClipMultiPolygon/two_closed_rings_within_the_bound_-_reg (0.00s)
+    --- PASS: TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_y (0.00s)
+    --- PASS: TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_x (0.00s)
+    --- PASS: TestClipMultiPolygon/two_closed_rings_within_the_bound_-_flip_over_xy (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_reg (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_y (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_x (0.00s)
+    --- PASS: TestClipMultiPolygon/two_open_outer_rings_within_each_other_-_flip_over_xy (0.00s)
+    --- PASS: TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_reg (0.00s)
+    --- PASS: TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_y (0.00s)
+    --- PASS: TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_x (0.00s)
+    --- PASS: TestClipMultiPolygon/polygon_with_innner_ring_and_single_ring_polygon_-_flip_over_xy (0.00s)
+=== RUN   TestSmartWrap
+=== RUN   TestSmartWrap/basic_example
+=== RUN   TestSmartWrap/two_open_one_on_each_side_of_bound
+--- PASS: TestSmartWrap (0.00s)
+    --- PASS: TestSmartWrap/basic_example (0.00s)
+    --- PASS: TestSmartWrap/two_open_one_on_each_side_of_bound (0.00s)
+PASS
+ok  	github.com/reearth/orb/clip/smartclip	0.014s
+=== RUN   TestCollection
+=== RUN   TestCollection/large
+=== RUN   TestCollection/collection_with_point
+=== RUN   TestCollection/collection_with_point_and_line
+=== RUN   TestCollection/collection_with_point_and_line_and_polygon
+--- PASS: TestCollection (0.00s)
+    --- PASS: TestCollection/large (0.00s)
+    --- PASS: TestCollection/collection_with_point (0.00s)
+    --- PASS: TestCollection/collection_with_point_and_line (0.00s)
+    --- PASS: TestCollection/collection_with_point_and_line_and_polygon (0.00s)
+=== RUN   TestMarshal
+--- PASS: TestMarshal (0.00s)
+=== RUN   TestMustMarshal
+--- PASS: TestMustMarshal (0.00s)
+=== RUN   TestLineString
+=== RUN   TestLineString/large_line_string
+=== RUN   TestLineString/line_string
+=== RUN   TestLineString/another_line_string
+--- PASS: TestLineString (0.00s)
+    --- PASS: TestLineString/large_line_string (0.00s)
+    --- PASS: TestLineString/line_string (0.00s)
+    --- PASS: TestLineString/another_line_string (0.00s)
+=== RUN   TestMultiLineString
+=== RUN   TestMultiLineString/large
+=== RUN   TestMultiLineString/one_string
+=== RUN   TestMultiLineString/two_strings
+--- PASS: TestMultiLineString (0.00s)
+    --- PASS: TestMultiLineString/large (0.00s)
+    --- PASS: TestMultiLineString/one_string (0.00s)
+    --- PASS: TestMultiLineString/two_strings (0.00s)
+=== RUN   TestPoint
+=== RUN   TestPoint/point
+=== RUN   TestPoint/zero_point
+=== RUN   TestPoint/srid_4269
+=== RUN   TestPoint/srid_4267
+--- PASS: TestPoint (0.00s)
+    --- PASS: TestPoint/point (0.00s)
+    --- PASS: TestPoint/zero_point (0.00s)
+    --- PASS: TestPoint/srid_4269 (0.00s)
+    --- PASS: TestPoint/srid_4267 (0.00s)
+=== RUN   TestPointToHex
+=== RUN   TestPointToHex/point
+=== RUN   TestPointToHex/zero_point
+--- PASS: TestPointToHex (0.00s)
+    --- PASS: TestPointToHex/point (0.00s)
+    --- PASS: TestPointToHex/zero_point (0.00s)
+=== RUN   TestMultiPoint
+=== RUN   TestMultiPoint/large_multi_point
+=== RUN   TestMultiPoint/one_point
+=== RUN   TestMultiPoint/two_points
+--- PASS: TestMultiPoint (0.01s)
+    --- PASS: TestMultiPoint/large_multi_point (0.00s)
+    --- PASS: TestMultiPoint/one_point (0.00s)
+    --- PASS: TestMultiPoint/two_points (0.00s)
+=== RUN   TestPolygon
+=== RUN   TestPolygon/large
+=== RUN   TestPolygon/srid_4326
+--- PASS: TestPolygon (0.00s)
+    --- PASS: TestPolygon/large (0.00s)
+    --- PASS: TestPolygon/srid_4326 (0.00s)
+=== RUN   TestMultiPolygon
+=== RUN   TestMultiPolygon/large
+=== RUN   TestMultiPolygon/srid_3426
+=== RUN   TestMultiPolygon/another_polygon
+=== RUN   TestMultiPolygon/another_polygon#01
+--- PASS: TestMultiPolygon (0.00s)
+    --- PASS: TestMultiPolygon/large (0.00s)
+    --- PASS: TestMultiPolygon/srid_3426 (0.00s)
+    --- PASS: TestMultiPolygon/another_polygon (0.00s)
+    --- PASS: TestMultiPolygon/another_polygon#01 (0.00s)
+=== RUN   TestScanNil
+=== RUN   TestScanNil/scan_nil_data
+=== RUN   TestScanNil/scan_nil_byte_interface
+=== RUN   TestScanNil/unknown_geometry_type
+--- PASS: TestScanNil (0.00s)
+    --- PASS: TestScanNil/scan_nil_data (0.00s)
+    --- PASS: TestScanNil/scan_nil_byte_interface (0.00s)
+    --- PASS: TestScanNil/unknown_geometry_type (0.00s)
+=== RUN   TestScanHexData
+=== RUN   TestScanHexData/point_lower_case
+=== RUN   TestScanHexData/point_upper_case
+=== RUN   TestScanHexData/no_prefix,_point_lower_case
+=== RUN   TestScanHexData/no_prefix,_point_upper_case
+--- PASS: TestScanHexData (0.00s)
+    --- PASS: TestScanHexData/point_lower_case (0.00s)
+    --- PASS: TestScanHexData/point_upper_case (0.00s)
+    --- PASS: TestScanHexData/no_prefix,_point_lower_case (0.00s)
+    --- PASS: TestScanHexData/no_prefix,_point_upper_case (0.00s)
+=== RUN   TestScanHexData_errors
+=== RUN   TestScanHexData_errors/not_hex_data
+--- PASS: TestScanHexData_errors (0.00s)
+    --- PASS: TestScanHexData_errors/not_hex_data (0.00s)
+=== RUN   TestScanPoint
+=== RUN   TestScanPoint/point
+=== RUN   TestScanPoint/single_multi-point
+--- PASS: TestScanPoint (0.00s)
+    --- PASS: TestScanPoint/point (0.00s)
+    --- PASS: TestScanPoint/single_multi-point (0.00s)
+=== RUN   TestScanPoint_errors
+=== RUN   TestScanPoint_errors/incorrect_data
+=== RUN   TestScanPoint_errors/not_wkb,_too_short
+=== RUN   TestScanPoint_errors/invalid_first_byte
+=== RUN   TestScanPoint_errors/incorrect_geometry
+--- PASS: TestScanPoint_errors (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_data (0.00s)
+    --- PASS: TestScanPoint_errors/not_wkb,_too_short (0.00s)
+    --- PASS: TestScanPoint_errors/invalid_first_byte (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_geometry (0.00s)
+=== RUN   TestScannerPrefixSRID
+=== RUN   TestScannerPrefixSRID/point
+--- PASS: TestScannerPrefixSRID (0.00s)
+    --- PASS: TestScannerPrefixSRID/point (0.00s)
+=== RUN   TestValuePrefixSRID
+=== RUN   TestValuePrefixSRID/point
+--- PASS: TestValuePrefixSRID (0.00s)
+    --- PASS: TestValuePrefixSRID/point (0.00s)
+=== RUN   TestScanMultiPoint
+=== RUN   TestScanMultiPoint/multi_point
+=== RUN   TestScanMultiPoint/point_should_covert_to_multi_point
+--- PASS: TestScanMultiPoint (0.00s)
+    --- PASS: TestScanMultiPoint/multi_point (0.00s)
+    --- PASS: TestScanMultiPoint/point_should_covert_to_multi_point (0.00s)
+=== RUN   TestScanMultiPoint_errors
+=== RUN   TestScanMultiPoint_errors/does_not_like_line_string
+=== RUN   TestScanMultiPoint_errors/incorrect_data
+=== RUN   TestScanMultiPoint_errors/not_wkb
+--- PASS: TestScanMultiPoint_errors (0.00s)
+    --- PASS: TestScanMultiPoint_errors/does_not_like_line_string (0.00s)
+    --- PASS: TestScanMultiPoint_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiPoint_errors/not_wkb (0.00s)
+=== RUN   TestScanLineString
+=== RUN   TestScanLineString/line_string
+=== RUN   TestScanLineString/single_multi_line_string
+--- PASS: TestScanLineString (0.00s)
+    --- PASS: TestScanLineString/line_string (0.00s)
+    --- PASS: TestScanLineString/single_multi_line_string (0.00s)
+=== RUN   TestScanLineString_errors
+=== RUN   TestScanLineString_errors/does_not_like_multi_point
+=== RUN   TestScanLineString_errors/incorrect_data
+=== RUN   TestScanLineString_errors/not_wkb
+--- PASS: TestScanLineString_errors (0.00s)
+    --- PASS: TestScanLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanLineString_errors/incorrect_data (0.00s)
+    --- PASS: TestScanLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiLineString
+=== RUN   TestScanMultiLineString/line_string
+=== RUN   TestScanMultiLineString/multi_line_string
+--- PASS: TestScanMultiLineString (0.00s)
+    --- PASS: TestScanMultiLineString/line_string (0.00s)
+    --- PASS: TestScanMultiLineString/multi_line_string (0.00s)
+=== RUN   TestScanMultiLineString_errors
+=== RUN   TestScanMultiLineString_errors/does_not_like_multi_point
+=== RUN   TestScanMultiLineString_errors/incorrect_data
+=== RUN   TestScanMultiLineString_errors/not_wkb
+--- PASS: TestScanMultiLineString_errors (0.00s)
+    --- PASS: TestScanMultiLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanMultiLineString_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanRing
+=== RUN   TestScanRing/polygon
+--- PASS: TestScanRing (0.00s)
+    --- PASS: TestScanRing/polygon (0.00s)
+=== RUN   TestScanRing_errors
+=== RUN   TestScanRing_errors/does_not_like_line_strings
+=== RUN   TestScanRing_errors/incorrect_data
+=== RUN   TestScanRing_errors/not_wkb
+--- PASS: TestScanRing_errors (0.00s)
+    --- PASS: TestScanRing_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanRing_errors/incorrect_data (0.00s)
+    --- PASS: TestScanRing_errors/not_wkb (0.00s)
+=== RUN   TestScanPolygon
+=== RUN   TestScanPolygon/polygon
+=== RUN   TestScanPolygon/single_multi_polygon
+--- PASS: TestScanPolygon (0.00s)
+    --- PASS: TestScanPolygon/polygon (0.00s)
+    --- PASS: TestScanPolygon/single_multi_polygon (0.00s)
+=== RUN   TestScanPolygon_errors
+=== RUN   TestScanPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanPolygon_errors/incorrect_data
+=== RUN   TestScanPolygon_errors/not_wkb
+--- PASS: TestScanPolygon_errors (0.00s)
+    --- PASS: TestScanPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanPolygon_errors/incorrect_data (0.00s)
+    --- PASS: TestScanPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiPolygon
+=== RUN   TestScanMultiPolygon/multi_polygon
+=== RUN   TestScanMultiPolygon/single_multi_polygon
+=== RUN   TestScanMultiPolygon/polygon
+--- PASS: TestScanMultiPolygon (0.00s)
+    --- PASS: TestScanMultiPolygon/multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/single_multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/polygon (0.00s)
+=== RUN   TestScanMultiPolygon_errors
+=== RUN   TestScanMultiPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanMultiPolygon_errors/incorrect_data
+=== RUN   TestScanMultiPolygon_errors/not_wkb
+--- PASS: TestScanMultiPolygon_errors (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanCollection
+=== RUN   TestScanCollection/collection
+--- PASS: TestScanCollection (0.00s)
+    --- PASS: TestScanCollection/collection (0.00s)
+=== RUN   TestScanCollection_errors
+=== RUN   TestScanCollection_errors/does_not_like_line_strings
+=== RUN   TestScanCollection_errors/incorrect_data
+=== RUN   TestScanCollection_errors/not_wkb
+--- PASS: TestScanCollection_errors (0.00s)
+    --- PASS: TestScanCollection_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanCollection_errors/incorrect_data (0.00s)
+    --- PASS: TestScanCollection_errors/not_wkb (0.00s)
+=== RUN   TestScanBound
+=== RUN   TestScanBound/point
+=== RUN   TestScanBound/linestring
+--- PASS: TestScanBound (0.00s)
+    --- PASS: TestScanBound/point (0.00s)
+    --- PASS: TestScanBound/linestring (0.00s)
+=== RUN   TestScanBound_errors
+=== RUN   TestScanBound_errors/incorrect_data
+=== RUN   TestScanBound_errors/not_wkb
+--- PASS: TestScanBound_errors (0.00s)
+    --- PASS: TestScanBound_errors/incorrect_data (0.00s)
+    --- PASS: TestScanBound_errors/not_wkb (0.00s)
+=== RUN   TestValue
+=== RUN   TestValue/marshalls_geometry
+=== RUN   TestValue/nil_value_in_should_set_nil_value
+--- PASS: TestValue (0.00s)
+    --- PASS: TestValue/marshalls_geometry (0.00s)
+    --- PASS: TestValue/nil_value_in_should_set_nil_value (0.00s)
+=== RUN   TestValue_nil
+=== RUN   TestValue_nil/nil_multi_point
+=== RUN   TestValue_nil/nil_line_string
+=== RUN   TestValue_nil/nil_multi_line_string
+=== RUN   TestValue_nil/nil_ring
+=== RUN   TestValue_nil/nil_polygon
+=== RUN   TestValue_nil/nil_multi_polygon
+=== RUN   TestValue_nil/nil_collection
+--- PASS: TestValue_nil (0.00s)
+    --- PASS: TestValue_nil/nil_multi_point (0.00s)
+    --- PASS: TestValue_nil/nil_line_string (0.00s)
+    --- PASS: TestValue_nil/nil_multi_line_string (0.00s)
+    --- PASS: TestValue_nil/nil_ring (0.00s)
+    --- PASS: TestValue_nil/nil_polygon (0.00s)
+    --- PASS: TestValue_nil/nil_multi_polygon (0.00s)
+    --- PASS: TestValue_nil/nil_collection (0.00s)
+PASS
+ok  	github.com/reearth/orb/encoding/ewkb	0.023s
+=== RUN   TestCollection
+=== RUN   TestCollection/collection
+=== RUN   TestCollection/large
+=== RUN   TestCollection/large_with_srid
+--- PASS: TestCollection (0.00s)
+    --- PASS: TestCollection/collection (0.00s)
+    --- PASS: TestCollection/large (0.00s)
+    --- PASS: TestCollection/large_with_srid (0.00s)
+=== RUN   TestLineString
+=== RUN   TestLineString/line_string
+=== RUN   TestLineString/large_line_string
+=== RUN   TestLineString/large_line_string_with_srid
+--- PASS: TestLineString (0.01s)
+    --- PASS: TestLineString/line_string (0.00s)
+    --- PASS: TestLineString/large_line_string (0.00s)
+    --- PASS: TestLineString/large_line_string_with_srid (0.00s)
+=== RUN   TestMultiLineString
+=== RUN   TestMultiLineString/multi_line_string
+=== RUN   TestMultiLineString/single_multi_line_string
+=== RUN   TestMultiLineString/large
+=== RUN   TestMultiLineString/large_with_srid
+--- PASS: TestMultiLineString (0.00s)
+    --- PASS: TestMultiLineString/multi_line_string (0.00s)
+    --- PASS: TestMultiLineString/single_multi_line_string (0.00s)
+    --- PASS: TestMultiLineString/large (0.00s)
+    --- PASS: TestMultiLineString/large_with_srid (0.00s)
+=== RUN   TestPoint
+=== RUN   TestPoint/point
+=== RUN   TestPoint/little_endian
+=== RUN   TestPoint/big_endian
+=== RUN   TestPoint/another_point
+=== RUN   TestPoint/ewkb_with_srid
+--- PASS: TestPoint (0.00s)
+    --- PASS: TestPoint/point (0.00s)
+    --- PASS: TestPoint/little_endian (0.00s)
+    --- PASS: TestPoint/big_endian (0.00s)
+    --- PASS: TestPoint/another_point (0.00s)
+    --- PASS: TestPoint/ewkb_with_srid (0.00s)
+=== RUN   TestMultiPoint
+=== RUN   TestMultiPoint/multi_point
+=== RUN   TestMultiPoint/single_multi_point
+=== RUN   TestMultiPoint/large_multi_point
+=== RUN   TestMultiPoint/large_multi_point_with_srid
+--- PASS: TestMultiPoint (0.01s)
+    --- PASS: TestMultiPoint/multi_point (0.00s)
+    --- PASS: TestMultiPoint/single_multi_point (0.00s)
+    --- PASS: TestMultiPoint/large_multi_point (0.00s)
+    --- PASS: TestMultiPoint/large_multi_point_with_srid (0.00s)
+=== RUN   TestPolygon
+=== RUN   TestPolygon/polygon
+=== RUN   TestPolygon/large
+=== RUN   TestPolygon/large_with_srid
+=== RUN   TestPolygon/two_ring_polygon
+--- PASS: TestPolygon (0.00s)
+    --- PASS: TestPolygon/polygon (0.00s)
+    --- PASS: TestPolygon/large (0.00s)
+    --- PASS: TestPolygon/large_with_srid (0.00s)
+    --- PASS: TestPolygon/two_ring_polygon (0.00s)
+=== RUN   TestMultiPolygon
+=== RUN   TestMultiPolygon/multi_polygon
+=== RUN   TestMultiPolygon/single_multi_polygon
+=== RUN   TestMultiPolygon/large
+=== RUN   TestMultiPolygon/large_with_srid
+=== RUN   TestMultiPolygon/three_polygons
+--- PASS: TestMultiPolygon (0.00s)
+    --- PASS: TestMultiPolygon/multi_polygon (0.00s)
+    --- PASS: TestMultiPolygon/single_multi_polygon (0.00s)
+    --- PASS: TestMultiPolygon/large (0.00s)
+    --- PASS: TestMultiPolygon/large_with_srid (0.00s)
+    --- PASS: TestMultiPolygon/three_polygons (0.00s)
+=== RUN   TestScanPoint
+=== RUN   TestScanPoint/point
+=== RUN   TestScanPoint/single_multi-point
+=== RUN   TestScanPoint/ewkb
+--- PASS: TestScanPoint (0.00s)
+    --- PASS: TestScanPoint/point (0.00s)
+    --- PASS: TestScanPoint/single_multi-point (0.00s)
+    --- PASS: TestScanPoint/ewkb (0.00s)
+=== RUN   TestScanPoint_errors
+=== RUN   TestScanPoint_errors/not_wkb
+=== RUN   TestScanPoint_errors/invalid_first_byte
+=== RUN   TestScanPoint_errors/incorrect_geometry
+--- PASS: TestScanPoint_errors (0.00s)
+    --- PASS: TestScanPoint_errors/not_wkb (0.00s)
+    --- PASS: TestScanPoint_errors/invalid_first_byte (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_geometry (0.00s)
+=== RUN   TestScanMultiPoint
+=== RUN   TestScanMultiPoint/multi_point
+=== RUN   TestScanMultiPoint/multi_point_as_ewkb
+=== RUN   TestScanMultiPoint/point_should_covert_to_multi_point
+--- PASS: TestScanMultiPoint (0.00s)
+    --- PASS: TestScanMultiPoint/multi_point (0.00s)
+    --- PASS: TestScanMultiPoint/multi_point_as_ewkb (0.00s)
+    --- PASS: TestScanMultiPoint/point_should_covert_to_multi_point (0.00s)
+=== RUN   TestScanMultiPoint_errors
+=== RUN   TestScanMultiPoint_errors/does_not_like_line_string
+=== RUN   TestScanMultiPoint_errors/not_wkb
+--- PASS: TestScanMultiPoint_errors (0.00s)
+    --- PASS: TestScanMultiPoint_errors/does_not_like_line_string (0.00s)
+    --- PASS: TestScanMultiPoint_errors/not_wkb (0.00s)
+=== RUN   TestScanLineString
+=== RUN   TestScanLineString/line_string
+=== RUN   TestScanLineString/line_string_as_ewkb
+=== RUN   TestScanLineString/single_multi_line_string
+--- PASS: TestScanLineString (0.00s)
+    --- PASS: TestScanLineString/line_string (0.00s)
+    --- PASS: TestScanLineString/line_string_as_ewkb (0.00s)
+    --- PASS: TestScanLineString/single_multi_line_string (0.00s)
+=== RUN   TestScanLineString_errors
+=== RUN   TestScanLineString_errors/does_not_like_multi_point
+=== RUN   TestScanLineString_errors/not_wkb
+--- PASS: TestScanLineString_errors (0.00s)
+    --- PASS: TestScanLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiLineString
+=== RUN   TestScanMultiLineString/line_string
+=== RUN   TestScanMultiLineString/multi_line_string
+=== RUN   TestScanMultiLineString/multi_line_string_as_ewkb
+=== RUN   TestScanMultiLineString/single_multi_line_string
+--- PASS: TestScanMultiLineString (0.00s)
+    --- PASS: TestScanMultiLineString/line_string (0.00s)
+    --- PASS: TestScanMultiLineString/multi_line_string (0.00s)
+    --- PASS: TestScanMultiLineString/multi_line_string_as_ewkb (0.00s)
+    --- PASS: TestScanMultiLineString/single_multi_line_string (0.00s)
+=== RUN   TestScanMultiLineString_errors
+=== RUN   TestScanMultiLineString_errors/does_not_like_multi_point
+=== RUN   TestScanMultiLineString_errors/not_wkb
+--- PASS: TestScanMultiLineString_errors (0.00s)
+    --- PASS: TestScanMultiLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanMultiLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanPolygon
+=== RUN   TestScanPolygon/polygon
+=== RUN   TestScanPolygon/polygon_as_ewkb
+=== RUN   TestScanPolygon/single_multi_polygon
+--- PASS: TestScanPolygon (0.00s)
+    --- PASS: TestScanPolygon/polygon (0.00s)
+    --- PASS: TestScanPolygon/polygon_as_ewkb (0.00s)
+    --- PASS: TestScanPolygon/single_multi_polygon (0.00s)
+=== RUN   TestScanPolygon_errors
+=== RUN   TestScanPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanPolygon_errors/not_wkb
+--- PASS: TestScanPolygon_errors (0.00s)
+    --- PASS: TestScanPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiPolygon
+=== RUN   TestScanMultiPolygon/multi_polygon
+=== RUN   TestScanMultiPolygon/multi_polygon_as_ewkb
+=== RUN   TestScanMultiPolygon/single_multi_polygon
+=== RUN   TestScanMultiPolygon/polygon
+--- PASS: TestScanMultiPolygon (0.00s)
+    --- PASS: TestScanMultiPolygon/multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/multi_polygon_as_ewkb (0.00s)
+    --- PASS: TestScanMultiPolygon/single_multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/polygon (0.00s)
+=== RUN   TestScanMultiPolygon_errors
+=== RUN   TestScanMultiPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanMultiPolygon_errors/not_wkb
+--- PASS: TestScanMultiPolygon_errors (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanCollection
+=== RUN   TestScanCollection/collection
+=== RUN   TestScanCollection/collection_as_ewkb
+--- PASS: TestScanCollection (0.00s)
+    --- PASS: TestScanCollection/collection (0.00s)
+    --- PASS: TestScanCollection/collection_as_ewkb (0.00s)
+=== RUN   TestScanCollection_errors
+=== RUN   TestScanCollection_errors/does_not_like_line_strings
+=== RUN   TestScanCollection_errors/not_wkb
+--- PASS: TestScanCollection_errors (0.00s)
+    --- PASS: TestScanCollection_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanCollection_errors/not_wkb (0.00s)
+=== RUN   TestMarshal
+--- PASS: TestMarshal (0.00s)
+=== RUN   TestMustMarshal
+--- PASS: TestMustMarshal (0.00s)
+PASS
+ok  	github.com/reearth/orb/encoding/internal/wkbcommon	0.026s
+?   	github.com/reearth/orb/encoding/mvt/vectortile	[no test files]
+=== RUN   TestLayersClip
+=== RUN   TestLayersClip/clips_polygon_and_line
+--- PASS: TestLayersClip (0.00s)
+    --- PASS: TestLayersClip/clips_polygon_and_line (0.00s)
+=== RUN   TestLayerClip_empty
+--- PASS: TestLayerClip_empty (0.00s)
+=== RUN   TestGeometry_Point
+=== RUN   TestGeometry_Point/basic_point
+--- PASS: TestGeometry_Point (0.00s)
+    --- PASS: TestGeometry_Point/basic_point (0.00s)
+=== RUN   TestGeometry_MultiPoint
+=== RUN   TestGeometry_MultiPoint/basic_multi_point
+--- PASS: TestGeometry_MultiPoint (0.00s)
+    --- PASS: TestGeometry_MultiPoint/basic_multi_point (0.00s)
+=== RUN   TestGeometry_LineString
+=== RUN   TestGeometry_LineString/basic_line_string
+--- PASS: TestGeometry_LineString (0.00s)
+    --- PASS: TestGeometry_LineString/basic_line_string (0.00s)
+=== RUN   TestGeometry_MultiLineString
+=== RUN   TestGeometry_MultiLineString/basic_multi_line_string
+--- PASS: TestGeometry_MultiLineString (0.00s)
+    --- PASS: TestGeometry_MultiLineString/basic_multi_line_string (0.00s)
+=== RUN   TestGeometry_Polygon
+=== RUN   TestGeometry_Polygon/basic_polygon
+--- PASS: TestGeometry_Polygon (0.00s)
+    --- PASS: TestGeometry_Polygon/basic_polygon (0.00s)
+=== RUN   TestGeometry_MultiPolygon
+=== RUN   TestGeometry_MultiPolygon/multi_polygon
+--- PASS: TestGeometry_MultiPolygon (0.00s)
+    --- PASS: TestGeometry_MultiPolygon/multi_polygon (0.00s)
+=== RUN   TestKeyValueEncoder_JSON
+=== RUN   TestKeyValueEncoder_JSON/non_comparable_value
+=== RUN   TestKeyValueEncoder_JSON/nil_value
+--- PASS: TestKeyValueEncoder_JSON (0.00s)
+    --- PASS: TestKeyValueEncoder_JSON/non_comparable_value (0.00s)
+    --- PASS: TestKeyValueEncoder_JSON/nil_value (0.00s)
+=== RUN   TestEncodeValue
+=== RUN   TestEncodeValue/string
+=== RUN   TestEncodeValue/stringer
+=== RUN   TestEncodeValue/int
+=== RUN   TestEncodeValue/int8
+=== RUN   TestEncodeValue/int16
+=== RUN   TestEncodeValue/int32
+=== RUN   TestEncodeValue/int64
+=== RUN   TestEncodeValue/uint
+=== RUN   TestEncodeValue/uint8
+=== RUN   TestEncodeValue/uint16
+=== RUN   TestEncodeValue/uint32
+=== RUN   TestEncodeValue/uint64
+=== RUN   TestEncodeValue/float32
+=== RUN   TestEncodeValue/float64
+=== RUN   TestEncodeValue/bool
+--- PASS: TestEncodeValue (0.00s)
+    --- PASS: TestEncodeValue/string (0.00s)
+    --- PASS: TestEncodeValue/stringer (0.00s)
+    --- PASS: TestEncodeValue/int (0.00s)
+    --- PASS: TestEncodeValue/int8 (0.00s)
+    --- PASS: TestEncodeValue/int16 (0.00s)
+    --- PASS: TestEncodeValue/int32 (0.00s)
+    --- PASS: TestEncodeValue/int64 (0.00s)
+    --- PASS: TestEncodeValue/uint (0.00s)
+    --- PASS: TestEncodeValue/uint8 (0.00s)
+    --- PASS: TestEncodeValue/uint16 (0.00s)
+    --- PASS: TestEncodeValue/uint32 (0.00s)
+    --- PASS: TestEncodeValue/uint64 (0.00s)
+    --- PASS: TestEncodeValue/float32 (0.00s)
+    --- PASS: TestEncodeValue/float64 (0.00s)
+    --- PASS: TestEncodeValue/bool (0.00s)
+=== RUN   TestMarshalUnmarshalGzipped_Full
+--- PASS: TestMarshalUnmarshalGzipped_Full (0.00s)
+=== RUN   TestMarshalUnmarshalForGeometryCollection
+--- PASS: TestMarshalUnmarshalForGeometryCollection (0.00s)
+=== RUN   TestMarshal_nilGeometry
+--- PASS: TestMarshal_nilGeometry (0.00s)
+=== RUN   TestMarshalUnmarshal
+=== RUN   TestMarshalUnmarshal/15-8956-12223
+=== RUN   TestMarshalUnmarshal/16-17896-24449
+--- PASS: TestMarshalUnmarshal (0.07s)
+    --- PASS: TestMarshalUnmarshal/15-8956-12223 (0.05s)
+    --- PASS: TestMarshalUnmarshal/16-17896-24449 (0.02s)
+=== RUN   TestUnmarshal
+=== RUN   TestUnmarshal/15-8956-12223
+    marshal_test.go:254: checking layer boundaries: feature 0
+    marshal_test.go:254: checking layer landuse: feature 0
+    marshal_test.go:254: checking layer landuse: feature 1
+    marshal_test.go:254: checking layer landuse: feature 2
+    marshal_test.go:254: checking layer landuse: feature 3
+    marshal_test.go:254: checking layer landuse: feature 4
+    marshal_test.go:254: checking layer landuse: feature 5
+    marshal_test.go:254: checking layer landuse: feature 6
+    marshal_test.go:254: checking layer landuse: feature 7
+    marshal_test.go:254: checking layer landuse: feature 8
+    marshal_test.go:254: checking layer landuse: feature 9
+    marshal_test.go:254: checking layer landuse: feature 10
+    marshal_test.go:254: checking layer landuse: feature 11
+    marshal_test.go:254: checking layer landuse: feature 12
+    marshal_test.go:254: checking layer landuse: feature 13
+    marshal_test.go:254: checking layer landuse: feature 14
+    marshal_test.go:254: checking layer landuse: feature 15
+    marshal_test.go:254: checking layer landuse: feature 16
+    marshal_test.go:254: checking layer landuse: feature 17
+    marshal_test.go:254: checking layer landuse: feature 18
+    marshal_test.go:254: checking layer landuse: feature 19
+    marshal_test.go:254: checking layer landuse: feature 20
+    marshal_test.go:254: checking layer landuse: feature 21
+    marshal_test.go:254: checking layer landuse: feature 22
+    marshal_test.go:254: checking layer landuse: feature 23
+    marshal_test.go:254: checking layer landuse: feature 24
+    marshal_test.go:254: checking layer landuse: feature 25
+    marshal_test.go:254: checking layer landuse: feature 26
+    marshal_test.go:254: checking layer landuse: feature 27
+    marshal_test.go:254: checking layer landuse: feature 28
+    marshal_test.go:254: checking layer landuse: feature 29
+    marshal_test.go:254: checking layer landuse: feature 30
+    marshal_test.go:254: checking layer landuse: feature 31
+    marshal_test.go:254: checking layer landuse: feature 32
+    marshal_test.go:254: checking layer landuse: feature 33
+    marshal_test.go:254: checking layer landuse: feature 34
+    marshal_test.go:254: checking layer landuse: feature 35
+    marshal_test.go:254: checking layer landuse: feature 36
+    marshal_test.go:254: checking layer landuse: feature 37
+    marshal_test.go:254: checking layer landuse: feature 38
+    marshal_test.go:254: checking layer landuse: feature 39
+    marshal_test.go:254: checking layer landuse: feature 40
+    marshal_test.go:254: checking layer landuse: feature 41
+    marshal_test.go:254: checking layer landuse: feature 42
+    marshal_test.go:254: checking layer landuse: feature 43
+    marshal_test.go:254: checking layer landuse: feature 44
+    marshal_test.go:254: checking layer earth: feature 0
+    marshal_test.go:254: checking layer buildings: feature 0
+    marshal_test.go:254: checking layer buildings: feature 1
+    marshal_test.go:254: checking layer buildings: feature 2
+    marshal_test.go:254: checking layer buildings: feature 3
+    marshal_test.go:254: checking layer buildings: feature 4
+    marshal_test.go:254: checking layer buildings: feature 5
+    marshal_test.go:254: checking layer buildings: feature 6
+    marshal_test.go:254: checking layer buildings: feature 7
+    marshal_test.go:254: checking layer buildings: feature 8
+    marshal_test.go:254: checking layer buildings: feature 9
+    marshal_test.go:254: checking layer buildings: feature 10
+    marshal_test.go:254: checking layer buildings: feature 11
+    marshal_test.go:254: checking layer buildings: feature 12
+    marshal_test.go:254: checking layer buildings: feature 13
+    marshal_test.go:254: checking layer buildings: feature 14
+    marshal_test.go:254: checking layer buildings: feature 15
+    marshal_test.go:254: checking layer buildings: feature 16
+    marshal_test.go:254: checking layer buildings: feature 17
+    marshal_test.go:254: checking layer buildings: feature 18
+    marshal_test.go:254: checking layer buildings: feature 19
+    marshal_test.go:254: checking layer buildings: feature 20
+    marshal_test.go:254: checking layer buildings: feature 21
+    marshal_test.go:254: checking layer buildings: feature 22
+    marshal_test.go:254: checking layer buildings: feature 23
+    marshal_test.go:254: checking layer buildings: feature 24
+    marshal_test.go:254: checking layer buildings: feature 25
+    marshal_test.go:254: checking layer buildings: feature 26
+    marshal_test.go:254: checking layer buildings: feature 27
+    marshal_test.go:254: checking layer buildings: feature 28
+    marshal_test.go:254: checking layer buildings: feature 29
+    marshal_test.go:254: checking layer buildings: feature 30
+    marshal_test.go:254: checking layer buildings: feature 31
+    marshal_test.go:254: checking layer buildings: feature 32
+    marshal_test.go:254: checking layer buildings: feature 33
+    marshal_test.go:254: checking layer buildings: feature 34
+    marshal_test.go:254: checking layer buildings: feature 35
+    marshal_test.go:254: checking layer buildings: feature 36
+    marshal_test.go:254: checking layer buildings: feature 37
+    marshal_test.go:254: checking layer buildings: feature 38
+    marshal_test.go:254: checking layer buildings: feature 39
+    marshal_test.go:254: checking layer buildings: feature 40
+    marshal_test.go:254: checking layer buildings: feature 41
+    marshal_test.go:254: checking layer buildings: feature 42
+    marshal_test.go:254: checking layer buildings: feature 43
+    marshal_test.go:254: checking layer buildings: feature 44
+    marshal_test.go:254: checking layer buildings: feature 45
+    marshal_test.go:254: checking layer buildings: feature 46
+    marshal_test.go:254: checking layer buildings: feature 47
+    marshal_test.go:254: checking layer buildings: feature 48
+    marshal_test.go:254: checking layer buildings: feature 49
+    marshal_test.go:254: checking layer buildings: feature 50
+    marshal_test.go:254: checking layer buildings: feature 51
+    marshal_test.go:254: checking layer buildings: feature 52
+    marshal_test.go:254: checking layer buildings: feature 53
+    marshal_test.go:254: checking layer buildings: feature 54
+    marshal_test.go:254: checking layer buildings: feature 55
+    marshal_test.go:254: checking layer buildings: feature 56
+    marshal_test.go:254: checking layer buildings: feature 57
+    marshal_test.go:254: checking layer buildings: feature 58
+    marshal_test.go:254: checking layer buildings: feature 59
+    marshal_test.go:254: checking layer buildings: feature 60
+    marshal_test.go:254: checking layer buildings: feature 61
+    marshal_test.go:254: checking layer buildings: feature 62
+    marshal_test.go:254: checking layer buildings: feature 63
+    marshal_test.go:254: checking layer buildings: feature 64
+    marshal_test.go:254: checking layer buildings: feature 65
+    marshal_test.go:254: checking layer buildings: feature 66
+    marshal_test.go:254: checking layer buildings: feature 67
+    marshal_test.go:254: checking layer buildings: feature 68
+    marshal_test.go:254: checking layer buildings: feature 69
+    marshal_test.go:254: checking layer buildings: feature 70
+    marshal_test.go:254: checking layer buildings: feature 71
+    marshal_test.go:254: checking layer buildings: feature 72
+    marshal_test.go:254: checking layer buildings: feature 73
+    marshal_test.go:254: checking layer buildings: feature 74
+    marshal_test.go:254: checking layer buildings: feature 75
+    marshal_test.go:254: checking layer buildings: feature 76
+    marshal_test.go:254: checking layer buildings: feature 77
+    marshal_test.go:254: checking layer buildings: feature 78
+    marshal_test.go:254: checking layer buildings: feature 79
+    marshal_test.go:254: checking layer buildings: feature 80
+    marshal_test.go:254: checking layer buildings: feature 81
+    marshal_test.go:254: checking layer buildings: feature 82
+    marshal_test.go:254: checking layer buildings: feature 83
+    marshal_test.go:254: checking layer buildings: feature 84
+    marshal_test.go:254: checking layer buildings: feature 85
+    marshal_test.go:254: checking layer buildings: feature 86
+    marshal_test.go:254: checking layer buildings: feature 87
+    marshal_test.go:254: checking layer buildings: feature 88
+    marshal_test.go:254: checking layer buildings: feature 89
+    marshal_test.go:254: checking layer buildings: feature 90
+    marshal_test.go:254: checking layer buildings: feature 91
+    marshal_test.go:254: checking layer buildings: feature 92
+    marshal_test.go:254: checking layer buildings: feature 93
+    marshal_test.go:254: checking layer buildings: feature 94
+    marshal_test.go:254: checking layer buildings: feature 95
+    marshal_test.go:254: checking layer buildings: feature 96
+    marshal_test.go:254: checking layer buildings: feature 97
+    marshal_test.go:254: checking layer buildings: feature 98
+    marshal_test.go:254: checking layer buildings: feature 99
+    marshal_test.go:254: checking layer buildings: feature 100
+    marshal_test.go:254: checking layer buildings: feature 101
+    marshal_test.go:254: checking layer buildings: feature 102
+    marshal_test.go:254: checking layer buildings: feature 103
+    marshal_test.go:254: checking layer buildings: feature 104
+    marshal_test.go:254: checking layer buildings: feature 105
+    marshal_test.go:254: checking layer buildings: feature 106
+    marshal_test.go:254: checking layer buildings: feature 107
+    marshal_test.go:254: checking layer buildings: feature 108
+    marshal_test.go:254: checking layer buildings: feature 109
+    marshal_test.go:254: checking layer buildings: feature 110
+    marshal_test.go:254: checking layer buildings: feature 111
+    marshal_test.go:254: checking layer buildings: feature 112
+    marshal_test.go:254: checking layer buildings: feature 113
+    marshal_test.go:254: checking layer buildings: feature 114
+    marshal_test.go:254: checking layer buildings: feature 115
+    marshal_test.go:254: checking layer buildings: feature 116
+    marshal_test.go:254: checking layer buildings: feature 117
+    marshal_test.go:254: checking layer buildings: feature 118
+    marshal_test.go:254: checking layer buildings: feature 119
+    marshal_test.go:254: checking layer buildings: feature 120
+    marshal_test.go:254: checking layer buildings: feature 121
+    marshal_test.go:254: checking layer buildings: feature 122
+    marshal_test.go:254: checking layer buildings: feature 123
+    marshal_test.go:254: checking layer buildings: feature 124
+    marshal_test.go:254: checking layer buildings: feature 125
+    marshal_test.go:254: checking layer buildings: feature 126
+    marshal_test.go:254: checking layer buildings: feature 127
+    marshal_test.go:254: checking layer buildings: feature 128
+    marshal_test.go:254: checking layer buildings: feature 129
+    marshal_test.go:254: checking layer buildings: feature 130
+    marshal_test.go:254: checking layer buildings: feature 131
+    marshal_test.go:254: checking layer buildings: feature 132
+    marshal_test.go:254: checking layer buildings: feature 133
+    marshal_test.go:254: checking layer buildings: feature 134
+    marshal_test.go:254: checking layer buildings: feature 135
+    marshal_test.go:254: checking layer buildings: feature 136
+    marshal_test.go:254: checking layer buildings: feature 137
+    marshal_test.go:254: checking layer buildings: feature 138
+    marshal_test.go:254: checking layer buildings: feature 139
+    marshal_test.go:254: checking layer transit: feature 0
+    marshal_test.go:254: checking layer transit: feature 1
+    marshal_test.go:254: checking layer transit: feature 2
+    marshal_test.go:254: checking layer transit: feature 3
+    marshal_test.go:254: checking layer transit: feature 4
+    marshal_test.go:254: checking layer pois: feature 0
+    marshal_test.go:254: checking layer pois: feature 1
+    marshal_test.go:254: checking layer pois: feature 2
+    marshal_test.go:254: checking layer pois: feature 3
+    marshal_test.go:254: checking layer pois: feature 4
+    marshal_test.go:254: checking layer pois: feature 5
+    marshal_test.go:254: checking layer pois: feature 6
+    marshal_test.go:254: checking layer pois: feature 7
+    marshal_test.go:254: checking layer pois: feature 8
+    marshal_test.go:254: checking layer pois: feature 9
+    marshal_test.go:254: checking layer pois: feature 10
+    marshal_test.go:254: checking layer pois: feature 11
+    marshal_test.go:254: checking layer pois: feature 12
+    marshal_test.go:254: checking layer pois: feature 13
+    marshal_test.go:254: checking layer pois: feature 14
+    marshal_test.go:254: checking layer pois: feature 15
+    marshal_test.go:254: checking layer pois: feature 16
+    marshal_test.go:254: checking layer pois: feature 17
+    marshal_test.go:254: checking layer pois: feature 18
+    marshal_test.go:254: checking layer pois: feature 19
+    marshal_test.go:254: checking layer pois: feature 20
+    marshal_test.go:254: checking layer pois: feature 21
+    marshal_test.go:254: checking layer pois: feature 22
+    marshal_test.go:254: checking layer pois: feature 23
+    marshal_test.go:254: checking layer pois: feature 24
+    marshal_test.go:254: checking layer pois: feature 25
+    marshal_test.go:254: checking layer pois: feature 26
+    marshal_test.go:254: checking layer pois: feature 27
+    marshal_test.go:254: checking layer pois: feature 28
+    marshal_test.go:254: checking layer pois: feature 29
+    marshal_test.go:254: checking layer pois: feature 30
+    marshal_test.go:254: checking layer pois: feature 31
+    marshal_test.go:254: checking layer pois: feature 32
+    marshal_test.go:254: checking layer pois: feature 33
+    marshal_test.go:254: checking layer pois: feature 34
+    marshal_test.go:254: checking layer pois: feature 35
+    marshal_test.go:254: checking layer pois: feature 36
+    marshal_test.go:254: checking layer pois: feature 37
+    marshal_test.go:254: checking layer pois: feature 38
+    marshal_test.go:254: checking layer pois: feature 39
+    marshal_test.go:254: checking layer pois: feature 40
+    marshal_test.go:254: checking layer pois: feature 41
+    marshal_test.go:254: checking layer pois: feature 42
+    marshal_test.go:254: checking layer pois: feature 43
+    marshal_test.go:254: checking layer pois: feature 44
+    marshal_test.go:254: checking layer pois: feature 45
+    marshal_test.go:254: checking layer pois: feature 46
+    marshal_test.go:254: checking layer pois: feature 47
+    marshal_test.go:254: checking layer pois: feature 48
+    marshal_test.go:254: checking layer pois: feature 49
+    marshal_test.go:254: checking layer pois: feature 50
+    marshal_test.go:254: checking layer pois: feature 51
+    marshal_test.go:254: checking layer pois: feature 52
+    marshal_test.go:254: checking layer pois: feature 53
+    marshal_test.go:254: checking layer pois: feature 54
+    marshal_test.go:254: checking layer pois: feature 55
+    marshal_test.go:254: checking layer pois: feature 56
+    marshal_test.go:254: checking layer pois: feature 57
+    marshal_test.go:254: checking layer pois: feature 58
+    marshal_test.go:254: checking layer pois: feature 59
+    marshal_test.go:254: checking layer pois: feature 60
+    marshal_test.go:254: checking layer pois: feature 61
+    marshal_test.go:254: checking layer pois: feature 62
+    marshal_test.go:254: checking layer pois: feature 63
+    marshal_test.go:254: checking layer pois: feature 64
+    marshal_test.go:254: checking layer pois: feature 65
+    marshal_test.go:254: checking layer pois: feature 66
+    marshal_test.go:254: checking layer pois: feature 67
+    marshal_test.go:254: checking layer pois: feature 68
+    marshal_test.go:254: checking layer pois: feature 69
+    marshal_test.go:254: checking layer pois: feature 70
+    marshal_test.go:254: checking layer pois: feature 71
+    marshal_test.go:254: checking layer pois: feature 72
+    marshal_test.go:254: checking layer pois: feature 73
+    marshal_test.go:254: checking layer pois: feature 74
+    marshal_test.go:254: checking layer pois: feature 75
+    marshal_test.go:254: checking layer pois: feature 76
+    marshal_test.go:254: checking layer pois: feature 77
+    marshal_test.go:254: checking layer pois: feature 78
+    marshal_test.go:254: checking layer pois: feature 79
+    marshal_test.go:254: checking layer pois: feature 80
+    marshal_test.go:254: checking layer pois: feature 81
+    marshal_test.go:254: checking layer pois: feature 82
+    marshal_test.go:254: checking layer pois: feature 83
+    marshal_test.go:254: checking layer pois: feature 84
+    marshal_test.go:254: checking layer pois: feature 85
+    marshal_test.go:254: checking layer pois: feature 86
+    marshal_test.go:254: checking layer pois: feature 87
+    marshal_test.go:254: checking layer pois: feature 88
+    marshal_test.go:254: checking layer pois: feature 89
+    marshal_test.go:254: checking layer pois: feature 90
+    marshal_test.go:254: checking layer pois: feature 91
+    marshal_test.go:254: checking layer pois: feature 92
+    marshal_test.go:254: checking layer pois: feature 93
+    marshal_test.go:254: checking layer pois: feature 94
+    marshal_test.go:254: checking layer pois: feature 95
+    marshal_test.go:254: checking layer pois: feature 96
+    marshal_test.go:254: checking layer pois: feature 97
+    marshal_test.go:254: checking layer pois: feature 98
+    marshal_test.go:254: checking layer pois: feature 99
+    marshal_test.go:254: checking layer pois: feature 100
+    marshal_test.go:254: checking layer pois: feature 101
+    marshal_test.go:254: checking layer pois: feature 102
+    marshal_test.go:254: checking layer roads: feature 0
+    marshal_test.go:254: checking layer roads: feature 1
+    marshal_test.go:254: checking layer roads: feature 2
+    marshal_test.go:254: checking layer roads: feature 3
+    marshal_test.go:254: checking layer roads: feature 4
+    marshal_test.go:254: checking layer roads: feature 5
+    marshal_test.go:254: checking layer roads: feature 6
+    marshal_test.go:254: checking layer roads: feature 7
+    marshal_test.go:254: checking layer roads: feature 8
+    marshal_test.go:254: checking layer roads: feature 9
+    marshal_test.go:254: checking layer roads: feature 10
+    marshal_test.go:254: checking layer roads: feature 11
+    marshal_test.go:254: checking layer roads: feature 12
+    marshal_test.go:254: checking layer roads: feature 13
+    marshal_test.go:254: checking layer roads: feature 14
+    marshal_test.go:254: checking layer roads: feature 15
+    marshal_test.go:254: checking layer roads: feature 16
+    marshal_test.go:254: checking layer roads: feature 17
+    marshal_test.go:254: checking layer roads: feature 18
+    marshal_test.go:254: checking layer roads: feature 19
+    marshal_test.go:254: checking layer roads: feature 20
+    marshal_test.go:254: checking layer roads: feature 21
+    marshal_test.go:254: checking layer roads: feature 22
+    marshal_test.go:254: checking layer roads: feature 23
+    marshal_test.go:254: checking layer roads: feature 24
+    marshal_test.go:254: checking layer roads: feature 25
+    marshal_test.go:254: checking layer roads: feature 26
+    marshal_test.go:254: checking layer roads: feature 27
+    marshal_test.go:254: checking layer roads: feature 28
+    marshal_test.go:254: checking layer roads: feature 29
+    marshal_test.go:254: checking layer roads: feature 30
+    marshal_test.go:254: checking layer roads: feature 31
+    marshal_test.go:254: checking layer roads: feature 32
+    marshal_test.go:254: checking layer roads: feature 33
+    marshal_test.go:254: checking layer roads: feature 34
+    marshal_test.go:254: checking layer roads: feature 35
+    marshal_test.go:254: checking layer roads: feature 36
+    marshal_test.go:254: checking layer roads: feature 37
+    marshal_test.go:254: checking layer roads: feature 38
+    marshal_test.go:254: checking layer roads: feature 39
+    marshal_test.go:254: checking layer roads: feature 40
+    marshal_test.go:254: checking layer roads: feature 41
+    marshal_test.go:254: checking layer roads: feature 42
+    marshal_test.go:254: checking layer roads: feature 43
+    marshal_test.go:254: checking layer roads: feature 44
+    marshal_test.go:254: checking layer roads: feature 45
+    marshal_test.go:254: checking layer roads: feature 46
+    marshal_test.go:254: checking layer roads: feature 47
+    marshal_test.go:254: checking layer roads: feature 48
+    marshal_test.go:254: checking layer roads: feature 49
+    marshal_test.go:254: checking layer roads: feature 50
+    marshal_test.go:254: checking layer roads: feature 51
+    marshal_test.go:254: checking layer roads: feature 52
+    marshal_test.go:254: checking layer roads: feature 53
+    marshal_test.go:254: checking layer roads: feature 54
+    marshal_test.go:254: checking layer roads: feature 55
+    marshal_test.go:254: checking layer roads: feature 56
+    marshal_test.go:254: checking layer roads: feature 57
+    marshal_test.go:254: checking layer roads: feature 58
+    marshal_test.go:254: checking layer roads: feature 59
+    marshal_test.go:254: checking layer roads: feature 60
+    marshal_test.go:254: checking layer roads: feature 61
+    marshal_test.go:254: checking layer roads: feature 62
+    marshal_test.go:254: checking layer roads: feature 63
+    marshal_test.go:254: checking layer roads: feature 64
+    marshal_test.go:254: checking layer roads: feature 65
+    marshal_test.go:254: checking layer roads: feature 66
+    marshal_test.go:254: checking layer roads: feature 67
+    marshal_test.go:254: checking layer roads: feature 68
+    marshal_test.go:254: checking layer roads: feature 69
+    marshal_test.go:254: checking layer roads: feature 70
+    marshal_test.go:254: checking layer roads: feature 71
+    marshal_test.go:254: checking layer roads: feature 72
+    marshal_test.go:254: checking layer roads: feature 73
+    marshal_test.go:254: checking layer roads: feature 74
+    marshal_test.go:254: checking layer roads: feature 75
+    marshal_test.go:254: checking layer roads: feature 76
+    marshal_test.go:254: checking layer roads: feature 77
+    marshal_test.go:254: checking layer roads: feature 78
+    marshal_test.go:254: checking layer roads: feature 79
+    marshal_test.go:254: checking layer roads: feature 80
+    marshal_test.go:254: checking layer roads: feature 81
+    marshal_test.go:254: checking layer roads: feature 82
+    marshal_test.go:254: checking layer roads: feature 83
+    marshal_test.go:254: checking layer roads: feature 84
+    marshal_test.go:254: checking layer roads: feature 85
+    marshal_test.go:254: checking layer roads: feature 86
+    marshal_test.go:254: checking layer roads: feature 87
+    marshal_test.go:254: checking layer roads: feature 88
+    marshal_test.go:254: checking layer roads: feature 89
+    marshal_test.go:254: checking layer roads: feature 90
+    marshal_test.go:254: checking layer roads: feature 91
+    marshal_test.go:254: checking layer roads: feature 92
+    marshal_test.go:254: checking layer roads: feature 93
+    marshal_test.go:254: checking layer roads: feature 94
+    marshal_test.go:254: checking layer roads: feature 95
+    marshal_test.go:254: checking layer roads: feature 96
+    marshal_test.go:254: checking layer roads: feature 97
+    marshal_test.go:254: checking layer roads: feature 98
+    marshal_test.go:254: checking layer roads: feature 99
+    marshal_test.go:254: checking layer roads: feature 100
+    marshal_test.go:254: checking layer roads: feature 101
+    marshal_test.go:254: checking layer roads: feature 102
+    marshal_test.go:254: checking layer roads: feature 103
+    marshal_test.go:254: checking layer roads: feature 104
+    marshal_test.go:254: checking layer roads: feature 105
+    marshal_test.go:254: checking layer roads: feature 106
+    marshal_test.go:254: checking layer roads: feature 107
+    marshal_test.go:254: checking layer roads: feature 108
+    marshal_test.go:254: checking layer roads: feature 109
+    marshal_test.go:254: checking layer roads: feature 110
+    marshal_test.go:254: checking layer roads: feature 111
+    marshal_test.go:254: checking layer roads: feature 112
+    marshal_test.go:254: checking layer roads: feature 113
+    marshal_test.go:254: checking layer roads: feature 114
+    marshal_test.go:254: checking layer roads: feature 115
+    marshal_test.go:254: checking layer roads: feature 116
+    marshal_test.go:254: checking layer roads: feature 117
+    marshal_test.go:254: checking layer roads: feature 118
+    marshal_test.go:254: checking layer roads: feature 119
+    marshal_test.go:254: checking layer roads: feature 120
+    marshal_test.go:254: checking layer roads: feature 121
+    marshal_test.go:254: checking layer roads: feature 122
+    marshal_test.go:254: checking layer roads: feature 123
+    marshal_test.go:254: checking layer roads: feature 124
+    marshal_test.go:254: checking layer roads: feature 125
+    marshal_test.go:254: checking layer roads: feature 126
+    marshal_test.go:254: checking layer roads: feature 127
+    marshal_test.go:254: checking layer roads: feature 128
+    marshal_test.go:254: checking layer roads: feature 129
+    marshal_test.go:254: checking layer roads: feature 130
+    marshal_test.go:254: checking layer roads: feature 131
+    marshal_test.go:254: checking layer roads: feature 132
+    marshal_test.go:254: checking layer roads: feature 133
+    marshal_test.go:254: checking layer roads: feature 134
+    marshal_test.go:254: checking layer roads: feature 135
+    marshal_test.go:254: checking layer roads: feature 136
+    marshal_test.go:254: checking layer roads: feature 137
+    marshal_test.go:254: checking layer roads: feature 138
+    marshal_test.go:254: checking layer roads: feature 139
+    marshal_test.go:254: checking layer roads: feature 140
+    marshal_test.go:254: checking layer roads: feature 141
+    marshal_test.go:254: checking layer roads: feature 142
+    marshal_test.go:254: checking layer roads: feature 143
+    marshal_test.go:254: checking layer roads: feature 144
+    marshal_test.go:254: checking layer roads: feature 145
+    marshal_test.go:254: checking layer roads: feature 146
+    marshal_test.go:254: checking layer roads: feature 147
+    marshal_test.go:254: checking layer roads: feature 148
+    marshal_test.go:254: checking layer roads: feature 149
+    marshal_test.go:254: checking layer roads: feature 150
+    marshal_test.go:254: checking layer roads: feature 151
+    marshal_test.go:254: checking layer roads: feature 152
+    marshal_test.go:254: checking layer roads: feature 153
+    marshal_test.go:254: checking layer roads: feature 154
+    marshal_test.go:254: checking layer roads: feature 155
+    marshal_test.go:254: checking layer roads: feature 156
+    marshal_test.go:254: checking layer roads: feature 157
+    marshal_test.go:254: checking layer roads: feature 158
+    marshal_test.go:254: checking layer roads: feature 159
+    marshal_test.go:254: checking layer roads: feature 160
+    marshal_test.go:254: checking layer roads: feature 161
+    marshal_test.go:254: checking layer roads: feature 162
+    marshal_test.go:254: checking layer roads: feature 163
+    marshal_test.go:254: checking layer roads: feature 164
+    marshal_test.go:254: checking layer roads: feature 165
+    marshal_test.go:254: checking layer roads: feature 166
+    marshal_test.go:254: checking layer roads: feature 167
+    marshal_test.go:254: checking layer roads: feature 168
+    marshal_test.go:254: checking layer roads: feature 169
+    marshal_test.go:254: checking layer roads: feature 170
+    marshal_test.go:254: checking layer roads: feature 171
+    marshal_test.go:254: checking layer roads: feature 172
+    marshal_test.go:254: checking layer roads: feature 173
+    marshal_test.go:254: checking layer roads: feature 174
+    marshal_test.go:254: checking layer roads: feature 175
+    marshal_test.go:254: checking layer roads: feature 176
+    marshal_test.go:254: checking layer roads: feature 177
+    marshal_test.go:254: checking layer roads: feature 178
+    marshal_test.go:254: checking layer roads: feature 179
+    marshal_test.go:254: checking layer roads: feature 180
+    marshal_test.go:254: checking layer roads: feature 181
+    marshal_test.go:254: checking layer roads: feature 182
+    marshal_test.go:254: checking layer roads: feature 183
+    marshal_test.go:254: checking layer roads: feature 184
+    marshal_test.go:254: checking layer roads: feature 185
+    marshal_test.go:254: checking layer roads: feature 186
+    marshal_test.go:254: checking layer roads: feature 187
+    marshal_test.go:254: checking layer roads: feature 188
+    marshal_test.go:254: checking layer roads: feature 189
+    marshal_test.go:254: checking layer roads: feature 190
+    marshal_test.go:254: checking layer roads: feature 191
+    marshal_test.go:254: checking layer roads: feature 192
+    marshal_test.go:254: checking layer roads: feature 193
+    marshal_test.go:254: checking layer roads: feature 194
+    marshal_test.go:254: checking layer roads: feature 195
+    marshal_test.go:254: checking layer roads: feature 196
+    marshal_test.go:254: checking layer roads: feature 197
+    marshal_test.go:254: checking layer roads: feature 198
+    marshal_test.go:254: checking layer roads: feature 199
+    marshal_test.go:254: checking layer roads: feature 200
+    marshal_test.go:254: checking layer roads: feature 201
+    marshal_test.go:254: checking layer roads: feature 202
+    marshal_test.go:254: checking layer roads: feature 203
+    marshal_test.go:254: checking layer roads: feature 204
+    marshal_test.go:254: checking layer roads: feature 205
+    marshal_test.go:254: checking layer roads: feature 206
+    marshal_test.go:254: checking layer roads: feature 207
+    marshal_test.go:254: checking layer roads: feature 208
+    marshal_test.go:254: checking layer roads: feature 209
+    marshal_test.go:254: checking layer roads: feature 210
+    marshal_test.go:254: checking layer roads: feature 211
+    marshal_test.go:254: checking layer roads: feature 212
+    marshal_test.go:254: checking layer roads: feature 213
+    marshal_test.go:254: checking layer roads: feature 214
+    marshal_test.go:254: checking layer roads: feature 215
+    marshal_test.go:254: checking layer roads: feature 216
+    marshal_test.go:254: checking layer roads: feature 217
+    marshal_test.go:254: checking layer roads: feature 218
+    marshal_test.go:254: checking layer roads: feature 219
+    marshal_test.go:254: checking layer roads: feature 220
+    marshal_test.go:254: checking layer roads: feature 221
+    marshal_test.go:254: checking layer roads: feature 222
+    marshal_test.go:254: checking layer roads: feature 223
+    marshal_test.go:254: checking layer roads: feature 224
+    marshal_test.go:254: checking layer roads: feature 225
+    marshal_test.go:254: checking layer roads: feature 226
+    marshal_test.go:254: checking layer roads: feature 227
+    marshal_test.go:254: checking layer roads: feature 228
+    marshal_test.go:254: checking layer roads: feature 229
+    marshal_test.go:254: checking layer roads: feature 230
+    marshal_test.go:254: checking layer roads: feature 231
+    marshal_test.go:254: checking layer roads: feature 232
+    marshal_test.go:254: checking layer roads: feature 233
+    marshal_test.go:254: checking layer roads: feature 234
+    marshal_test.go:254: checking layer roads: feature 235
+    marshal_test.go:254: checking layer roads: feature 236
+    marshal_test.go:254: checking layer roads: feature 237
+    marshal_test.go:254: checking layer roads: feature 238
+    marshal_test.go:254: checking layer roads: feature 239
+    marshal_test.go:254: checking layer roads: feature 240
+    marshal_test.go:254: checking layer roads: feature 241
+=== RUN   TestUnmarshal/16-17896-24449
+    marshal_test.go:254: checking layer water: feature 0
+    marshal_test.go:254: checking layer water: feature 1
+    marshal_test.go:254: checking layer roads: feature 0
+    marshal_test.go:254: checking layer roads: feature 1
+    marshal_test.go:254: checking layer roads: feature 2
+    marshal_test.go:254: checking layer roads: feature 3
+    marshal_test.go:254: checking layer roads: feature 4
+    marshal_test.go:254: checking layer roads: feature 5
+    marshal_test.go:254: checking layer roads: feature 6
+    marshal_test.go:254: checking layer roads: feature 7
+    marshal_test.go:254: checking layer roads: feature 8
+    marshal_test.go:254: checking layer roads: feature 9
+    marshal_test.go:254: checking layer roads: feature 10
+    marshal_test.go:254: checking layer roads: feature 11
+    marshal_test.go:254: checking layer roads: feature 12
+    marshal_test.go:254: checking layer roads: feature 13
+    marshal_test.go:254: checking layer roads: feature 14
+    marshal_test.go:254: checking layer roads: feature 15
+    marshal_test.go:254: checking layer roads: feature 16
+    marshal_test.go:254: checking layer roads: feature 17
+    marshal_test.go:254: checking layer roads: feature 18
+    marshal_test.go:254: checking layer roads: feature 19
+    marshal_test.go:254: checking layer roads: feature 20
+    marshal_test.go:254: checking layer roads: feature 21
+    marshal_test.go:254: checking layer roads: feature 22
+    marshal_test.go:254: checking layer roads: feature 23
+    marshal_test.go:254: checking layer roads: feature 24
+    marshal_test.go:254: checking layer roads: feature 25
+    marshal_test.go:254: checking layer roads: feature 26
+    marshal_test.go:254: checking layer roads: feature 27
+    marshal_test.go:254: checking layer roads: feature 28
+    marshal_test.go:254: checking layer roads: feature 29
+    marshal_test.go:254: checking layer roads: feature 30
+    marshal_test.go:254: checking layer roads: feature 31
+    marshal_test.go:254: checking layer roads: feature 32
+    marshal_test.go:254: checking layer roads: feature 33
+    marshal_test.go:254: checking layer roads: feature 34
+    marshal_test.go:254: checking layer roads: feature 35
+    marshal_test.go:254: checking layer roads: feature 36
+    marshal_test.go:254: checking layer roads: feature 37
+    marshal_test.go:254: checking layer roads: feature 38
+    marshal_test.go:254: checking layer roads: feature 39
+    marshal_test.go:254: checking layer roads: feature 40
+    marshal_test.go:254: checking layer roads: feature 41
+    marshal_test.go:254: checking layer roads: feature 42
+    marshal_test.go:254: checking layer roads: feature 43
+    marshal_test.go:254: checking layer roads: feature 44
+    marshal_test.go:254: checking layer roads: feature 45
+    marshal_test.go:254: checking layer roads: feature 46
+    marshal_test.go:254: checking layer roads: feature 47
+    marshal_test.go:254: checking layer roads: feature 48
+    marshal_test.go:254: checking layer roads: feature 49
+    marshal_test.go:254: checking layer roads: feature 50
+    marshal_test.go:254: checking layer roads: feature 51
+    marshal_test.go:254: checking layer roads: feature 52
+    marshal_test.go:254: checking layer roads: feature 53
+    marshal_test.go:254: checking layer roads: feature 54
+    marshal_test.go:254: checking layer roads: feature 55
+    marshal_test.go:254: checking layer roads: feature 56
+    marshal_test.go:254: checking layer roads: feature 57
+    marshal_test.go:254: checking layer roads: feature 58
+    marshal_test.go:254: checking layer roads: feature 59
+    marshal_test.go:254: checking layer roads: feature 60
+    marshal_test.go:254: checking layer roads: feature 61
+    marshal_test.go:254: checking layer roads: feature 62
+    marshal_test.go:254: checking layer roads: feature 63
+    marshal_test.go:254: checking layer roads: feature 64
+    marshal_test.go:254: checking layer roads: feature 65
+    marshal_test.go:254: checking layer roads: feature 66
+    marshal_test.go:254: checking layer roads: feature 67
+    marshal_test.go:254: checking layer roads: feature 68
+    marshal_test.go:254: checking layer roads: feature 69
+    marshal_test.go:254: checking layer roads: feature 70
+    marshal_test.go:254: checking layer roads: feature 71
+    marshal_test.go:254: checking layer roads: feature 72
+    marshal_test.go:254: checking layer roads: feature 73
+    marshal_test.go:254: checking layer roads: feature 74
+    marshal_test.go:254: checking layer roads: feature 75
+    marshal_test.go:254: checking layer roads: feature 76
+    marshal_test.go:254: checking layer roads: feature 77
+    marshal_test.go:254: checking layer roads: feature 78
+    marshal_test.go:254: checking layer roads: feature 79
+    marshal_test.go:254: checking layer roads: feature 80
+    marshal_test.go:254: checking layer roads: feature 81
+    marshal_test.go:254: checking layer roads: feature 82
+    marshal_test.go:254: checking layer roads: feature 83
+    marshal_test.go:254: checking layer roads: feature 84
+    marshal_test.go:254: checking layer roads: feature 85
+    marshal_test.go:254: checking layer roads: feature 86
+    marshal_test.go:254: checking layer roads: feature 87
+    marshal_test.go:254: checking layer roads: feature 88
+    marshal_test.go:254: checking layer roads: feature 89
+    marshal_test.go:254: checking layer roads: feature 90
+    marshal_test.go:254: checking layer roads: feature 91
+    marshal_test.go:254: checking layer roads: feature 92
+    marshal_test.go:254: checking layer roads: feature 93
+    marshal_test.go:254: checking layer roads: feature 94
+    marshal_test.go:254: checking layer roads: feature 95
+    marshal_test.go:254: checking layer roads: feature 96
+    marshal_test.go:254: checking layer roads: feature 97
+    marshal_test.go:254: checking layer roads: feature 98
+    marshal_test.go:254: checking layer roads: feature 99
+    marshal_test.go:254: checking layer roads: feature 100
+    marshal_test.go:254: checking layer roads: feature 101
+    marshal_test.go:254: checking layer roads: feature 102
+    marshal_test.go:254: checking layer roads: feature 103
+    marshal_test.go:254: checking layer roads: feature 104
+    marshal_test.go:254: checking layer roads: feature 105
+    marshal_test.go:254: checking layer roads: feature 106
+    marshal_test.go:254: checking layer roads: feature 107
+    marshal_test.go:254: checking layer roads: feature 108
+    marshal_test.go:254: checking layer roads: feature 109
+    marshal_test.go:254: checking layer roads: feature 110
+    marshal_test.go:254: checking layer roads: feature 111
+    marshal_test.go:254: checking layer roads: feature 112
+    marshal_test.go:254: checking layer landuse: feature 0
+    marshal_test.go:254: checking layer landuse: feature 1
+    marshal_test.go:254: checking layer landuse: feature 2
+    marshal_test.go:254: checking layer landuse: feature 3
+    marshal_test.go:254: checking layer landuse: feature 4
+    marshal_test.go:254: checking layer landuse: feature 5
+    marshal_test.go:254: checking layer landuse: feature 6
+    marshal_test.go:254: checking layer landuse: feature 7
+    marshal_test.go:254: checking layer landuse: feature 8
+    marshal_test.go:254: checking layer landuse: feature 9
+    marshal_test.go:254: checking layer landuse: feature 10
+    marshal_test.go:254: checking layer landuse: feature 11
+    marshal_test.go:254: checking layer landuse: feature 12
+    marshal_test.go:254: checking layer landuse: feature 13
+    marshal_test.go:254: checking layer landuse: feature 14
+    marshal_test.go:254: checking layer buildings: feature 0
+    marshal_test.go:254: checking layer buildings: feature 1
+    marshal_test.go:254: checking layer buildings: feature 2
+    marshal_test.go:254: checking layer buildings: feature 3
+    marshal_test.go:254: checking layer buildings: feature 4
+    marshal_test.go:254: checking layer buildings: feature 5
+    marshal_test.go:254: checking layer buildings: feature 6
+    marshal_test.go:254: checking layer buildings: feature 7
+    marshal_test.go:254: checking layer buildings: feature 8
+    marshal_test.go:254: checking layer buildings: feature 9
+    marshal_test.go:254: checking layer buildings: feature 10
+    marshal_test.go:254: checking layer buildings: feature 11
+    marshal_test.go:254: checking layer buildings: feature 12
+    marshal_test.go:254: checking layer buildings: feature 13
+    marshal_test.go:254: checking layer buildings: feature 14
+    marshal_test.go:254: checking layer buildings: feature 15
+    marshal_test.go:254: checking layer buildings: feature 16
+    marshal_test.go:254: checking layer buildings: feature 17
+    marshal_test.go:254: checking layer buildings: feature 18
+    marshal_test.go:254: checking layer buildings: feature 19
+    marshal_test.go:254: checking layer buildings: feature 20
+    marshal_test.go:254: checking layer buildings: feature 21
+    marshal_test.go:254: checking layer buildings: feature 22
+    marshal_test.go:254: checking layer buildings: feature 23
+    marshal_test.go:254: checking layer buildings: feature 24
+    marshal_test.go:254: checking layer buildings: feature 25
+    marshal_test.go:254: checking layer buildings: feature 26
+    marshal_test.go:254: checking layer buildings: feature 27
+    marshal_test.go:254: checking layer buildings: feature 28
+    marshal_test.go:254: checking layer buildings: feature 29
+    marshal_test.go:254: checking layer buildings: feature 30
+    marshal_test.go:254: checking layer buildings: feature 31
+    marshal_test.go:254: checking layer buildings: feature 32
+    marshal_test.go:254: checking layer buildings: feature 33
+    marshal_test.go:254: checking layer buildings: feature 34
+    marshal_test.go:254: checking layer buildings: feature 35
+    marshal_test.go:254: checking layer buildings: feature 36
+    marshal_test.go:254: checking layer buildings: feature 37
+    marshal_test.go:254: checking layer buildings: feature 38
+    marshal_test.go:254: checking layer buildings: feature 39
+    marshal_test.go:254: checking layer buildings: feature 40
+    marshal_test.go:254: checking layer buildings: feature 41
+    marshal_test.go:254: checking layer buildings: feature 42
+    marshal_test.go:254: checking layer buildings: feature 43
+    marshal_test.go:254: checking layer buildings: feature 44
+    marshal_test.go:254: checking layer buildings: feature 45
+    marshal_test.go:254: checking layer buildings: feature 46
+    marshal_test.go:254: checking layer buildings: feature 47
+    marshal_test.go:254: checking layer buildings: feature 48
+    marshal_test.go:254: checking layer buildings: feature 49
+    marshal_test.go:254: checking layer buildings: feature 50
+    marshal_test.go:254: checking layer buildings: feature 51
+    marshal_test.go:254: checking layer buildings: feature 52
+    marshal_test.go:254: checking layer buildings: feature 53
+    marshal_test.go:254: checking layer buildings: feature 54
+    marshal_test.go:254: checking layer buildings: feature 55
+    marshal_test.go:254: checking layer buildings: feature 56
+    marshal_test.go:254: checking layer buildings: feature 57
+    marshal_test.go:254: checking layer buildings: feature 58
+    marshal_test.go:254: checking layer buildings: feature 59
+    marshal_test.go:254: checking layer buildings: feature 60
+    marshal_test.go:254: checking layer buildings: feature 61
+    marshal_test.go:254: checking layer buildings: feature 62
+    marshal_test.go:254: checking layer buildings: feature 63
+    marshal_test.go:254: checking layer buildings: feature 64
+    marshal_test.go:254: checking layer buildings: feature 65
+    marshal_test.go:254: checking layer buildings: feature 66
+    marshal_test.go:254: checking layer buildings: feature 67
+    marshal_test.go:254: checking layer buildings: feature 68
+    marshal_test.go:254: checking layer buildings: feature 69
+    marshal_test.go:254: checking layer buildings: feature 70
+    marshal_test.go:254: checking layer buildings: feature 71
+    marshal_test.go:254: checking layer buildings: feature 72
+    marshal_test.go:254: checking layer buildings: feature 73
+    marshal_test.go:254: checking layer buildings: feature 74
+    marshal_test.go:254: checking layer buildings: feature 75
+    marshal_test.go:254: checking layer buildings: feature 76
+    marshal_test.go:254: checking layer buildings: feature 77
+    marshal_test.go:254: checking layer buildings: feature 78
+    marshal_test.go:254: checking layer buildings: feature 79
+    marshal_test.go:254: checking layer buildings: feature 80
+    marshal_test.go:254: checking layer buildings: feature 81
+    marshal_test.go:254: checking layer buildings: feature 82
+    marshal_test.go:254: checking layer buildings: feature 83
+    marshal_test.go:254: checking layer buildings: feature 84
+    marshal_test.go:254: checking layer buildings: feature 85
+    marshal_test.go:254: checking layer buildings: feature 86
+    marshal_test.go:254: checking layer buildings: feature 87
+    marshal_test.go:254: checking layer buildings: feature 88
+    marshal_test.go:254: checking layer buildings: feature 89
+    marshal_test.go:254: checking layer buildings: feature 90
+    marshal_test.go:254: checking layer buildings: feature 91
+    marshal_test.go:254: checking layer buildings: feature 92
+    marshal_test.go:254: checking layer buildings: feature 93
+    marshal_test.go:254: checking layer places: feature 0
+    marshal_test.go:254: checking layer places: feature 1
+    marshal_test.go:254: checking layer pois: feature 0
+    marshal_test.go:254: checking layer pois: feature 1
+    marshal_test.go:254: checking layer pois: feature 2
+    marshal_test.go:254: checking layer pois: feature 3
+    marshal_test.go:254: checking layer pois: feature 4
+    marshal_test.go:254: checking layer pois: feature 5
+    marshal_test.go:254: checking layer pois: feature 6
+    marshal_test.go:254: checking layer pois: feature 7
+    marshal_test.go:254: checking layer pois: feature 8
+    marshal_test.go:254: checking layer pois: feature 9
+    marshal_test.go:254: checking layer pois: feature 10
+    marshal_test.go:254: checking layer pois: feature 11
+    marshal_test.go:254: checking layer pois: feature 12
+    marshal_test.go:254: checking layer pois: feature 13
+    marshal_test.go:254: checking layer pois: feature 14
+    marshal_test.go:254: checking layer pois: feature 15
+    marshal_test.go:254: checking layer pois: feature 16
+    marshal_test.go:254: checking layer pois: feature 17
+    marshal_test.go:254: checking layer pois: feature 18
+    marshal_test.go:254: checking layer pois: feature 19
+    marshal_test.go:254: checking layer pois: feature 20
+    marshal_test.go:254: checking layer pois: feature 21
+    marshal_test.go:254: checking layer pois: feature 22
+    marshal_test.go:254: checking layer pois: feature 23
+    marshal_test.go:254: checking layer pois: feature 24
+    marshal_test.go:254: checking layer pois: feature 25
+    marshal_test.go:254: checking layer pois: feature 26
+    marshal_test.go:254: checking layer pois: feature 27
+    marshal_test.go:254: checking layer pois: feature 28
+    marshal_test.go:254: checking layer pois: feature 29
+    marshal_test.go:254: checking layer pois: feature 30
+    marshal_test.go:254: checking layer pois: feature 31
+    marshal_test.go:254: checking layer pois: feature 32
+    marshal_test.go:254: checking layer pois: feature 33
+    marshal_test.go:254: checking layer pois: feature 34
+    marshal_test.go:254: checking layer pois: feature 35
+    marshal_test.go:254: checking layer pois: feature 36
+    marshal_test.go:254: checking layer pois: feature 37
+    marshal_test.go:254: checking layer pois: feature 38
+    marshal_test.go:254: checking layer pois: feature 39
+    marshal_test.go:254: checking layer pois: feature 40
+    marshal_test.go:254: checking layer pois: feature 41
+    marshal_test.go:254: checking layer pois: feature 42
+    marshal_test.go:254: checking layer pois: feature 43
+    marshal_test.go:254: checking layer pois: feature 44
+    marshal_test.go:254: checking layer pois: feature 45
+    marshal_test.go:254: checking layer pois: feature 46
+    marshal_test.go:254: checking layer pois: feature 47
+    marshal_test.go:254: checking layer pois: feature 48
+    marshal_test.go:254: checking layer pois: feature 49
+    marshal_test.go:254: checking layer pois: feature 50
+    marshal_test.go:254: checking layer pois: feature 51
+    marshal_test.go:254: checking layer pois: feature 52
+    marshal_test.go:254: checking layer pois: feature 53
+    marshal_test.go:254: checking layer pois: feature 54
+    marshal_test.go:254: checking layer earth: feature 0
+--- PASS: TestUnmarshal (0.03s)
+    --- PASS: TestUnmarshal/15-8956-12223 (0.02s)
+    --- PASS: TestUnmarshal/16-17896-24449 (0.01s)
+=== RUN   TestUnmarshalGzippedTileWithRegularUnmarshalFunction
+=== RUN   TestUnmarshalGzippedTileWithRegularUnmarshalFunction/15-8956-12223
+--- PASS: TestUnmarshalGzippedTileWithRegularUnmarshalFunction (0.00s)
+    --- PASS: TestUnmarshalGzippedTileWithRegularUnmarshalFunction/15-8956-12223 (0.00s)
+=== RUN   TestMarshal_ID
+=== RUN   TestMarshal_ID/int
+=== RUN   TestMarshal_ID/int8
+=== RUN   TestMarshal_ID/int16
+=== RUN   TestMarshal_ID/int32
+=== RUN   TestMarshal_ID/int64
+=== RUN   TestMarshal_ID/uint
+=== RUN   TestMarshal_ID/uint8
+=== RUN   TestMarshal_ID/uint16
+=== RUN   TestMarshal_ID/uint32
+=== RUN   TestMarshal_ID/uint64
+=== RUN   TestMarshal_ID/float32
+=== RUN   TestMarshal_ID/float64
+=== RUN   TestMarshal_ID/string
+=== RUN   TestMarshal_ID/negative_string
+=== RUN   TestMarshal_ID/negative_int
+=== RUN   TestMarshal_ID/negative_int64
+=== RUN   TestMarshal_ID/negative_float64
+=== RUN   TestMarshal_ID/unmarshaled_int_from_json
+--- PASS: TestMarshal_ID (0.00s)
+    --- PASS: TestMarshal_ID/int (0.00s)
+    --- PASS: TestMarshal_ID/int8 (0.00s)
+    --- PASS: TestMarshal_ID/int16 (0.00s)
+    --- PASS: TestMarshal_ID/int32 (0.00s)
+    --- PASS: TestMarshal_ID/int64 (0.00s)
+    --- PASS: TestMarshal_ID/uint (0.00s)
+    --- PASS: TestMarshal_ID/uint8 (0.00s)
+    --- PASS: TestMarshal_ID/uint16 (0.00s)
+    --- PASS: TestMarshal_ID/uint32 (0.00s)
+    --- PASS: TestMarshal_ID/uint64 (0.00s)
+    --- PASS: TestMarshal_ID/float32 (0.00s)
+    --- PASS: TestMarshal_ID/float64 (0.00s)
+    --- PASS: TestMarshal_ID/string (0.00s)
+    --- PASS: TestMarshal_ID/negative_string (0.00s)
+    --- PASS: TestMarshal_ID/negative_int (0.00s)
+    --- PASS: TestMarshal_ID/negative_int64 (0.00s)
+    --- PASS: TestMarshal_ID/negative_float64 (0.00s)
+    --- PASS: TestMarshal_ID/unmarshaled_int_from_json (0.00s)
+=== RUN   TestStableMarshalling
+--- PASS: TestStableMarshalling (0.14s)
+=== RUN   TestPowerOfTwoProjection
+--- PASS: TestPowerOfTwoProjection (0.00s)
+=== RUN   TestNonPowerOfTwoProjection
+--- PASS: TestNonPowerOfTwoProjection (0.03s)
+=== RUN   TestLayerSimplify
+--- PASS: TestLayerSimplify (0.00s)
+=== RUN   TestLayerRemoveEmpty
+--- PASS: TestLayerRemoveEmpty (0.00s)
+PASS
+ok  	github.com/reearth/orb/encoding/mvt	0.287s
+=== RUN   TestCollection
+=== RUN   TestCollection/collection
+=== RUN   TestCollection/large
+--- PASS: TestCollection (0.00s)
+    --- PASS: TestCollection/collection (0.00s)
+    --- PASS: TestCollection/large (0.00s)
+=== RUN   TestLineString
+=== RUN   TestLineString/line_string
+=== RUN   TestLineString/large_line_string
+--- PASS: TestLineString (0.00s)
+    --- PASS: TestLineString/line_string (0.00s)
+    --- PASS: TestLineString/large_line_string (0.00s)
+=== RUN   TestMultiLineString
+=== RUN   TestMultiLineString/multi_line_string
+=== RUN   TestMultiLineString/single_multi_line_string
+=== RUN   TestMultiLineString/large
+--- PASS: TestMultiLineString (0.00s)
+    --- PASS: TestMultiLineString/multi_line_string (0.00s)
+    --- PASS: TestMultiLineString/single_multi_line_string (0.00s)
+    --- PASS: TestMultiLineString/large (0.00s)
+=== RUN   TestPoint
+=== RUN   TestPoint/point
+=== RUN   TestPoint/little_endian
+=== RUN   TestPoint/big_endian
+=== RUN   TestPoint/another_point
+--- PASS: TestPoint (0.00s)
+    --- PASS: TestPoint/point (0.00s)
+    --- PASS: TestPoint/little_endian (0.00s)
+    --- PASS: TestPoint/big_endian (0.00s)
+    --- PASS: TestPoint/another_point (0.00s)
+=== RUN   TestPointToHex
+=== RUN   TestPointToHex/point
+=== RUN   TestPointToHex/zero_point
+--- PASS: TestPointToHex (0.00s)
+    --- PASS: TestPointToHex/point (0.00s)
+    --- PASS: TestPointToHex/zero_point (0.00s)
+=== RUN   TestMultiPoint
+=== RUN   TestMultiPoint/multi_point
+=== RUN   TestMultiPoint/single_multi_point
+=== RUN   TestMultiPoint/large_multi_point
+--- PASS: TestMultiPoint (0.01s)
+    --- PASS: TestMultiPoint/multi_point (0.00s)
+    --- PASS: TestMultiPoint/single_multi_point (0.00s)
+    --- PASS: TestMultiPoint/large_multi_point (0.00s)
+=== RUN   TestPolygon
+=== RUN   TestPolygon/polygon
+=== RUN   TestPolygon/large
+=== RUN   TestPolygon/two_ring_polygon
+--- PASS: TestPolygon (0.00s)
+    --- PASS: TestPolygon/polygon (0.00s)
+    --- PASS: TestPolygon/large (0.00s)
+    --- PASS: TestPolygon/two_ring_polygon (0.00s)
+=== RUN   TestMultiPolygon
+=== RUN   TestMultiPolygon/multi_polygon
+=== RUN   TestMultiPolygon/single_multi_polygon
+=== RUN   TestMultiPolygon/large
+=== RUN   TestMultiPolygon/three_polygons
+--- PASS: TestMultiPolygon (0.00s)
+    --- PASS: TestMultiPolygon/multi_polygon (0.00s)
+    --- PASS: TestMultiPolygon/single_multi_polygon (0.00s)
+    --- PASS: TestMultiPolygon/large (0.00s)
+    --- PASS: TestMultiPolygon/three_polygons (0.00s)
+=== RUN   TestScanNil
+=== RUN   TestScanNil/scan_nil_data
+=== RUN   TestScanNil/scan_nil_byte_interface
+=== RUN   TestScanNil/unknown_geometry_type
+--- PASS: TestScanNil (0.00s)
+    --- PASS: TestScanNil/scan_nil_data (0.00s)
+    --- PASS: TestScanNil/scan_nil_byte_interface (0.00s)
+    --- PASS: TestScanNil/unknown_geometry_type (0.00s)
+=== RUN   TestScanHexData
+=== RUN   TestScanHexData/point_lower_case
+=== RUN   TestScanHexData/point_upper_case
+--- PASS: TestScanHexData (0.00s)
+    --- PASS: TestScanHexData/point_lower_case (0.00s)
+    --- PASS: TestScanHexData/point_upper_case (0.00s)
+=== RUN   TestScanHexData_errors
+=== RUN   TestScanHexData_errors/not_hex_data
+--- PASS: TestScanHexData_errors (0.00s)
+    --- PASS: TestScanHexData_errors/not_hex_data (0.00s)
+=== RUN   TestScanPoint
+=== RUN   TestScanPoint/point
+=== RUN   TestScanPoint/point_with_MySQL_SRID
+=== RUN   TestScanPoint/single_multi-point
+=== RUN   TestScanPoint/single_multi-point_with_MySQL_SRID
+--- PASS: TestScanPoint (0.00s)
+    --- PASS: TestScanPoint/point (0.00s)
+    --- PASS: TestScanPoint/point_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanPoint/single_multi-point (0.00s)
+    --- PASS: TestScanPoint/single_multi-point_with_MySQL_SRID (0.00s)
+=== RUN   TestScanPoint_errors
+=== RUN   TestScanPoint_errors/incorrect_data
+=== RUN   TestScanPoint_errors/not_wkb,_too_short
+=== RUN   TestScanPoint_errors/invalid_first_byte
+=== RUN   TestScanPoint_errors/incorrect_geometry
+=== RUN   TestScanPoint_errors/incorrect_geometry_with_MySQL_SRID
+--- PASS: TestScanPoint_errors (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_data (0.00s)
+    --- PASS: TestScanPoint_errors/not_wkb,_too_short (0.00s)
+    --- PASS: TestScanPoint_errors/invalid_first_byte (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_geometry (0.00s)
+    --- PASS: TestScanPoint_errors/incorrect_geometry_with_MySQL_SRID (0.00s)
+=== RUN   TestScanMultiPoint
+=== RUN   TestScanMultiPoint/multi_point
+=== RUN   TestScanMultiPoint/multi_point_with_MySQL_SRID
+=== RUN   TestScanMultiPoint/point_should_covert_to_multi_point
+--- PASS: TestScanMultiPoint (0.00s)
+    --- PASS: TestScanMultiPoint/multi_point (0.00s)
+    --- PASS: TestScanMultiPoint/multi_point_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanMultiPoint/point_should_covert_to_multi_point (0.00s)
+=== RUN   TestScanMultiPoint_errors
+=== RUN   TestScanMultiPoint_errors/does_not_like_line_string
+=== RUN   TestScanMultiPoint_errors/incorrect_data
+=== RUN   TestScanMultiPoint_errors/not_wkb
+--- PASS: TestScanMultiPoint_errors (0.00s)
+    --- PASS: TestScanMultiPoint_errors/does_not_like_line_string (0.00s)
+    --- PASS: TestScanMultiPoint_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiPoint_errors/not_wkb (0.00s)
+=== RUN   TestScanLineString
+=== RUN   TestScanLineString/line_string
+=== RUN   TestScanLineString/line_string_with_MySQL_SRID
+=== RUN   TestScanLineString/single_multi_line_string
+--- PASS: TestScanLineString (0.00s)
+    --- PASS: TestScanLineString/line_string (0.00s)
+    --- PASS: TestScanLineString/line_string_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanLineString/single_multi_line_string (0.00s)
+=== RUN   TestScanLineString_errors
+=== RUN   TestScanLineString_errors/does_not_like_multi_point
+=== RUN   TestScanLineString_errors/incorrect_data
+=== RUN   TestScanLineString_errors/not_wkb
+--- PASS: TestScanLineString_errors (0.00s)
+    --- PASS: TestScanLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanLineString_errors/incorrect_data (0.00s)
+    --- PASS: TestScanLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiLineString
+=== RUN   TestScanMultiLineString/line_string
+=== RUN   TestScanMultiLineString/multi_line_string
+=== RUN   TestScanMultiLineString/multi_line_string_with_MySQL_SRID
+=== RUN   TestScanMultiLineString/single_multi_line_string
+--- PASS: TestScanMultiLineString (0.00s)
+    --- PASS: TestScanMultiLineString/line_string (0.00s)
+    --- PASS: TestScanMultiLineString/multi_line_string (0.00s)
+    --- PASS: TestScanMultiLineString/multi_line_string_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanMultiLineString/single_multi_line_string (0.00s)
+=== RUN   TestScanMultiLineString_errors
+=== RUN   TestScanMultiLineString_errors/does_not_like_multi_point
+=== RUN   TestScanMultiLineString_errors/incorrect_data
+=== RUN   TestScanMultiLineString_errors/not_wkb
+--- PASS: TestScanMultiLineString_errors (0.00s)
+    --- PASS: TestScanMultiLineString_errors/does_not_like_multi_point (0.00s)
+    --- PASS: TestScanMultiLineString_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiLineString_errors/not_wkb (0.00s)
+=== RUN   TestScanRing
+=== RUN   TestScanRing/polygon
+--- PASS: TestScanRing (0.00s)
+    --- PASS: TestScanRing/polygon (0.00s)
+=== RUN   TestScanRing_errors
+=== RUN   TestScanRing_errors/does_not_like_line_strings
+=== RUN   TestScanRing_errors/incorrect_data
+=== RUN   TestScanRing_errors/not_wkb
+--- PASS: TestScanRing_errors (0.00s)
+    --- PASS: TestScanRing_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanRing_errors/incorrect_data (0.00s)
+    --- PASS: TestScanRing_errors/not_wkb (0.00s)
+=== RUN   TestScanPolygon
+=== RUN   TestScanPolygon/polygon
+=== RUN   TestScanPolygon/polygon_with_MySQL_SRID
+=== RUN   TestScanPolygon/single_multi_polygon
+--- PASS: TestScanPolygon (0.00s)
+    --- PASS: TestScanPolygon/polygon (0.00s)
+    --- PASS: TestScanPolygon/polygon_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanPolygon/single_multi_polygon (0.00s)
+=== RUN   TestScanPolygon_errors
+=== RUN   TestScanPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanPolygon_errors/incorrect_data
+=== RUN   TestScanPolygon_errors/not_wkb
+--- PASS: TestScanPolygon_errors (0.00s)
+    --- PASS: TestScanPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanPolygon_errors/incorrect_data (0.00s)
+    --- PASS: TestScanPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanMultiPolygon
+=== RUN   TestScanMultiPolygon/multi_polygon
+=== RUN   TestScanMultiPolygon/multi_polygon_with_MySQL_SRID
+=== RUN   TestScanMultiPolygon/single_multi_polygon
+=== RUN   TestScanMultiPolygon/polygon
+--- PASS: TestScanMultiPolygon (0.00s)
+    --- PASS: TestScanMultiPolygon/multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/multi_polygon_with_MySQL_SRID (0.00s)
+    --- PASS: TestScanMultiPolygon/single_multi_polygon (0.00s)
+    --- PASS: TestScanMultiPolygon/polygon (0.00s)
+=== RUN   TestScanMultiPolygon_errors
+=== RUN   TestScanMultiPolygon_errors/does_not_like_line_strings
+=== RUN   TestScanMultiPolygon_errors/incorrect_data
+=== RUN   TestScanMultiPolygon_errors/not_wkb
+--- PASS: TestScanMultiPolygon_errors (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/incorrect_data (0.00s)
+    --- PASS: TestScanMultiPolygon_errors/not_wkb (0.00s)
+=== RUN   TestScanCollection
+=== RUN   TestScanCollection/collection
+--- PASS: TestScanCollection (0.00s)
+    --- PASS: TestScanCollection/collection (0.00s)
+=== RUN   TestScanCollection_errors
+=== RUN   TestScanCollection_errors/does_not_like_line_strings
+=== RUN   TestScanCollection_errors/incorrect_data
+=== RUN   TestScanCollection_errors/not_wkb
+--- PASS: TestScanCollection_errors (0.00s)
+    --- PASS: TestScanCollection_errors/does_not_like_line_strings (0.00s)
+    --- PASS: TestScanCollection_errors/incorrect_data (0.00s)
+    --- PASS: TestScanCollection_errors/not_wkb (0.00s)
+=== RUN   TestScanBound
+=== RUN   TestScanBound/point
+=== RUN   TestScanBound/multi_point
+=== RUN   TestScanBound/single_multi_point
+=== RUN   TestScanBound/linestring
+=== RUN   TestScanBound/multi_linestring
+=== RUN   TestScanBound/single_multi_linestring
+=== RUN   TestScanBound/polygon
+=== RUN   TestScanBound/multi_polygon
+=== RUN   TestScanBound/single_multi_polygon
+--- PASS: TestScanBound (0.00s)
+    --- PASS: TestScanBound/point (0.00s)
+    --- PASS: TestScanBound/multi_point (0.00s)
+    --- PASS: TestScanBound/single_multi_point (0.00s)
+    --- PASS: TestScanBound/linestring (0.00s)
+    --- PASS: TestScanBound/multi_linestring (0.00s)
+    --- PASS: TestScanBound/single_multi_linestring (0.00s)
+    --- PASS: TestScanBound/polygon (0.00s)
+    --- PASS: TestScanBound/multi_polygon (0.00s)
+    --- PASS: TestScanBound/single_multi_polygon (0.00s)
+=== RUN   TestScanBound_errors
+=== RUN   TestScanBound_errors/incorrect_data
+=== RUN   TestScanBound_errors/not_wkb
+--- PASS: TestScanBound_errors (0.00s)
+    --- PASS: TestScanBound_errors/incorrect_data (0.00s)
+    --- PASS: TestScanBound_errors/not_wkb (0.00s)
+=== RUN   TestValue
+=== RUN   TestValue/marshalls_geometry
+=== RUN   TestValue/nil_value_in_should_set_nil_value
+--- PASS: TestValue (0.00s)
+    --- PASS: TestValue/marshalls_geometry (0.00s)
+    --- PASS: TestValue/nil_value_in_should_set_nil_value (0.00s)
+=== RUN   TestValue_nil
+=== RUN   TestValue_nil/nil_multi_point
+=== RUN   TestValue_nil/nil_line_string
+=== RUN   TestValue_nil/nil_multi_line_string
+=== RUN   TestValue_nil/nil_ring
+=== RUN   TestValue_nil/nil_polygon
+=== RUN   TestValue_nil/nil_multi_polygon
+=== RUN   TestValue_nil/nil_collection
+--- PASS: TestValue_nil (0.00s)
+    --- PASS: TestValue_nil/nil_multi_point (0.00s)
+    --- PASS: TestValue_nil/nil_line_string (0.00s)
+    --- PASS: TestValue_nil/nil_multi_line_string (0.00s)
+    --- PASS: TestValue_nil/nil_ring (0.00s)
+    --- PASS: TestValue_nil/nil_polygon (0.00s)
+    --- PASS: TestValue_nil/nil_multi_polygon (0.00s)
+    --- PASS: TestValue_nil/nil_collection (0.00s)
+=== RUN   TestMarshal
+--- PASS: TestMarshal (0.00s)
+=== RUN   TestMustMarshal
+--- PASS: TestMustMarshal (0.00s)
+PASS
+ok  	github.com/reearth/orb/encoding/wkb	0.048s
+=== RUN   TestTrimSpaceBrackets
+=== RUN   TestTrimSpaceBrackets/empty_string
+=== RUN   TestTrimSpaceBrackets/blank_string
+=== RUN   TestTrimSpaceBrackets/single_point
+=== RUN   TestTrimSpaceBrackets/double_brackets
+=== RUN   TestTrimSpaceBrackets/multiple_values
+=== RUN   TestTrimSpaceBrackets/multiple_points
+=== RUN   TestTrimSpaceBrackets/triple_brackets
+--- PASS: TestTrimSpaceBrackets (0.00s)
+    --- PASS: TestTrimSpaceBrackets/empty_string (0.00s)
+    --- PASS: TestTrimSpaceBrackets/blank_string (0.00s)
+    --- PASS: TestTrimSpaceBrackets/single_point (0.00s)
+    --- PASS: TestTrimSpaceBrackets/double_brackets (0.00s)
+    --- PASS: TestTrimSpaceBrackets/multiple_values (0.00s)
+    --- PASS: TestTrimSpaceBrackets/multiple_points (0.00s)
+    --- PASS: TestTrimSpaceBrackets/triple_brackets (0.00s)
+=== RUN   TestTrimSpaceBrackets_errors
+=== RUN   TestTrimSpaceBrackets_errors/no_brackets
+=== RUN   TestTrimSpaceBrackets_errors/no_start_bracket
+=== RUN   TestTrimSpaceBrackets_errors/no_end_bracket
+--- PASS: TestTrimSpaceBrackets_errors (0.00s)
+    --- PASS: TestTrimSpaceBrackets_errors/no_brackets (0.00s)
+    --- PASS: TestTrimSpaceBrackets_errors/no_start_bracket (0.00s)
+    --- PASS: TestTrimSpaceBrackets_errors/no_end_bracket (0.00s)
+=== RUN   TestUnmarshalPoint
+=== RUN   TestUnmarshalPoint/int
+=== RUN   TestUnmarshalPoint/float64
+--- PASS: TestUnmarshalPoint (0.00s)
+    --- PASS: TestUnmarshalPoint/int (0.00s)
+    --- PASS: TestUnmarshalPoint/float64 (0.00s)
+=== RUN   TestUnmarshalPoint_errors
+=== RUN   TestUnmarshalPoint_errors/just_name
+=== RUN   TestUnmarshalPoint_errors/too_many_points
+=== RUN   TestUnmarshalPoint_errors/not_a_point
+--- PASS: TestUnmarshalPoint_errors (0.00s)
+    --- PASS: TestUnmarshalPoint_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalPoint_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalPoint_errors/not_a_point (0.00s)
+=== RUN   TestUnmarshalMultiPoint
+=== RUN   TestUnmarshalMultiPoint/empty
+=== RUN   TestUnmarshalMultiPoint/1_point
+=== RUN   TestUnmarshalMultiPoint/2_points
+=== RUN   TestUnmarshalMultiPoint/spaces
+--- PASS: TestUnmarshalMultiPoint (0.00s)
+    --- PASS: TestUnmarshalMultiPoint/empty (0.00s)
+    --- PASS: TestUnmarshalMultiPoint/1_point (0.00s)
+    --- PASS: TestUnmarshalMultiPoint/2_points (0.00s)
+    --- PASS: TestUnmarshalMultiPoint/spaces (0.00s)
+=== RUN   TestUnmarshalMultiPoint_errors
+=== RUN   TestUnmarshalMultiPoint_errors/just_name
+=== RUN   TestUnmarshalMultiPoint_errors/too_many_points
+=== RUN   TestUnmarshalMultiPoint_errors/not_a_multipoint
+--- PASS: TestUnmarshalMultiPoint_errors (0.00s)
+    --- PASS: TestUnmarshalMultiPoint_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalMultiPoint_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalMultiPoint_errors/not_a_multipoint (0.00s)
+=== RUN   TestUnmarshalLineString
+=== RUN   TestUnmarshalLineString/empty
+=== RUN   TestUnmarshalLineString/2_points
+=== RUN   TestUnmarshalLineString/spaces
+--- PASS: TestUnmarshalLineString (0.00s)
+    --- PASS: TestUnmarshalLineString/empty (0.00s)
+    --- PASS: TestUnmarshalLineString/2_points (0.00s)
+    --- PASS: TestUnmarshalLineString/spaces (0.00s)
+=== RUN   TestUnmarshalLineString_errors
+=== RUN   TestUnmarshalLineString_errors/just_name
+=== RUN   TestUnmarshalLineString_errors/too_many_points
+=== RUN   TestUnmarshalLineString_errors/not_a_multipoint
+--- PASS: TestUnmarshalLineString_errors (0.00s)
+    --- PASS: TestUnmarshalLineString_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalLineString_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalLineString_errors/not_a_multipoint (0.00s)
+=== RUN   TestUnmarshalMultiLineString
+=== RUN   TestUnmarshalMultiLineString/empty
+=== RUN   TestUnmarshalMultiLineString/2_lines
+--- PASS: TestUnmarshalMultiLineString (0.00s)
+    --- PASS: TestUnmarshalMultiLineString/empty (0.00s)
+    --- PASS: TestUnmarshalMultiLineString/2_lines (0.00s)
+=== RUN   TestUnmarshalMultiLineString_errors
+=== RUN   TestUnmarshalMultiLineString_errors/just_name
+=== RUN   TestUnmarshalMultiLineString_errors/too_many_points
+=== RUN   TestUnmarshalMultiLineString_errors/not_a_multi_linestring
+--- PASS: TestUnmarshalMultiLineString_errors (0.00s)
+    --- PASS: TestUnmarshalMultiLineString_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalMultiLineString_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalMultiLineString_errors/not_a_multi_linestring (0.00s)
+=== RUN   TestUnmarshalPolygon
+=== RUN   TestUnmarshalPolygon/empty
+=== RUN   TestUnmarshalPolygon/one_ring
+=== RUN   TestUnmarshalPolygon/two_rings
+=== RUN   TestUnmarshalPolygon/two_rings_with_spaces
+--- PASS: TestUnmarshalPolygon (0.00s)
+    --- PASS: TestUnmarshalPolygon/empty (0.00s)
+    --- PASS: TestUnmarshalPolygon/one_ring (0.00s)
+    --- PASS: TestUnmarshalPolygon/two_rings (0.00s)
+    --- PASS: TestUnmarshalPolygon/two_rings_with_spaces (0.00s)
+=== RUN   TestUnmarshalPolygon_errors
+=== RUN   TestUnmarshalPolygon_errors/just_name
+=== RUN   TestUnmarshalPolygon_errors/too_many_points
+=== RUN   TestUnmarshalPolygon_errors/not_a_polygon
+--- PASS: TestUnmarshalPolygon_errors (0.00s)
+    --- PASS: TestUnmarshalPolygon_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalPolygon_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalPolygon_errors/not_a_polygon (0.00s)
+=== RUN   TestUnmarshalMutilPolygon
+=== RUN   TestUnmarshalMutilPolygon/empty
+=== RUN   TestUnmarshalMutilPolygon/multi-polygon
+=== RUN   TestUnmarshalMutilPolygon/multi-polygon_with_spaces
+--- PASS: TestUnmarshalMutilPolygon (0.00s)
+    --- PASS: TestUnmarshalMutilPolygon/empty (0.00s)
+    --- PASS: TestUnmarshalMutilPolygon/multi-polygon (0.00s)
+    --- PASS: TestUnmarshalMutilPolygon/multi-polygon_with_spaces (0.00s)
+=== RUN   TestUnmarshalMultiPolygon_errors
+=== RUN   TestUnmarshalMultiPolygon_errors/just_name
+=== RUN   TestUnmarshalMultiPolygon_errors/too_many_points
+=== RUN   TestUnmarshalMultiPolygon_errors/missing_trailing_)
+=== RUN   TestUnmarshalMultiPolygon_errors/not_a_multi_polygon
+--- PASS: TestUnmarshalMultiPolygon_errors (0.00s)
+    --- PASS: TestUnmarshalMultiPolygon_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalMultiPolygon_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalMultiPolygon_errors/missing_trailing_) (0.00s)
+    --- PASS: TestUnmarshalMultiPolygon_errors/not_a_multi_polygon (0.00s)
+=== RUN   TestUnmarshalCollection
+=== RUN   TestUnmarshalCollection/empty
+=== RUN   TestUnmarshalCollection/point_and_line
+=== RUN   TestUnmarshalCollection/lots_of_things
+--- PASS: TestUnmarshalCollection (0.00s)
+    --- PASS: TestUnmarshalCollection/empty (0.00s)
+    --- PASS: TestUnmarshalCollection/point_and_line (0.00s)
+    --- PASS: TestUnmarshalCollection/lots_of_things (0.00s)
+=== RUN   TestUnmarshalCollection_errors
+=== RUN   TestUnmarshalCollection_errors/just_name
+=== RUN   TestUnmarshalCollection_errors/too_many_points
+=== RUN   TestUnmarshalCollection_errors/missing_trailing_paren
+=== RUN   TestUnmarshalCollection_errors/not_a_geometry_collection
+--- PASS: TestUnmarshalCollection_errors (0.00s)
+    --- PASS: TestUnmarshalCollection_errors/just_name (0.00s)
+    --- PASS: TestUnmarshalCollection_errors/too_many_points (0.00s)
+    --- PASS: TestUnmarshalCollection_errors/missing_trailing_paren (0.00s)
+    --- PASS: TestUnmarshalCollection_errors/not_a_geometry_collection (0.00s)
+=== RUN   TestSplitOnComma
+=== RUN   TestSplitOnComma/comma
+=== RUN   TestSplitOnComma/comma_spaces
+--- PASS: TestSplitOnComma (0.00s)
+    --- PASS: TestSplitOnComma/comma (0.00s)
+    --- PASS: TestSplitOnComma/comma_spaces (0.00s)
+=== RUN   TestMarshal
+=== RUN   TestMarshal/point
+--- PASS: TestMarshal (0.00s)
+    --- PASS: TestMarshal/point (0.00s)
+=== RUN   TestMarshalString
+=== RUN   TestMarshalString/point
+=== RUN   TestMarshalString/multipoint
+=== RUN   TestMarshalString/multipoint_empty
+=== RUN   TestMarshalString/linestring
+=== RUN   TestMarshalString/linestring_empty
+=== RUN   TestMarshalString/multilinestring
+=== RUN   TestMarshalString/multilinestring_empty
+=== RUN   TestMarshalString/ring
+=== RUN   TestMarshalString/polygon
+=== RUN   TestMarshalString/polygon_empty
+=== RUN   TestMarshalString/multipolygon
+=== RUN   TestMarshalString/multipolygon_empty
+=== RUN   TestMarshalString/collection
+=== RUN   TestMarshalString/collection_empty
+=== RUN   TestMarshalString/bound
+--- PASS: TestMarshalString (0.00s)
+    --- PASS: TestMarshalString/point (0.00s)
+    --- PASS: TestMarshalString/multipoint (0.00s)
+    --- PASS: TestMarshalString/multipoint_empty (0.00s)
+    --- PASS: TestMarshalString/linestring (0.00s)
+    --- PASS: TestMarshalString/linestring_empty (0.00s)
+    --- PASS: TestMarshalString/multilinestring (0.00s)
+    --- PASS: TestMarshalString/multilinestring_empty (0.00s)
+    --- PASS: TestMarshalString/ring (0.00s)
+    --- PASS: TestMarshalString/polygon (0.00s)
+    --- PASS: TestMarshalString/polygon_empty (0.00s)
+    --- PASS: TestMarshalString/multipolygon (0.00s)
+    --- PASS: TestMarshalString/multipolygon_empty (0.00s)
+    --- PASS: TestMarshalString/collection (0.00s)
+    --- PASS: TestMarshalString/collection_empty (0.00s)
+    --- PASS: TestMarshalString/bound (0.00s)
+PASS
+ok  	github.com/reearth/orb/encoding/wkt	0.036s
+=== RUN   TestArea
+--- PASS: TestArea (0.00s)
+=== RUN   TestSignedArea
+=== RUN   TestSignedArea/simple_box,_ccw
+=== RUN   TestSignedArea/simple_box,_cc
+=== RUN   TestSignedArea/even_number_of_points
+=== RUN   TestSignedArea/3_points
+=== RUN   TestSignedArea/4_points
+=== RUN   TestSignedArea/6_points
+--- PASS: TestSignedArea (0.00s)
+    --- PASS: TestSignedArea/simple_box,_ccw (0.00s)
+    --- PASS: TestSignedArea/simple_box,_cc (0.00s)
+    --- PASS: TestSignedArea/even_number_of_points (0.00s)
+    --- PASS: TestSignedArea/3_points (0.00s)
+    --- PASS: TestSignedArea/4_points (0.00s)
+    --- PASS: TestSignedArea/6_points (0.00s)
+=== RUN   TestBoundAroundPoint
+--- PASS: TestBoundAroundPoint (0.00s)
+=== RUN   TestBoundPad
+=== RUN   TestBoundPad/test_bound
+=== RUN   TestBoundPad/no_height
+=== RUN   TestBoundPad/no_area
+--- PASS: TestBoundPad (0.00s)
+    --- PASS: TestBoundPad/test_bound (0.00s)
+    --- PASS: TestBoundPad/no_height (0.00s)
+    --- PASS: TestBoundPad/no_area (0.00s)
+=== RUN   TestDistance
+--- PASS: TestDistance (0.00s)
+=== RUN   TestDistanceHaversine
+--- PASS: TestDistanceHaversine (0.00s)
+=== RUN   TestBearing
+--- PASS: TestBearing (0.00s)
+=== RUN   TestMidpoint
+--- PASS: TestMidpoint (0.00s)
+=== RUN   TestPointAtBearingAndDistance
+=== RUN   TestPointAtBearingAndDistance/simple
+=== RUN   TestPointAtBearingAndDistance/midpoint
+--- PASS: TestPointAtBearingAndDistance (0.00s)
+    --- PASS: TestPointAtBearingAndDistance/simple (0.00s)
+    --- PASS: TestPointAtBearingAndDistance/midpoint (0.00s)
+=== RUN   TestPointAtDistanceAlongLineWithSinglePoint
+=== RUN   TestPointAtDistanceAlongLineWithSinglePoint/with_single_point
+=== RUN   TestPointAtDistanceAlongLineWithSinglePoint/with_minimal_points
+=== RUN   TestPointAtDistanceAlongLineWithSinglePoint/with_single_point#01
+=== RUN   TestPointAtDistanceAlongLineWithSinglePoint/past_end_of_line
+--- PASS: TestPointAtDistanceAlongLineWithSinglePoint (0.00s)
+    --- PASS: TestPointAtDistanceAlongLineWithSinglePoint/with_single_point (0.00s)
+    --- PASS: TestPointAtDistanceAlongLineWithSinglePoint/with_minimal_points (0.00s)
+    --- PASS: TestPointAtDistanceAlongLineWithSinglePoint/with_single_point#01 (0.00s)
+    --- PASS: TestPointAtDistanceAlongLineWithSinglePoint/past_end_of_line (0.00s)
+=== RUN   TestPointAtDistanceAlongLineWithEmptyLineString
+--- PASS: TestPointAtDistanceAlongLineWithEmptyLineString (0.00s)
+=== RUN   TestLength
+--- PASS: TestLength (0.00s)
+=== RUN   TestLengthHaversine
+--- PASS: TestLengthHaversine (0.00s)
+=== RUN   ExampleArea
+--- PASS: ExampleArea (0.00s)
+=== RUN   ExampleDistance
+--- PASS: ExampleDistance (0.00s)
+=== RUN   ExampleLength
+--- PASS: ExampleLength (0.00s)
+PASS
+ok  	github.com/reearth/orb/geo	0.041s
+=== RUN   TestBBox
+--- PASS: TestBBox (0.00s)
+=== RUN   TestBBoxValid
+=== RUN   TestBBoxValid/true_for_4_length_array
+=== RUN   TestBBoxValid/true_for_3d_box
+=== RUN   TestBBoxValid/false_for_nil_box
+=== RUN   TestBBoxValid/false_for_short_array
+=== RUN   TestBBoxValid/false_for_incorrect_length_array
+--- PASS: TestBBoxValid (0.00s)
+    --- PASS: TestBBoxValid/true_for_4_length_array (0.00s)
+    --- PASS: TestBBoxValid/true_for_3d_box (0.00s)
+    --- PASS: TestBBoxValid/false_for_nil_box (0.00s)
+    --- PASS: TestBBoxValid/false_for_short_array (0.00s)
+    --- PASS: TestBBoxValid/false_for_incorrect_length_array (0.00s)
+=== RUN   TestBBoxBound
+=== RUN   TestBBoxBound/empty_for_invalid_bbox
+=== RUN   TestBBoxBound/correct_order_for_2d_box
+=== RUN   TestBBoxBound/correct_order_for_3d_box
+--- PASS: TestBBoxBound (0.00s)
+    --- PASS: TestBBoxBound/empty_for_invalid_bbox (0.00s)
+    --- PASS: TestBBoxBound/correct_order_for_2d_box (0.00s)
+    --- PASS: TestBBoxBound/correct_order_for_3d_box (0.00s)
+=== RUN   TestNewFeatureCollection
+--- PASS: TestNewFeatureCollection (0.00s)
+=== RUN   TestUnmarshalFeatureCollection
+--- PASS: TestUnmarshalFeatureCollection (0.00s)
+=== RUN   TestUnmarshalFeatureCollection_errors
+=== RUN   TestUnmarshalFeatureCollection_errors/type_not_a_string
+=== RUN   TestUnmarshalFeatureCollection_errors/bbox_invalid
+=== RUN   TestUnmarshalFeatureCollection_errors/features_invalid
+--- PASS: TestUnmarshalFeatureCollection_errors (0.00s)
+    --- PASS: TestUnmarshalFeatureCollection_errors/type_not_a_string (0.00s)
+    --- PASS: TestUnmarshalFeatureCollection_errors/bbox_invalid (0.00s)
+    --- PASS: TestUnmarshalFeatureCollection_errors/features_invalid (0.00s)
+=== RUN   TestFeatureCollectionMarshalJSON
+--- PASS: TestFeatureCollectionMarshalJSON (0.00s)
+=== RUN   TestFeatureCollectionMarshalJSON_null
+=== RUN   TestFeatureCollectionMarshalJSON_null/pointer
+=== RUN   TestFeatureCollectionMarshalJSON_null/non-pointer
+--- PASS: TestFeatureCollectionMarshalJSON_null (0.00s)
+    --- PASS: TestFeatureCollectionMarshalJSON_null/pointer (0.00s)
+    --- PASS: TestFeatureCollectionMarshalJSON_null/non-pointer (0.00s)
+=== RUN   TestFeatureCollectionMarshal
+--- PASS: TestFeatureCollectionMarshal (0.00s)
+=== RUN   TestFeatureCollectionMarshal_BBox
+--- PASS: TestFeatureCollectionMarshal_BBox (0.00s)
+=== RUN   TestFeatureCollectionMarshalValue
+--- PASS: TestFeatureCollectionMarshalValue (0.00s)
+=== RUN   TestFeatureCollectionMarshalJSON_extraMembers
+--- PASS: TestFeatureCollectionMarshalJSON_extraMembers (0.00s)
+=== RUN   TestFeatureCollection_MarshalBSON
+=== RUN   TestFeatureCollection_MarshalBSON/point
+=== RUN   TestFeatureCollection_MarshalBSON/multi_point
+=== RUN   TestFeatureCollection_MarshalBSON/line_string
+=== RUN   TestFeatureCollection_MarshalBSON/multi_line_string
+=== RUN   TestFeatureCollection_MarshalBSON/polygon
+=== RUN   TestFeatureCollection_MarshalBSON/multi_polygon
+=== RUN   TestFeatureCollection_MarshalBSON/geometry_collection
+--- PASS: TestFeatureCollection_MarshalBSON (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/point (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/multi_point (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/line_string (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/multi_line_string (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/polygon (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/multi_polygon (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON/geometry_collection (0.00s)
+=== RUN   TestFeatureCollection_MarshalBSON_bbox
+=== RUN   TestFeatureCollection_MarshalBSON_bbox/nil
+=== RUN   TestFeatureCollection_MarshalBSON_bbox/empty
+=== RUN   TestFeatureCollection_MarshalBSON_bbox/set
+--- PASS: TestFeatureCollection_MarshalBSON_bbox (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON_bbox/nil (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON_bbox/empty (0.00s)
+    --- PASS: TestFeatureCollection_MarshalBSON_bbox/set (0.00s)
+=== RUN   TestFeatureCollection_MarshalBSON_ring
+--- PASS: TestFeatureCollection_MarshalBSON_ring (0.00s)
+=== RUN   TestFeatureCollection_MarshalBSON_bound
+--- PASS: TestFeatureCollection_MarshalBSON_bound (0.00s)
+=== RUN   TestFeatureCollection_MarshalBSON_extraMembers
+--- PASS: TestFeatureCollection_MarshalBSON_extraMembers (0.00s)
+=== RUN   TestNewFeature
+--- PASS: TestNewFeature (0.00s)
+=== RUN   TestFeatureMarshalJSON
+--- PASS: TestFeatureMarshalJSON (0.00s)
+=== RUN   TestFeatureMarshalJSON_BBox
+--- PASS: TestFeatureMarshalJSON_BBox (0.00s)
+=== RUN   TestFeatureMarshalJSON_Bound
+--- PASS: TestFeatureMarshalJSON_Bound (0.00s)
+=== RUN   TestFeatureMarshal
+--- PASS: TestFeatureMarshal (0.00s)
+=== RUN   TestFeature_marshalValue
+--- PASS: TestFeature_marshalValue (0.00s)
+=== RUN   TestUnmarshalFeature
+--- PASS: TestUnmarshalFeature (0.00s)
+=== RUN   TestUnmarshalFeature_GeometryCollection
+--- PASS: TestUnmarshalFeature_GeometryCollection (0.00s)
+=== RUN   TestUnmarshalFeature_missingGeometry
+=== RUN   TestUnmarshalFeature_missingGeometry/empty_geometry
+=== RUN   TestUnmarshalFeature_missingGeometry/missing_geometry
+--- PASS: TestUnmarshalFeature_missingGeometry (0.00s)
+    --- PASS: TestUnmarshalFeature_missingGeometry/empty_geometry (0.00s)
+    --- PASS: TestUnmarshalFeature_missingGeometry/missing_geometry (0.00s)
+=== RUN   TestFeatureMarshalJSON_null
+=== RUN   TestFeatureMarshalJSON_null/pointer
+=== RUN   TestFeatureMarshalJSON_null/non-pointer
+--- PASS: TestFeatureMarshalJSON_null (0.00s)
+    --- PASS: TestFeatureMarshalJSON_null/pointer (0.00s)
+    --- PASS: TestFeatureMarshalJSON_null/non-pointer (0.00s)
+=== RUN   TestUnmarshalBSON_missingGeometry
+=== RUN   TestUnmarshalBSON_missingGeometry/missing_geometry
+--- PASS: TestUnmarshalBSON_missingGeometry (0.00s)
+    --- PASS: TestUnmarshalBSON_missingGeometry/missing_geometry (0.00s)
+=== RUN   TestUnmarshalFeature_BBox
+--- PASS: TestUnmarshalFeature_BBox (0.00s)
+=== RUN   TestMarshalFeatureID
+--- PASS: TestMarshalFeatureID (0.00s)
+=== RUN   TestUnmarshalFeatureID
+--- PASS: TestUnmarshalFeatureID (0.00s)
+=== RUN   TestMarshalRing
+--- PASS: TestMarshalRing (0.00s)
+=== RUN   TestGeometry
+--- PASS: TestGeometry (0.00s)
+=== RUN   TestGeometryMarshal
+=== RUN   TestGeometryMarshal/point
+=== RUN   TestGeometryMarshal/multi_point
+=== RUN   TestGeometryMarshal/linestring
+=== RUN   TestGeometryMarshal/multi_linestring
+=== RUN   TestGeometryMarshal/polygon
+=== RUN   TestGeometryMarshal/multi_polygon
+=== RUN   TestGeometryMarshal/ring
+=== RUN   TestGeometryMarshal/bound
+=== RUN   TestGeometryMarshal/collection
+=== RUN   TestGeometryMarshal/collection2
+--- PASS: TestGeometryMarshal (0.00s)
+    --- PASS: TestGeometryMarshal/point (0.00s)
+    --- PASS: TestGeometryMarshal/multi_point (0.00s)
+    --- PASS: TestGeometryMarshal/linestring (0.00s)
+    --- PASS: TestGeometryMarshal/multi_linestring (0.00s)
+    --- PASS: TestGeometryMarshal/polygon (0.00s)
+    --- PASS: TestGeometryMarshal/multi_polygon (0.00s)
+    --- PASS: TestGeometryMarshal/ring (0.00s)
+    --- PASS: TestGeometryMarshal/bound (0.00s)
+    --- PASS: TestGeometryMarshal/collection (0.00s)
+    --- PASS: TestGeometryMarshal/collection2 (0.00s)
+=== RUN   TestGeometryUnmarshal
+=== RUN   TestGeometryUnmarshal/point
+=== RUN   TestGeometryUnmarshal/multi_point
+=== RUN   TestGeometryUnmarshal/linestring
+=== RUN   TestGeometryUnmarshal/multi_linestring
+=== RUN   TestGeometryUnmarshal/polygon
+=== RUN   TestGeometryUnmarshal/multi_polygon
+=== RUN   TestGeometryUnmarshal/collection
+--- PASS: TestGeometryUnmarshal (0.00s)
+    --- PASS: TestGeometryUnmarshal/point (0.00s)
+    --- PASS: TestGeometryUnmarshal/multi_point (0.00s)
+    --- PASS: TestGeometryUnmarshal/linestring (0.00s)
+    --- PASS: TestGeometryUnmarshal/multi_linestring (0.00s)
+    --- PASS: TestGeometryUnmarshal/polygon (0.00s)
+    --- PASS: TestGeometryUnmarshal/multi_polygon (0.00s)
+    --- PASS: TestGeometryUnmarshal/collection (0.00s)
+=== RUN   TestGeometryUnmarshal_errors
+=== RUN   TestGeometryUnmarshal_errors/point
+=== RUN   TestGeometryUnmarshal_errors/multi_point
+=== RUN   TestGeometryUnmarshal_errors/linestring
+=== RUN   TestGeometryUnmarshal_errors/multi_linestring
+=== RUN   TestGeometryUnmarshal_errors/polygon
+=== RUN   TestGeometryUnmarshal_errors/multi_polygon
+--- PASS: TestGeometryUnmarshal_errors (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/point (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/multi_point (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/linestring (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/multi_linestring (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/polygon (0.00s)
+    --- PASS: TestGeometryUnmarshal_errors/multi_polygon (0.00s)
+=== RUN   TestGeometryMarshalJSON_null
+=== RUN   TestGeometryMarshalJSON_null/pointer
+=== RUN   TestGeometryMarshalJSON_null/feature_with_null_geometry
+--- PASS: TestGeometryMarshalJSON_null (0.00s)
+    --- PASS: TestGeometryMarshalJSON_null/pointer (0.00s)
+    --- PASS: TestGeometryMarshalJSON_null/feature_with_null_geometry (0.00s)
+=== RUN   TestHelperTypes
+=== RUN   TestHelperTypes/point
+=== RUN   TestHelperTypes/bson_point
+=== RUN   TestHelperTypes/multi_point
+=== RUN   TestHelperTypes/bson_multi_point
+=== RUN   TestHelperTypes/linestring
+=== RUN   TestHelperTypes/bson_linestring
+=== RUN   TestHelperTypes/multi_linestring
+=== RUN   TestHelperTypes/bson_multi_linestring
+=== RUN   TestHelperTypes/polygon
+=== RUN   TestHelperTypes/bson_polygon
+=== RUN   TestHelperTypes/multi_polygon
+=== RUN   TestHelperTypes/bson_multi_polygon
+--- PASS: TestHelperTypes (0.00s)
+    --- PASS: TestHelperTypes/point (0.00s)
+    --- PASS: TestHelperTypes/bson_point (0.00s)
+    --- PASS: TestHelperTypes/multi_point (0.00s)
+    --- PASS: TestHelperTypes/bson_multi_point (0.00s)
+    --- PASS: TestHelperTypes/linestring (0.00s)
+    --- PASS: TestHelperTypes/bson_linestring (0.00s)
+    --- PASS: TestHelperTypes/multi_linestring (0.00s)
+    --- PASS: TestHelperTypes/bson_multi_linestring (0.00s)
+    --- PASS: TestHelperTypes/polygon (0.00s)
+    --- PASS: TestHelperTypes/bson_polygon (0.00s)
+    --- PASS: TestHelperTypes/multi_polygon (0.00s)
+    --- PASS: TestHelperTypes/bson_multi_polygon (0.00s)
+=== RUN   TestPropertiesMustBool
+--- PASS: TestPropertiesMustBool (0.00s)
+=== RUN   TestPropertiesMustInt
+--- PASS: TestPropertiesMustInt (0.00s)
+=== RUN   TestPropertiesMustFloat64
+--- PASS: TestPropertiesMustFloat64 (0.00s)
+=== RUN   TestPropertiesMustString
+--- PASS: TestPropertiesMustString (0.00s)
+=== RUN   TestPropertiesClone
+--- PASS: TestPropertiesClone (0.00s)
+=== RUN   Example_centroid
+--- PASS: Example_centroid (0.00s)
+=== RUN   ExampleFeature_Point
+--- PASS: ExampleFeature_Point (0.00s)
+=== RUN   ExampleFeatureCollection_foreignMembers
+--- PASS: ExampleFeatureCollection_foreignMembers (0.00s)
+=== RUN   ExampleFeatureCollection_foreignMembersCustom
+--- PASS: ExampleFeatureCollection_foreignMembersCustom (0.00s)
+=== RUN   ExampleUnmarshalFeatureCollection
+--- PASS: ExampleUnmarshalFeatureCollection (0.00s)
+=== RUN   Example_unmarshal
+--- PASS: Example_unmarshal (0.00s)
+=== RUN   ExampleFeatureCollection_MarshalJSON
+--- PASS: ExampleFeatureCollection_MarshalJSON (0.00s)
+PASS
+ok  	github.com/reearth/orb/geojson	0.036s
+=== RUN   TestLength
+--- PASS: TestLength (0.00s)
+PASS
+ok  	github.com/reearth/orb/internal/length	0.016s
+=== RUN   TestScalarMercator
+--- PASS: TestScalarMercator (0.00s)
+PASS
+ok  	github.com/reearth/orb/internal/mercator	0.018s
+=== RUN   TestQuadKey
+=== RUN   TestQuadKey/0
+=== RUN   TestQuadKey/1
+=== RUN   TestQuadKey/2
+=== RUN   TestQuadKey/3
+=== RUN   TestQuadKey/4
+=== RUN   TestQuadKey/5
+=== RUN   TestQuadKey/6
+=== RUN   TestQuadKey/7
+=== RUN   TestQuadKey/8
+=== RUN   TestQuadKey/9
+=== RUN   TestQuadKey/10
+=== RUN   TestQuadKey/11
+=== RUN   TestQuadKey/12
+=== RUN   TestQuadKey/13
+=== RUN   TestQuadKey/14
+=== RUN   TestQuadKey/15
+=== RUN   TestQuadKey/16
+=== RUN   TestQuadKey/17
+=== RUN   TestQuadKey/18
+=== RUN   TestQuadKey/19
+=== RUN   TestQuadKey/20
+=== RUN   TestQuadKey/21
+=== RUN   TestQuadKey/22
+=== RUN   TestQuadKey/23
+=== RUN   TestQuadKey/24
+=== RUN   TestQuadKey/25
+=== RUN   TestQuadKey/26
+=== RUN   TestQuadKey/27
+=== RUN   TestQuadKey/28
+=== RUN   TestQuadKey/29
+--- PASS: TestQuadKey (0.00s)
+    --- PASS: TestQuadKey/0 (0.00s)
+    --- PASS: TestQuadKey/1 (0.00s)
+    --- PASS: TestQuadKey/2 (0.00s)
+    --- PASS: TestQuadKey/3 (0.00s)
+    --- PASS: TestQuadKey/4 (0.00s)
+    --- PASS: TestQuadKey/5 (0.00s)
+    --- PASS: TestQuadKey/6 (0.00s)
+    --- PASS: TestQuadKey/7 (0.00s)
+    --- PASS: TestQuadKey/8 (0.00s)
+    --- PASS: TestQuadKey/9 (0.00s)
+    --- PASS: TestQuadKey/10 (0.00s)
+    --- PASS: TestQuadKey/11 (0.00s)
+    --- PASS: TestQuadKey/12 (0.00s)
+    --- PASS: TestQuadKey/13 (0.00s)
+    --- PASS: TestQuadKey/14 (0.00s)
+    --- PASS: TestQuadKey/15 (0.00s)
+    --- PASS: TestQuadKey/16 (0.00s)
+    --- PASS: TestQuadKey/17 (0.00s)
+    --- PASS: TestQuadKey/18 (0.00s)
+    --- PASS: TestQuadKey/19 (0.00s)
+    --- PASS: TestQuadKey/20 (0.00s)
+    --- PASS: TestQuadKey/21 (0.00s)
+    --- PASS: TestQuadKey/22 (0.00s)
+    --- PASS: TestQuadKey/23 (0.00s)
+    --- PASS: TestQuadKey/24 (0.00s)
+    --- PASS: TestQuadKey/25 (0.00s)
+    --- PASS: TestQuadKey/26 (0.00s)
+    --- PASS: TestQuadKey/27 (0.00s)
+    --- PASS: TestQuadKey/28 (0.00s)
+    --- PASS: TestQuadKey/29 (0.00s)
+=== RUN   TestValid
+--- PASS: TestValid (0.00s)
+=== RUN   TestAt
+--- PASS: TestAt (0.00s)
+=== RUN   TestTileQuadkey
+--- PASS: TestTileQuadkey (0.00s)
+=== RUN   TestTileBound
+--- PASS: TestTileBound (0.00s)
+=== RUN   TestFraction
+--- PASS: TestFraction (0.00s)
+=== RUN   TestContains
+--- PASS: TestContains (0.00s)
+=== RUN   TestChildrenTilesSubRange
+=== RUN   TestChildrenTilesSubRange/self_zoom
+=== RUN   TestChildrenTilesSubRange/1_level_zooming_including_zoom_0
+=== RUN   TestChildrenTilesSubRange/1_level_zooming_excluding_zoom_0
+=== RUN   TestChildrenTilesSubRange/2_level_zooming
+--- PASS: TestChildrenTilesSubRange (0.00s)
+    --- PASS: TestChildrenTilesSubRange/self_zoom (0.00s)
+    --- PASS: TestChildrenTilesSubRange/1_level_zooming_including_zoom_0 (0.00s)
+    --- PASS: TestChildrenTilesSubRange/1_level_zooming_excluding_zoom_0 (0.00s)
+    --- PASS: TestChildrenTilesSubRange/2_level_zooming (0.00s)
+=== RUN   TestChildrenTilesSubRangeInvalidParams_ZoomStart_Larger_Than_ZoomEnd
+--- PASS: TestChildrenTilesSubRangeInvalidParams_ZoomStart_Larger_Than_ZoomEnd (0.00s)
+=== RUN   TestChildrenTilesSubRangeInvalidParams_TileZ_Larger_Than_ZoomStart
+--- PASS: TestChildrenTilesSubRangeInvalidParams_TileZ_Larger_Than_ZoomStart (0.00s)
+=== RUN   TestRange
+--- PASS: TestRange (0.00s)
+=== RUN   TestSharedParent
+--- PASS: TestSharedParent (0.00s)
+=== RUN   TestChildren
+--- PASS: TestChildren (0.00s)
+=== RUN   TestSiblings
+--- PASS: TestSiblings (0.00s)
+PASS
+ok  	github.com/reearth/orb/maptile	0.042s
+=== RUN   TestTestdata
+=== RUN   TestTestdata/blocky
+=== RUN   TestTestdata/building
+=== RUN   TestTestdata/degenring
+=== RUN   TestTestdata/donut
+=== RUN   TestTestdata/edgeline
+=== RUN   TestTestdata/line
+=== RUN   TestTestdata/multiline
+=== RUN   TestTestdata/multipoint
+=== RUN   TestTestdata/polygon
+=== RUN   TestTestdata/pyramid
+=== RUN   TestTestdata/russia
+=== RUN   TestTestdata/small_poly
+=== RUN   TestTestdata/spiked
+=== RUN   TestTestdata/tetris
+=== RUN   TestTestdata/uk
+=== RUN   TestTestdata/zero
+--- PASS: TestTestdata (0.18s)
+    --- PASS: TestTestdata/blocky (0.00s)
+    --- PASS: TestTestdata/building (0.00s)
+    --- PASS: TestTestdata/degenring (0.03s)
+    --- PASS: TestTestdata/donut (0.01s)
+    --- PASS: TestTestdata/edgeline (0.00s)
+    --- PASS: TestTestdata/line (0.00s)
+    --- PASS: TestTestdata/multiline (0.00s)
+    --- PASS: TestTestdata/multipoint (0.00s)
+    --- PASS: TestTestdata/polygon (0.00s)
+    --- PASS: TestTestdata/pyramid (0.01s)
+    --- PASS: TestTestdata/russia (0.01s)
+    --- PASS: TestTestdata/small_poly (0.00s)
+    --- PASS: TestTestdata/spiked (0.10s)
+    --- PASS: TestTestdata/tetris (0.01s)
+    --- PASS: TestTestdata/uk (0.00s)
+    --- PASS: TestTestdata/zero (0.00s)
+=== RUN   TestCountries
+=== RUN   TestCountries/AFG
+=== RUN   TestCountries/AGO
+=== RUN   TestCountries/ALB
+=== RUN   TestCountries/ARE
+=== RUN   TestCountries/ARG
+=== RUN   TestCountries/ARM
+=== RUN   TestCountries/ATF
+=== RUN   TestCountries/AUS
+=== RUN   TestCountries/AUT
+=== RUN   TestCountries/AZE
+=== RUN   TestCountries/BDI
+=== RUN   TestCountries/BEL
+=== RUN   TestCountries/BEN
+=== RUN   TestCountries/BFA
+=== RUN   TestCountries/BGD
+=== RUN   TestCountries/BGR
+=== RUN   TestCountries/BHS
+=== RUN   TestCountries/BIH
+=== RUN   TestCountries/BLR
+=== RUN   TestCountries/BLZ
+=== RUN   TestCountries/BMU
+=== RUN   TestCountries/BOL
+=== RUN   TestCountries/BRA
+=== RUN   TestCountries/BRN
+=== RUN   TestCountries/BTN
+=== RUN   TestCountries/BWA
+=== RUN   TestCountries/CAF
+=== RUN   TestCountries/CAN
+=== RUN   TestCountries/CHE
+=== RUN   TestCountries/CHL
+=== RUN   TestCountries/CHN
+=== RUN   TestCountries/CIV
+=== RUN   TestCountries/CMR
+=== RUN   TestCountries/COD
+=== RUN   TestCountries/COG
+=== RUN   TestCountries/COL
+=== RUN   TestCountries/CRI
+=== RUN   TestCountries/CS-KM
+=== RUN   TestCountries/CUB
+=== RUN   TestCountries/CYP
+=== RUN   TestCountries/CZE
+=== RUN   TestCountries/DEU
+=== RUN   TestCountries/DJI
+=== RUN   TestCountries/DNK
+=== RUN   TestCountries/DOM
+=== RUN   TestCountries/DZA
+=== RUN   TestCountries/ECU
+=== RUN   TestCountries/EGY
+=== RUN   TestCountries/ERI
+=== RUN   TestCountries/ESH
+=== RUN   TestCountries/ESP
+=== RUN   TestCountries/EST
+=== RUN   TestCountries/ETH
+=== RUN   TestCountries/FIN
+=== RUN   TestCountries/FJI
+=== RUN   TestCountries/FLK
+=== RUN   TestCountries/FRA
+=== RUN   TestCountries/GAB
+=== RUN   TestCountries/GBR
+=== RUN   TestCountries/GEO
+=== RUN   TestCountries/GHA
+=== RUN   TestCountries/GIN
+=== RUN   TestCountries/GMB
+=== RUN   TestCountries/GNB
+=== RUN   TestCountries/GNQ
+=== RUN   TestCountries/GRC
+=== RUN   TestCountries/GRL
+=== RUN   TestCountries/GTM
+=== RUN   TestCountries/GUF
+=== RUN   TestCountries/GUY
+=== RUN   TestCountries/HND
+=== RUN   TestCountries/HRV
+=== RUN   TestCountries/HTI
+=== RUN   TestCountries/HUN
+=== RUN   TestCountries/IDN
+=== RUN   TestCountries/IND
+=== RUN   TestCountries/IRL
+=== RUN   TestCountries/IRN
+=== RUN   TestCountries/IRQ
+=== RUN   TestCountries/ISL
+=== RUN   TestCountries/ISR
+=== RUN   TestCountries/ITA
+=== RUN   TestCountries/JAM
+=== RUN   TestCountries/JOR
+=== RUN   TestCountries/JPN
+=== RUN   TestCountries/KAZ
+=== RUN   TestCountries/KEN
+=== RUN   TestCountries/KGZ
+=== RUN   TestCountries/KHM
+=== RUN   TestCountries/KOR
+=== RUN   TestCountries/KWT
+=== RUN   TestCountries/LAO
+=== RUN   TestCountries/LBN
+=== RUN   TestCountries/LBR
+=== RUN   TestCountries/LBY
+=== RUN   TestCountries/LKA
+=== RUN   TestCountries/LSO
+=== RUN   TestCountries/LTU
+=== RUN   TestCountries/LUX
+=== RUN   TestCountries/LVA
+=== RUN   TestCountries/MAR
+=== RUN   TestCountries/MDA
+=== RUN   TestCountries/MDG
+=== RUN   TestCountries/MEX
+=== RUN   TestCountries/MKD
+=== RUN   TestCountries/MLI
+=== RUN   TestCountries/MLT
+=== RUN   TestCountries/MMR
+=== RUN   TestCountries/MNE
+=== RUN   TestCountries/MNG
+=== RUN   TestCountries/MOZ
+=== RUN   TestCountries/MRT
+=== RUN   TestCountries/MWI
+=== RUN   TestCountries/MYS
+=== RUN   TestCountries/NAM
+=== RUN   TestCountries/NCL
+=== RUN   TestCountries/NER
+=== RUN   TestCountries/NGA
+=== RUN   TestCountries/NIC
+=== RUN   TestCountries/NLD
+=== RUN   TestCountries/NOR
+=== RUN   TestCountries/NPL
+=== RUN   TestCountries/NZL
+=== RUN   TestCountries/OMN
+=== RUN   TestCountries/PAK
+=== RUN   TestCountries/PAN
+=== RUN   TestCountries/PER
+=== RUN   TestCountries/PHL
+=== RUN   TestCountries/PNG
+=== RUN   TestCountries/POL
+=== RUN   TestCountries/PRI
+=== RUN   TestCountries/PRK
+=== RUN   TestCountries/PRT
+=== RUN   TestCountries/PRY
+=== RUN   TestCountries/PSE
+=== RUN   TestCountries/QAT
+=== RUN   TestCountries/ROU
+=== RUN   TestCountries/RUS
+=== RUN   TestCountries/RWA
+=== RUN   TestCountries/SAU
+=== RUN   TestCountries/SDN
+=== RUN   TestCountries/SEN
+=== RUN   TestCountries/SLB
+=== RUN   TestCountries/SLE
+=== RUN   TestCountries/SLV
+=== RUN   TestCountries/SOM
+=== RUN   TestCountries/SRB
+=== RUN   TestCountries/SSD
+=== RUN   TestCountries/SUR
+=== RUN   TestCountries/SVK
+=== RUN   TestCountries/SVN
+=== RUN   TestCountries/SWE
+=== RUN   TestCountries/SWZ
+=== RUN   TestCountries/SYR
+=== RUN   TestCountries/TCD
+=== RUN   TestCountries/TGO
+=== RUN   TestCountries/THA
+=== RUN   TestCountries/TJK
+=== RUN   TestCountries/TKM
+=== RUN   TestCountries/TLS
+=== RUN   TestCountries/TTO
+=== RUN   TestCountries/TUN
+=== RUN   TestCountries/TUR
+=== RUN   TestCountries/TWN
+=== RUN   TestCountries/TZA
+=== RUN   TestCountries/UGA
+=== RUN   TestCountries/UKR
+=== RUN   TestCountries/URY
+=== RUN   TestCountries/USA
+=== RUN   TestCountries/UZB
+=== RUN   TestCountries/VEN
+=== RUN   TestCountries/VNM
+=== RUN   TestCountries/VUT
+=== RUN   TestCountries/YEM
+=== RUN   TestCountries/ZAF
+=== RUN   TestCountries/ZMB
+=== RUN   TestCountries/ZWE
+--- PASS: TestCountries (0.10s)
+    --- PASS: TestCountries/AFG (0.00s)
+    --- PASS: TestCountries/AGO (0.00s)
+    --- PASS: TestCountries/ALB (0.00s)
+    --- PASS: TestCountries/ARE (0.00s)
+    --- PASS: TestCountries/ARG (0.00s)
+    --- PASS: TestCountries/ARM (0.00s)
+    --- PASS: TestCountries/ATF (0.00s)
+    --- PASS: TestCountries/AUS (0.00s)
+    --- PASS: TestCountries/AUT (0.00s)
+    --- PASS: TestCountries/AZE (0.00s)
+    --- PASS: TestCountries/BDI (0.00s)
+    --- PASS: TestCountries/BEL (0.00s)
+    --- PASS: TestCountries/BEN (0.00s)
+    --- PASS: TestCountries/BFA (0.00s)
+    --- PASS: TestCountries/BGD (0.00s)
+    --- PASS: TestCountries/BGR (0.00s)
+    --- PASS: TestCountries/BHS (0.00s)
+    --- PASS: TestCountries/BIH (0.00s)
+    --- PASS: TestCountries/BLR (0.00s)
+    --- PASS: TestCountries/BLZ (0.00s)
+    --- PASS: TestCountries/BMU (0.00s)
+    --- PASS: TestCountries/BOL (0.00s)
+    --- PASS: TestCountries/BRA (0.00s)
+    --- PASS: TestCountries/BRN (0.00s)
+    --- PASS: TestCountries/BTN (0.00s)
+    --- PASS: TestCountries/BWA (0.00s)
+    --- PASS: TestCountries/CAF (0.00s)
+    --- PASS: TestCountries/CAN (0.01s)
+    --- PASS: TestCountries/CHE (0.00s)
+    --- PASS: TestCountries/CHL (0.00s)
+    --- PASS: TestCountries/CHN (0.00s)
+    --- PASS: TestCountries/CIV (0.00s)
+    --- PASS: TestCountries/CMR (0.00s)
+    --- PASS: TestCountries/COD (0.00s)
+    --- PASS: TestCountries/COG (0.00s)
+    --- PASS: TestCountries/COL (0.00s)
+    --- PASS: TestCountries/CRI (0.00s)
+    --- PASS: TestCountries/CS-KM (0.00s)
+    --- PASS: TestCountries/CUB (0.00s)
+    --- PASS: TestCountries/CYP (0.00s)
+    --- PASS: TestCountries/CZE (0.00s)
+    --- PASS: TestCountries/DEU (0.00s)
+    --- PASS: TestCountries/DJI (0.00s)
+    --- PASS: TestCountries/DNK (0.00s)
+    --- PASS: TestCountries/DOM (0.00s)
+    --- PASS: TestCountries/DZA (0.00s)
+    --- PASS: TestCountries/ECU (0.00s)
+    --- PASS: TestCountries/EGY (0.00s)
+    --- PASS: TestCountries/ERI (0.00s)
+    --- PASS: TestCountries/ESH (0.00s)
+    --- PASS: TestCountries/ESP (0.00s)
+    --- PASS: TestCountries/EST (0.00s)
+    --- PASS: TestCountries/ETH (0.00s)
+    --- PASS: TestCountries/FIN (0.00s)
+    --- PASS: TestCountries/FJI (0.00s)
+    --- PASS: TestCountries/FLK (0.00s)
+    --- PASS: TestCountries/FRA (0.00s)
+    --- PASS: TestCountries/GAB (0.00s)
+    --- PASS: TestCountries/GBR (0.00s)
+    --- PASS: TestCountries/GEO (0.00s)
+    --- PASS: TestCountries/GHA (0.00s)
+    --- PASS: TestCountries/GIN (0.00s)
+    --- PASS: TestCountries/GMB (0.00s)
+    --- PASS: TestCountries/GNB (0.00s)
+    --- PASS: TestCountries/GNQ (0.00s)
+    --- PASS: TestCountries/GRC (0.00s)
+    --- PASS: TestCountries/GRL (0.00s)
+    --- PASS: TestCountries/GTM (0.00s)
+    --- PASS: TestCountries/GUF (0.00s)
+    --- PASS: TestCountries/GUY (0.00s)
+    --- PASS: TestCountries/HND (0.00s)
+    --- PASS: TestCountries/HRV (0.00s)
+    --- PASS: TestCountries/HTI (0.00s)
+    --- PASS: TestCountries/HUN (0.00s)
+    --- PASS: TestCountries/IDN (0.00s)
+    --- PASS: TestCountries/IND (0.00s)
+    --- PASS: TestCountries/IRL (0.00s)
+    --- PASS: TestCountries/IRN (0.00s)
+    --- PASS: TestCountries/IRQ (0.00s)
+    --- PASS: TestCountries/ISL (0.00s)
+    --- PASS: TestCountries/ISR (0.00s)
+    --- PASS: TestCountries/ITA (0.00s)
+    --- PASS: TestCountries/JAM (0.00s)
+    --- PASS: TestCountries/JOR (0.00s)
+    --- PASS: TestCountries/JPN (0.00s)
+    --- PASS: TestCountries/KAZ (0.00s)
+    --- PASS: TestCountries/KEN (0.00s)
+    --- PASS: TestCountries/KGZ (0.00s)
+    --- PASS: TestCountries/KHM (0.00s)
+    --- PASS: TestCountries/KOR (0.00s)
+    --- PASS: TestCountries/KWT (0.00s)
+    --- PASS: TestCountries/LAO (0.00s)
+    --- PASS: TestCountries/LBN (0.00s)
+    --- PASS: TestCountries/LBR (0.00s)
+    --- PASS: TestCountries/LBY (0.00s)
+    --- PASS: TestCountries/LKA (0.00s)
+    --- PASS: TestCountries/LSO (0.00s)
+    --- PASS: TestCountries/LTU (0.00s)
+    --- PASS: TestCountries/LUX (0.00s)
+    --- PASS: TestCountries/LVA (0.00s)
+    --- PASS: TestCountries/MAR (0.00s)
+    --- PASS: TestCountries/MDA (0.00s)
+    --- PASS: TestCountries/MDG (0.00s)
+    --- PASS: TestCountries/MEX (0.00s)
+    --- PASS: TestCountries/MKD (0.00s)
+    --- PASS: TestCountries/MLI (0.00s)
+    --- PASS: TestCountries/MLT (0.00s)
+    --- PASS: TestCountries/MMR (0.00s)
+    --- PASS: TestCountries/MNE (0.00s)
+    --- PASS: TestCountries/MNG (0.00s)
+    --- PASS: TestCountries/MOZ (0.00s)
+    --- PASS: TestCountries/MRT (0.00s)
+    --- PASS: TestCountries/MWI (0.00s)
+    --- PASS: TestCountries/MYS (0.00s)
+    --- PASS: TestCountries/NAM (0.00s)
+    --- PASS: TestCountries/NCL (0.00s)
+    --- PASS: TestCountries/NER (0.00s)
+    --- PASS: TestCountries/NGA (0.00s)
+    --- PASS: TestCountries/NIC (0.00s)
+    --- PASS: TestCountries/NLD (0.00s)
+    --- PASS: TestCountries/NOR (0.00s)
+    --- PASS: TestCountries/NPL (0.00s)
+    --- PASS: TestCountries/NZL (0.00s)
+    --- PASS: TestCountries/OMN (0.00s)
+    --- PASS: TestCountries/PAK (0.00s)
+    --- PASS: TestCountries/PAN (0.00s)
+    --- PASS: TestCountries/PER (0.00s)
+    --- PASS: TestCountries/PHL (0.00s)
+    --- PASS: TestCountries/PNG (0.00s)
+    --- PASS: TestCountries/POL (0.00s)
+    --- PASS: TestCountries/PRI (0.00s)
+    --- PASS: TestCountries/PRK (0.00s)
+    --- PASS: TestCountries/PRT (0.00s)
+    --- PASS: TestCountries/PRY (0.00s)
+    --- PASS: TestCountries/PSE (0.00s)
+    --- PASS: TestCountries/QAT (0.00s)
+    --- PASS: TestCountries/ROU (0.00s)
+    --- PASS: TestCountries/RUS (0.00s)
+    --- PASS: TestCountries/RWA (0.00s)
+    --- PASS: TestCountries/SAU (0.00s)
+    --- PASS: TestCountries/SDN (0.00s)
+    --- PASS: TestCountries/SEN (0.00s)
+    --- PASS: TestCountries/SLB (0.00s)
+    --- PASS: TestCountries/SLE (0.00s)
+    --- PASS: TestCountries/SLV (0.00s)
+    --- PASS: TestCountries/SOM (0.00s)
+    --- PASS: TestCountries/SRB (0.00s)
+    --- PASS: TestCountries/SSD (0.00s)
+    --- PASS: TestCountries/SUR (0.00s)
+    --- PASS: TestCountries/SVK (0.00s)
+    --- PASS: TestCountries/SVN (0.00s)
+    --- PASS: TestCountries/SWE (0.00s)
+    --- PASS: TestCountries/SWZ (0.00s)
+    --- PASS: TestCountries/SYR (0.00s)
+    --- PASS: TestCountries/TCD (0.00s)
+    --- PASS: TestCountries/TGO (0.00s)
+    --- PASS: TestCountries/THA (0.00s)
+    --- PASS: TestCountries/TJK (0.00s)
+    --- PASS: TestCountries/TKM (0.00s)
+    --- PASS: TestCountries/TLS (0.00s)
+    --- PASS: TestCountries/TTO (0.00s)
+    --- PASS: TestCountries/TUN (0.00s)
+    --- PASS: TestCountries/TUR (0.00s)
+    --- PASS: TestCountries/TWN (0.00s)
+    --- PASS: TestCountries/TZA (0.00s)
+    --- PASS: TestCountries/UGA (0.00s)
+    --- PASS: TestCountries/UKR (0.00s)
+    --- PASS: TestCountries/URY (0.00s)
+    --- PASS: TestCountries/USA (0.00s)
+    --- PASS: TestCountries/UZB (0.00s)
+    --- PASS: TestCountries/VEN (0.00s)
+    --- PASS: TestCountries/VNM (0.00s)
+    --- PASS: TestCountries/VUT (0.00s)
+    --- PASS: TestCountries/YEM (0.00s)
+    --- PASS: TestCountries/ZAF (0.00s)
+    --- PASS: TestCountries/ZMB (0.00s)
+    --- PASS: TestCountries/ZWE (0.00s)
+=== RUN   TestGeometry
+--- PASS: TestGeometry (0.00s)
+=== RUN   TestMergeUp
+--- PASS: TestMergeUp (0.00s)
+=== RUN   TestRing_error
+--- PASS: TestRing_error (0.01s)
+PASS
+ok  	github.com/reearth/orb/maptile/tilecover	0.310s
+=== RUN   TestCentroidArea
+--- PASS: TestCentroidArea (0.00s)
+=== RUN   TestCentroidArea_MultiPoint
+--- PASS: TestCentroidArea_MultiPoint (0.00s)
+=== RUN   TestCentroidArea_LineString
+=== RUN   TestCentroidArea_LineString/simple
+=== RUN   TestCentroidArea_LineString/empty_line
+--- PASS: TestCentroidArea_LineString (0.00s)
+    --- PASS: TestCentroidArea_LineString/simple (0.00s)
+    --- PASS: TestCentroidArea_LineString/empty_line (0.00s)
+=== RUN   TestCentroidArea_MultiLineString
+=== RUN   TestCentroidArea_MultiLineString/simple
+=== RUN   TestCentroidArea_MultiLineString/two_lines
+=== RUN   TestCentroidArea_MultiLineString/multiple_empty_lines
+--- PASS: TestCentroidArea_MultiLineString (0.00s)
+    --- PASS: TestCentroidArea_MultiLineString/simple (0.00s)
+    --- PASS: TestCentroidArea_MultiLineString/two_lines (0.00s)
+    --- PASS: TestCentroidArea_MultiLineString/multiple_empty_lines (0.00s)
+=== RUN   TestCentroid_Ring
+=== RUN   TestCentroid_Ring/triangle,_cw
+=== RUN   TestCentroid_Ring/triangle,_ccw
+=== RUN   TestCentroid_Ring/square,_cw
+=== RUN   TestCentroid_Ring/non-closed_square,_cw
+=== RUN   TestCentroid_Ring/triangle,_ccw#01
+=== RUN   TestCentroid_Ring/redudent_points
+=== RUN   TestCentroid_Ring/3_points
+--- PASS: TestCentroid_Ring (0.00s)
+    --- PASS: TestCentroid_Ring/triangle,_cw (0.00s)
+    --- PASS: TestCentroid_Ring/triangle,_ccw (0.00s)
+    --- PASS: TestCentroid_Ring/square,_cw (0.00s)
+    --- PASS: TestCentroid_Ring/non-closed_square,_cw (0.00s)
+    --- PASS: TestCentroid_Ring/triangle,_ccw#01 (0.00s)
+    --- PASS: TestCentroid_Ring/redudent_points (0.00s)
+    --- PASS: TestCentroid_Ring/3_points (0.00s)
+=== RUN   TestArea_Ring
+=== RUN   TestArea_Ring/simple_box,_ccw
+=== RUN   TestArea_Ring/simple_box,_cc
+=== RUN   TestArea_Ring/even_number_of_points
+=== RUN   TestArea_Ring/3_points
+=== RUN   TestArea_Ring/4_points
+=== RUN   TestArea_Ring/6_points
+--- PASS: TestArea_Ring (0.00s)
+    --- PASS: TestArea_Ring/simple_box,_ccw (0.00s)
+    --- PASS: TestArea_Ring/simple_box,_cc (0.00s)
+    --- PASS: TestArea_Ring/even_number_of_points (0.00s)
+    --- PASS: TestArea_Ring/3_points (0.00s)
+    --- PASS: TestArea_Ring/4_points (0.00s)
+    --- PASS: TestArea_Ring/6_points (0.00s)
+=== RUN   TestCentroid_RingAdv
+--- PASS: TestCentroid_RingAdv (0.00s)
+=== RUN   TestCentroidArea_Polygon
+=== RUN   TestCentroidArea_Polygon/polygon_with_hole
+=== RUN   TestCentroidArea_Polygon/collapsed
+=== RUN   TestCentroidArea_Polygon/empty_right_half
+--- PASS: TestCentroidArea_Polygon (0.00s)
+    --- PASS: TestCentroidArea_Polygon/polygon_with_hole (0.00s)
+    --- PASS: TestCentroidArea_Polygon/collapsed (0.00s)
+    --- PASS: TestCentroidArea_Polygon/empty_right_half (0.00s)
+=== RUN   TestCentroidArea_Bound
+--- PASS: TestCentroidArea_Bound (0.00s)
+=== RUN   TestRingContains
+=== RUN   TestRingContains/in_base
+=== RUN   TestRingContains/in_right_tower
+=== RUN   TestRingContains/in_middle
+=== RUN   TestRingContains/in_left_tower
+=== RUN   TestRingContains/in_tp_middle
+=== RUN   TestRingContains/above
+=== RUN   TestRingContains/below
+=== RUN   TestRingContains/left
+=== RUN   TestRingContains/right
+--- PASS: TestRingContains (0.00s)
+    --- PASS: TestRingContains/in_base (0.00s)
+    --- PASS: TestRingContains/in_right_tower (0.00s)
+    --- PASS: TestRingContains/in_middle (0.00s)
+    --- PASS: TestRingContains/in_left_tower (0.00s)
+    --- PASS: TestRingContains/in_tp_middle (0.00s)
+    --- PASS: TestRingContains/above (0.00s)
+    --- PASS: TestRingContains/below (0.00s)
+    --- PASS: TestRingContains/left (0.00s)
+    --- PASS: TestRingContains/right (0.00s)
+=== RUN   TestPolygonContains
+--- PASS: TestPolygonContains (0.00s)
+=== RUN   TestMultiPolygonContains
+--- PASS: TestMultiPolygonContains (0.00s)
+=== RUN   TestDistanceFromSegment
+=== RUN   TestDistanceFromSegment/point_in_middle
+=== RUN   TestDistanceFromSegment/on_line
+=== RUN   TestDistanceFromSegment/past_start
+=== RUN   TestDistanceFromSegment/past_end
+=== RUN   TestDistanceFromSegment/triangle
+=== RUN   TestDistanceFromSegment/triangle_off_end
+--- PASS: TestDistanceFromSegment (0.00s)
+    --- PASS: TestDistanceFromSegment/point_in_middle (0.00s)
+    --- PASS: TestDistanceFromSegment/on_line (0.00s)
+    --- PASS: TestDistanceFromSegment/past_start (0.00s)
+    --- PASS: TestDistanceFromSegment/past_end (0.00s)
+    --- PASS: TestDistanceFromSegment/triangle (0.00s)
+    --- PASS: TestDistanceFromSegment/triangle_off_end (0.00s)
+=== RUN   TestDistanceFromWithIndex
+--- PASS: TestDistanceFromWithIndex (0.00s)
+=== RUN   TestDistanceFrom_MultiPoint
+--- PASS: TestDistanceFrom_MultiPoint (0.00s)
+=== RUN   TestDistanceFrom_LineString
+=== RUN   TestDistanceFrom_LineString/#00
+=== RUN   TestDistanceFrom_LineString/#01
+=== RUN   TestDistanceFrom_LineString/#02
+=== RUN   TestDistanceFrom_LineString/#03
+--- PASS: TestDistanceFrom_LineString (0.00s)
+    --- PASS: TestDistanceFrom_LineString/#00 (0.00s)
+    --- PASS: TestDistanceFrom_LineString/#01 (0.00s)
+    --- PASS: TestDistanceFrom_LineString/#02 (0.00s)
+    --- PASS: TestDistanceFrom_LineString/#03 (0.00s)
+=== RUN   TestDistanceFrom_Polygon
+=== RUN   TestDistanceFrom_Polygon/outside
+=== RUN   TestDistanceFrom_Polygon/inside
+=== RUN   TestDistanceFrom_Polygon/in_hole
+--- PASS: TestDistanceFrom_Polygon (0.00s)
+    --- PASS: TestDistanceFrom_Polygon/outside (0.00s)
+    --- PASS: TestDistanceFrom_Polygon/inside (0.00s)
+    --- PASS: TestDistanceFrom_Polygon/in_hole (0.00s)
+=== RUN   TestDistance
+--- PASS: TestDistance (0.00s)
+=== RUN   TestLength
+--- PASS: TestLength (0.00s)
+=== RUN   TestLength_LineString
+--- PASS: TestLength_LineString (0.00s)
+=== RUN   ExampleArea
+--- PASS: ExampleArea (0.00s)
+=== RUN   ExampleDistance
+--- PASS: ExampleDistance (0.00s)
+=== RUN   ExampleLength
+--- PASS: ExampleLength (0.00s)
+PASS
+ok  	github.com/reearth/orb/planar	0.015s
+=== RUN   TestDefineDeg2Rad
+--- PASS: TestDefineDeg2Rad (0.00s)
+=== RUN   TestDefineRad2Deg
+--- PASS: TestDefineRad2Deg (0.00s)
+=== RUN   TestGeometry
+--- PASS: TestGeometry (0.00s)
+=== RUN   TestMercator
+--- PASS: TestMercator (0.00s)
+=== RUN   TestMercatorScaleFactor
+=== RUN   TestMercatorScaleFactor/30_deg
+=== RUN   TestMercatorScaleFactor/45_deg
+=== RUN   TestMercatorScaleFactor/60_deg
+=== RUN   TestMercatorScaleFactor/80_deg
+--- PASS: TestMercatorScaleFactor (0.00s)
+    --- PASS: TestMercatorScaleFactor/30_deg (0.00s)
+    --- PASS: TestMercatorScaleFactor/45_deg (0.00s)
+    --- PASS: TestMercatorScaleFactor/60_deg (0.00s)
+    --- PASS: TestMercatorScaleFactor/80_deg (0.00s)
+=== RUN   ExamplePoint_toMercator
+--- PASS: ExamplePoint_toMercator (0.00s)
+=== RUN   ExamplePolygon
+--- PASS: ExamplePolygon (0.00s)
+PASS
+ok  	github.com/reearth/orb/project	0.023s
+=== RUN   TestMaxHeap
+--- PASS: TestMaxHeap (0.00s)
+=== RUN   TestNew
+--- PASS: TestNew (0.00s)
+=== RUN   TestQuadtreeAdd
+--- PASS: TestQuadtreeAdd (0.00s)
+=== RUN   TestQuadtreeRemove
+--- PASS: TestQuadtreeRemove (0.00s)
+=== RUN   TestQuadtreeRemoveAndAdd_inOrder
+    quadtree_test.go:82: seed: 1737607286948702000
+--- PASS: TestQuadtreeRemoveAndAdd_inOrder (0.00s)
+=== RUN   TestQuadtreeRemoveAndAdd_sameLoc
+    quadtree_test.go:151: seed: 1737607286948771000
+--- PASS: TestQuadtreeRemoveAndAdd_sameLoc (0.00s)
+=== RUN   TestQuadtreeRemoveAndAdd_random
+    quadtree_test.go:284: seed: 1737607286948862000
+--- PASS: TestQuadtreeRemoveAndAdd_random (0.00s)
+=== RUN   TestQuadtreeFind
+--- PASS: TestQuadtreeFind (0.00s)
+=== RUN   TestQuadtreeFind_Random
+--- PASS: TestQuadtreeFind_Random (0.00s)
+=== RUN   TestQuadtreeMatching
+=== RUN   TestQuadtreeMatching/no_filtred
+=== RUN   TestQuadtreeMatching/with_filter
+=== RUN   TestQuadtreeMatching/match_none_filter
+--- PASS: TestQuadtreeMatching (0.00s)
+    --- PASS: TestQuadtreeMatching/no_filtred (0.00s)
+    --- PASS: TestQuadtreeMatching/with_filter (0.00s)
+    --- PASS: TestQuadtreeMatching/match_none_filter (0.00s)
+=== RUN   TestQuadtreeKNearest
+=== RUN   TestQuadtreeKNearest/unfiltered
+=== RUN   TestQuadtreeKNearest/filtered
+--- PASS: TestQuadtreeKNearest (0.00s)
+    --- PASS: TestQuadtreeKNearest/unfiltered (0.00s)
+    --- PASS: TestQuadtreeKNearest/filtered (0.00s)
+=== RUN   TestQuadtreeKNearest_sorted
+--- PASS: TestQuadtreeKNearest_sorted (0.00s)
+=== RUN   TestQuadtreeKNearest_sorted2
+--- PASS: TestQuadtreeKNearest_sorted2 (0.00s)
+=== RUN   TestQuadtreeKNearest_DistanceLimit
+=== RUN   TestQuadtreeKNearest_DistanceLimit/filtered
+=== RUN   TestQuadtreeKNearest_DistanceLimit/unfiltered
+--- PASS: TestQuadtreeKNearest_DistanceLimit (0.00s)
+    --- PASS: TestQuadtreeKNearest_DistanceLimit/filtered (0.00s)
+    --- PASS: TestQuadtreeKNearest_DistanceLimit/unfiltered (0.00s)
+=== RUN   TestQuadtreeInBoundMatching
+=== RUN   TestQuadtreeInBoundMatching/unfiltered
+=== RUN   TestQuadtreeInBoundMatching/filtered
+--- PASS: TestQuadtreeInBoundMatching (0.00s)
+    --- PASS: TestQuadtreeInBoundMatching/unfiltered (0.00s)
+    --- PASS: TestQuadtreeInBoundMatching/filtered (0.00s)
+=== RUN   TestQuadtreeInBound_Random
+--- PASS: TestQuadtreeInBound_Random (0.01s)
+=== RUN   ExampleQuadtree_Find
+--- PASS: ExampleQuadtree_Find (0.00s)
+=== RUN   ExampleQuadtree_Matching
+--- PASS: ExampleQuadtree_Matching (0.00s)
+=== RUN   ExampleQuadtree_InBound
+--- PASS: ExampleQuadtree_InBound (0.00s)
+PASS
+ok  	github.com/reearth/orb/quadtree	0.036s
+=== RUN   TestResample
+--- PASS: TestResample (0.00s)
+=== RUN   TestToInterval
+=== RUN   TestToInterval/same_number_of_points
+=== RUN   TestToInterval/dist_less_than_0
+=== RUN   TestToInterval/dist_less_than_0#01
+=== RUN   TestToInterval/return_same_if_short_line
+--- PASS: TestToInterval (0.00s)
+    --- PASS: TestToInterval/same_number_of_points (0.00s)
+    --- PASS: TestToInterval/dist_less_than_0 (0.00s)
+    --- PASS: TestToInterval/dist_less_than_0#01 (0.00s)
+    --- PASS: TestToInterval/return_same_if_short_line (0.00s)
+=== RUN   TestLineStringResampleEdgeCases
+--- PASS: TestLineStringResampleEdgeCases (0.00s)
+=== RUN   ExampleResample
+--- PASS: ExampleResample (0.00s)
+=== RUN   ExampleToInterval
+--- PASS: ExampleToInterval (0.00s)
+PASS
+ok  	github.com/reearth/orb/resample	0.010s
+=== RUN   TestDouglasPeucker_BenchmarkData
+--- PASS: TestDouglasPeucker_BenchmarkData (0.09s)
+=== RUN   TestRadial_BenchmarkData
+--- PASS: TestRadial_BenchmarkData (0.03s)
+=== RUN   TestVisvalingam_BenchmarkData
+--- PASS: TestVisvalingam_BenchmarkData (0.14s)
+=== RUN   TestDouglasPeucker
+=== RUN   TestDouglasPeucker/no_reduction
+=== RUN   TestDouglasPeucker/reduction
+=== RUN   TestDouglasPeucker/removes_coplanar_points
+--- PASS: TestDouglasPeucker (0.00s)
+    --- PASS: TestDouglasPeucker/no_reduction (0.00s)
+    --- PASS: TestDouglasPeucker/reduction (0.00s)
+    --- PASS: TestDouglasPeucker/removes_coplanar_points (0.00s)
+=== RUN   TestSimplify
+--- PASS: TestSimplify (0.00s)
+=== RUN   TestPolygon
+--- PASS: TestPolygon (0.00s)
+=== RUN   TestMultiPolygon
+--- PASS: TestMultiPolygon (0.00s)
+=== RUN   TestRadial
+=== RUN   TestRadial/no_reduction
+=== RUN   TestRadial/reduction
+=== RUN   TestRadial/longer_reduction
+--- PASS: TestRadial (0.00s)
+    --- PASS: TestRadial/no_reduction (0.00s)
+    --- PASS: TestRadial/reduction (0.00s)
+    --- PASS: TestRadial/longer_reduction (0.00s)
+=== RUN   TestVisvalingamThreshold
+=== RUN   TestVisvalingamThreshold/no_reduction
+=== RUN   TestVisvalingamThreshold/reduction
+--- PASS: TestVisvalingamThreshold (0.00s)
+    --- PASS: TestVisvalingamThreshold/no_reduction (0.00s)
+    --- PASS: TestVisvalingamThreshold/reduction (0.00s)
+=== RUN   TestVisvalingamThreshold_area
+=== RUN   TestVisvalingamThreshold_area/reduction
+=== RUN   TestVisvalingamThreshold_area/reduction_closed
+--- PASS: TestVisvalingamThreshold_area (0.00s)
+    --- PASS: TestVisvalingamThreshold_area/reduction (0.00s)
+    --- PASS: TestVisvalingamThreshold_area/reduction_closed (0.00s)
+=== RUN   TestVisvalingamKeep
+=== RUN   TestVisvalingamKeep/keep_6
+=== RUN   TestVisvalingamKeep/keep_5
+=== RUN   TestVisvalingamKeep/keep_4
+=== RUN   TestVisvalingamKeep/keep_3
+=== RUN   TestVisvalingamKeep/keep_2
+--- PASS: TestVisvalingamKeep (0.00s)
+    --- PASS: TestVisvalingamKeep/keep_6 (0.00s)
+    --- PASS: TestVisvalingamKeep/keep_5 (0.00s)
+    --- PASS: TestVisvalingamKeep/keep_4 (0.00s)
+    --- PASS: TestVisvalingamKeep/keep_3 (0.00s)
+    --- PASS: TestVisvalingamKeep/keep_2 (0.00s)
+=== RUN   TestVisvalingam
+=== RUN   TestVisvalingam/keep_nothing
+=== RUN   TestVisvalingam/keep_everything
+=== RUN   TestVisvalingam/not_meeting_threshold
+=== RUN   TestVisvalingam/5_points_keep_nothing
+=== RUN   TestVisvalingam/5_points_keep_everything
+=== RUN   TestVisvalingam/5_points_reduce_to_limit
+=== RUN   TestVisvalingam/removes_colinear_points
+--- PASS: TestVisvalingam (0.00s)
+    --- PASS: TestVisvalingam/keep_nothing (0.00s)
+    --- PASS: TestVisvalingam/keep_everything (0.00s)
+    --- PASS: TestVisvalingam/not_meeting_threshold (0.00s)
+    --- PASS: TestVisvalingam/5_points_keep_nothing (0.00s)
+    --- PASS: TestVisvalingam/5_points_keep_everything (0.00s)
+    --- PASS: TestVisvalingam/5_points_reduce_to_limit (0.00s)
+    --- PASS: TestVisvalingam/removes_colinear_points (0.00s)
+=== RUN   TestDoubleTriangleArea
+=== RUN   TestDoubleTriangleArea/order_1
+=== RUN   TestDoubleTriangleArea/order_2
+=== RUN   TestDoubleTriangleArea/order_3
+=== RUN   TestDoubleTriangleArea/order_4
+=== RUN   TestDoubleTriangleArea/order_5
+=== RUN   TestDoubleTriangleArea/order_6
+--- PASS: TestDoubleTriangleArea (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_1 (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_2 (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_3 (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_4 (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_5 (0.00s)
+    --- PASS: TestDoubleTriangleArea/order_6 (0.00s)
+=== RUN   ExampleDouglasPeuckerSimplifier
+--- PASS: ExampleDouglasPeuckerSimplifier (0.00s)
+PASS
+ok  	github.com/reearth/orb/simplify	0.282s

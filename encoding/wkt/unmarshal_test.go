@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 func TestTrimSpaceBrackets(t *testing.T) {

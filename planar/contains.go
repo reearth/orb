@@ -3,7 +3,7 @@ package planar
 import (
 	"math"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 // RingContains returns true if the point is inside the ring.

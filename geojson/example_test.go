@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/geojson"
-	"github.com/paulmach/orb/quadtree"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/geojson"
+	"github.com/reearth/orb/quadtree"
 )
 
 func ExampleFeature_Point() {
@@ -54,9 +54,9 @@ func ExampleFeatureCollection_foreignMembers() {
 	fmt.Println(string(data))
 
 	// Output:
-	// [102 0.5]
+	// [102 0.5 0]
 	// Title as Foreign Member
-	// {"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[102,0.5]},"properties":{"prop0":"value0"}}],"title":"Title as Foreign Member","type":"FeatureCollection"}
+	// {"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[102,0.5,0]},"properties":{"prop0":"value0"}}],"title":"Title as Foreign Member","type":"FeatureCollection"}
 }
 
 // MyFeatureCollection is a depricated/no longer supported way to extract
@@ -105,8 +105,8 @@ func ExampleFeatureCollection_foreignMembersCustom() {
 	fmt.Println(fc.Features[0].Geometry)
 	fmt.Println(fc.Title)
 	// Output:
-	// [102 0.5]
-	// [102 0.5]
+	// [102 0.5 0]
+	// [102 0.5 0]
 	// Title as Foreign Member
 }
 
@@ -128,7 +128,7 @@ func ExampleUnmarshalFeatureCollection() {
 	fmt.Println(point)
 
 	// Output:
-	// [102 0.5]
+	// [102 0.5 0]
 }
 
 func Example_unmarshal() {
@@ -153,7 +153,7 @@ func Example_unmarshal() {
 	fmt.Println(point)
 
 	// Output:
-	// [102 0.5]
+	// [102 0.5 0]
 }
 
 func ExampleFeatureCollection_MarshalJSON() {
@@ -182,7 +182,8 @@ func ExampleFeatureCollection_MarshalJSON() {
 	//     "type": "Point",
 	//     "coordinates": [
 	//      1,
-	//      2
+	//      2,
+	//      0
 	//     ]
 	//    },
 	//    "properties": null

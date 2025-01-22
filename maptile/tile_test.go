@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/internal/mercator"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/internal/mercator"
 )
 
 func TestQuadKey(t *testing.T) {

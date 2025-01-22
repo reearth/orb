@@ -1,8 +1,8 @@
 package mvt
 
 import (
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/planar"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/planar"
 )
 
 // Simplify will run all the geometry of all the layers through the provided simplifer.

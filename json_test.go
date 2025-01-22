@@ -13,7 +13,7 @@ func TestPointJSON(t *testing.T) {
 		t.Errorf("should marshal just fine: %v", err)
 	}
 
-	if string(data) != "[1,2.1]" {
+	if string(data) != "[1,2.1,0]" {
 		t.Errorf("incorrect json: %v", string(data))
 	}
 
@@ -36,7 +36,7 @@ func TestLineStringJSON(t *testing.T) {
 		t.Fatalf("should marshal just fine: %v", err)
 	}
 
-	if string(data) != "[[1.5,2.5],[3.5,4.5],[5.5,6.5]]" {
+	if string(data) != "[[1.5,2.5,0],[3.5,4.5,0],[5.5,6.5,0]]" {
 		t.Errorf("incorrect data: %v", string(data))
 	}
 

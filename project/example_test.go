@@ -3,9 +3,9 @@ package project_test
 import (
 	"fmt"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/planar"
-	"github.com/paulmach/orb/project"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/planar"
+	"github.com/reearth/orb/project"
 )
 
 func ExamplePoint_toMercator() {
@@ -14,7 +14,7 @@ func ExamplePoint_toMercator() {
 
 	fmt.Println(merc)
 	// Output:
-	// [-1.3627361035049736e+07 4.548863085837512e+06]
+	// [-1.3627361035049736e+07 4.548863085837512e+06 0]
 }
 
 func ExamplePolygon() {
@@ -34,5 +34,5 @@ func ExamplePolygon() {
 	centroid = project.Mercator.ToWGS84(centroid)
 	fmt.Println(centroid)
 	// Output:
-	// [-122.41574403384001 37.77909471899779]
+	// [-122.41574403384001 37.77909471899779 0]
 }

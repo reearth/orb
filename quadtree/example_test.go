@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/quadtree"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/quadtree"
 )
 
 func ExampleQuadtree_Find() {
@@ -25,7 +25,7 @@ func ExampleQuadtree_Find() {
 	fmt.Printf("nearest: %+v\n", nearest)
 
 	// Output:
-	// nearest: [0.4930591659434973 0.5196585530161364]
+	// nearest: [0.4930591659434973 0.5196585530161364 0]
 }
 
 func ExampleQuadtree_Matching() {
@@ -59,7 +59,7 @@ func ExampleQuadtree_Matching() {
 	fmt.Printf("nearest: %+v\n", nearest)
 
 	// Output:
-	// nearest: {Pointer:[0 0] visible:true}
+	// nearest: {Pointer:[0 0 0] visible:true}
 }
 
 func ExampleQuadtree_InBound() {

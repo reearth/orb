@@ -3,9 +3,9 @@ package resample_test
 import (
 	"fmt"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/planar"
-	"github.com/paulmach/orb/resample"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/planar"
+	"github.com/reearth/orb/resample"
 )
 
 func ExampleResample() {
@@ -19,7 +19,7 @@ func ExampleResample() {
 	fmt.Println(ls)
 
 	// Output:
-	// [[0 0] [2.5 0] [5 0] [7.5 0] [10 0]]
+	// [[0 0 0] [2.5 0 0] [5 0 0] [7.5 0 0] [10 0 0]]
 }
 
 func ExampleToInterval() {
@@ -30,5 +30,5 @@ func ExampleToInterval() {
 	fmt.Println(ls)
 
 	// Output:
-	// [[0 0] [2 0] [4 0] [6 0] [8 0] [10 0]]
+	// [[0 0 0] [2 0 0] [4 0 0] [6 0 0] [8 0 0] [10 0 0]]
 }

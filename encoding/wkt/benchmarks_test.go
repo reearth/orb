@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 func BenchmarkUnmarshalPoint(b *testing.B) {

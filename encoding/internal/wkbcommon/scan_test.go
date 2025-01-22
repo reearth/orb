@@ -3,7 +3,7 @@ package wkbcommon
 import (
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 )
 
 var SRID = []byte{215, 15, 0, 0}

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

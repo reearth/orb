@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/paulmach/orb"
+	"github.com/reearth/orb"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
@@ -72,7 +72,7 @@ func TestFeatureMarshalJSON_Bound(t *testing.T) {
 		t.Errorf("should set type to polygon")
 	}
 
-	if !bytes.Contains(blob, []byte(`"coordinates":[[[1,1],[2,1],[2,2],[1,2],[1,1]]]`)) {
+	if !bytes.Contains(blob, []byte(`"coordinates":[[[1,1,0],[2,1,0],[2,2,0],[1,2,0],[1,1,0]]]`)) {
 		t.Errorf("should set type to polygon coords: %v", string(blob))
 	}
 }
@@ -349,7 +349,7 @@ func TestMarshalRing(t *testing.T) {
 		t.Fatalf("should marshal, %v", err)
 	}
 
-	if !bytes.Equal(data, []byte(`{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[0,0],[1,1],[2,1],[0,0]]]},"properties":null}`)) {
+	if !bytes.Equal(data, []byte(`{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[0,0,0],[1,1,0],[2,1,0],[0,0,0]]]},"properties":null}`)) {
 		t.Errorf("data not correct")
 		t.Logf("%v", string(data))
 	}

@@ -3,8 +3,8 @@ package clip_test
 import (
 	"fmt"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/clip"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/clip"
 )
 
 func ExampleGeometry() {
@@ -20,5 +20,5 @@ func ExampleGeometry() {
 
 	fmt.Println(clipped)
 	// Output:
-	// [[[0 10] [10 10] [10 0]] [[20 0] [20 10] [30 10]] [[30 20] [20 20] [20 30]] [[10 30] [10 20] [5 20] [0 20]]]
+	// [[[0 10 0] [10 10 0] [10 0 0]] [[20 0 0] [20 10 0] [30 10 0]] [[30 20 0] [20 20 0] [20 30 0]] [[10 30 0] [10 20 0] [5 20 0] [0 20 0]]]
 }

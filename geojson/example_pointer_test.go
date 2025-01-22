@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/geojson"
-	"github.com/paulmach/orb/planar"
-	"github.com/paulmach/orb/quadtree"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/geojson"
+	"github.com/reearth/orb/planar"
+	"github.com/reearth/orb/quadtree"
 )
 
 type CentroidPoint struct {

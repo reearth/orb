@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/maptile"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/maptile"
 )
 
 // ErrUnevenIntersections can be returned when clipping polygons

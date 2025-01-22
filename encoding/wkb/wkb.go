@@ -9,8 +9,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/paulmach/orb"
-	"github.com/paulmach/orb/encoding/internal/wkbcommon"
+	"github.com/reearth/orb"
+	"github.com/reearth/orb/encoding/internal/wkbcommon"
 )
 
 var (
